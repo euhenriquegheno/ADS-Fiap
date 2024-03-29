@@ -30,7 +30,7 @@ for i in range (1, qtde_colaboradores + 1):
     votos_sexta = votos_sexta + 1
 
 
-if (votos_segunda >= votos_terca) and (votos_segunda >= votos_quarta) and (votos_segunda >= votos_quinta) and (votos_segunda >= votos_sexta):
+if (votos_segunda > votos_terca) and (votos_segunda > votos_quarta) and (votos_segunda > votos_quinta) and (votos_segunda > votos_sexta):
   print(f"O dia vencedor é Segunda-Feira, com {votos_segunda} votos!")
 elif (votos_terca > votos_segunda) and (votos_terca > votos_quarta) and (votos_terca > votos_quinta) and (votos_terca > votos_sexta):
   print(f"O dia vencedor é Terça-Feira, com {votos_terca} votos!")
@@ -40,5 +40,9 @@ elif (votos_quinta > votos_segunda) and (votos_quinta > votos_terca) and (votos_
   print(f"O dia vencedor é Quinta-Feira, com {votos_quinta} votos!")
 elif (votos_sexta > votos_segunda) and (votos_sexta > votos_terca) and (votos_sexta > votos_quarta) and (votos_sexta > votos_quinta):    
   print(f"O dia vencedor é Sexta-Feira, com {votos_sexta} votos!")
+else:
+  print("Ocorreu um empate entre os dias!")
+
+print(f"Totais de votos por dia:\n Segunda-Feira: {votos_segunda} votos\n Terça-Feira: {votos_terca} votos\n Quarta-Feira: {votos_quarta} votos\n Quinta-Feira: {votos_quinta} votos\n Sexta-Feira: {votos_sexta} votos")
 
 
