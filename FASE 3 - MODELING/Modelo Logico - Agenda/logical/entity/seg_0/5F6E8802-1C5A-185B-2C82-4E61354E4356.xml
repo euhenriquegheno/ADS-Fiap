@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5F6E8802-1C5A-185B-2C82-4E61354E4356" name="EMAIL">
+<createdBy>henrique</createdBy>
+<createdTime>2024-05-13 22:44:32 UTC</createdTime>
+<ownerDesignName>Modelo Logico - Agenda</ownerDesignName>
+<engineerTo>
+<item key="2AB7A64F-F9EA-6330-7A13-5DAFB8E08E43" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>EMA</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="9926C112-665E-F4D4-BEBC-D7398AAD1B53">
+<createdBy>henrique</createdBy>
+<createdTime>2024-05-13 22:44:42 UTC</createdTime>
+<ownerDesignName>Modelo Logico - Agenda</ownerDesignName>
+<engineerTo>
+<item key="2AB7A64F-F9EA-6330-7A13-5DAFB8E08E43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CONTATO" id="5F33797B-1BF6-1299-B07C-B1F6732E0B0A">
+<createdBy>henrique</createdBy>
+<createdTime>2024-05-13 22:44:53 UTC</createdTime>
+<ownerDesignName>Modelo Logico - Agenda</ownerDesignName>
+<engineerTo>
+<item key="2AB7A64F-F9EA-6330-7A13-5DAFB8E08E43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO" id="CECE2708-DDC7-80BC-BC40-254E9D1E805C">
+<createdBy>henrique</createdBy>
+<createdTime>2024-05-13 22:50:03 UTC</createdTime>
+<comment><![CDATA[1 = Casa
+2 = Trabalho
+3 = Escola
+4 = Outro]]></comment>
+<ownerDesignName>Modelo Logico - Agenda</ownerDesignName>
+<engineerTo>
+<item key="2AB7A64F-F9EA-6330-7A13-5DAFB8E08E43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="F0B7C90E-B748-9113-E176-8A29ABC14F5D">
+<createdBy>henrique</createdBy>
+<createdTime>2024-05-13 22:50:50 UTC</createdTime>
+<ownerDesignName>Modelo Logico - Agenda</ownerDesignName>
+<engineerTo>
+<item key="2AB7A64F-F9EA-6330-7A13-5DAFB8E08E43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="E11F92CE-BC28-08EE-758F-D571FBF117E1">
+<createdBy>henrique</createdBy>
+<createdTime>2024-05-13 22:51:35 UTC</createdTime>
+<generatorID>15BAE519-BBFC-6CB7-F1E2-FA4E288537CF</generatorID>
+<ownerDesignName>Modelo Logico - Agenda</ownerDesignName>
+<engineerTo>
+<item key="2AB7A64F-F9EA-6330-7A13-5DAFB8E08E43" value="true"/>
+</engineerTo>
+<referedAttribute>5E3A1B82-9195-94A7-268E-0194599AE6EE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1AA36AB3-1332-456F-E0F4-E016EC2F726F" name="EMAIL PK">
+<createdBy>henrique</createdBy>
+<createdTime>2024-05-13 22:44:49 UTC</createdTime>
+<ownerDesignName>Modelo Logico - Agenda</ownerDesignName>
+<engineerTo>
+<item key="2AB7A64F-F9EA-6330-7A13-5DAFB8E08E43" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9926C112-665E-F4D4-BEBC-D7398AAD1B53</attributeRef>
+<attributeRef>E11F92CE-BC28-08EE-758F-D571FBF117E1</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="35DFB0CF-4F1F-F54F-50BC-D31AFB9F99AA" name="ID_CONTATO FK">
+<createdBy>henrique</createdBy>
+<createdTime>2024-05-13 22:45:13 UTC</createdTime>
+<ownerDesignName>Modelo Logico - Agenda</ownerDesignName>
+<engineerTo>
+<item key="2AB7A64F-F9EA-6330-7A13-5DAFB8E08E43" value="true"/>
+</engineerTo>
+<newElementsIDs>5F33797B-1BF6-1299-B07C-B1F6732E0B0A</newElementsIDs>
+</identifier>
+</identifiers>
+</Entity>
