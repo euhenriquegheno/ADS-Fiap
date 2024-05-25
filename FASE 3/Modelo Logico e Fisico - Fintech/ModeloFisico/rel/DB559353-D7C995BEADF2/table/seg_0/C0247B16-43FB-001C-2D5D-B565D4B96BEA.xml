@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0247B16-43FB-001C-2D5D-B565D4B96BEA" name="TIPO_INVESTIMENTO">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:39:50 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TIN_IDPK" id="54D85FDB-66B0-03F0-B016-84438E38BD2E">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:40:21 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIN_USUARIO_IDPK" id="B9A8D19D-C7A7-D848-6EEA-FFB7DA5C3581">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:56:38 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90B007EA-8642-A553-2B5A-6A31E1E42AF9" referredColumn="E9FF690F-6A59-0BC8-5F97-C31A91B88B2A"/>
+</associations>
+</Column>
+<Column name="TIN_NOME" id="83B91885-0316-FA4C-089A-07DA5525E772">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:40:21 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD8BF3CE-BEF3-84F0-C8AF-62CF67CCC116" name="TIPO_INVESTIMENTO_PK">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:40:21 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54D85FDB-66B0-03F0-B016-84438E38BD2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3032F099-E90D-B1FA-0E4F-7643334AD8C8" name="TIPO_INVESTIMENTO_USUARIO_FK">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:56:38 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9A8D19D-C7A7-D848-6EEA-FFB7DA5C3581"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

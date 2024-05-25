@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1405D3D3-A843-9DC0-A82F-B4AEE9189755" name="CATEGORIA">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:38:51 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CAT_IDPK" id="0AB50724-7D2C-80AF-2A32-700F57B48BBD">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:39:22 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAT_USUARIO_IDPK" id="AB1E0106-24D6-9C81-AD4F-95D815293A70">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:56:08 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CAECB4A3-81EA-3DB3-3940-4E214DB065F1" referredColumn="E9FF690F-6A59-0BC8-5F97-C31A91B88B2A"/>
+</associations>
+</Column>
+<Column name="CAT_NOME" id="FEC7F372-61F9-AB5A-E06C-F91FA914ED02">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:39:22 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2490E05E-CAA4-8A12-2D68-C20FC7EA95BB" name="CATEGORIA_PK">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:39:22 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AB50724-7D2C-80AF-2A32-700F57B48BBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="983F0A92-358B-66CF-0A6C-91835735E276" name="CATEGORIA_USUARIO_FK">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:56:08 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB1E0106-24D6-9C81-AD4F-95D815293A70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

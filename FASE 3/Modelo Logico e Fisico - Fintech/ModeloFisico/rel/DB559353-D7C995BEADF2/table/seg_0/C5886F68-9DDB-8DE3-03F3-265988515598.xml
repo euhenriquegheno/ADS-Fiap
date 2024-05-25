@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5886F68-9DDB-8DE3-03F3-265988515598" name="GASTO">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:44:57 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GAS_IDPK" id="04A9F8BA-CD0C-C86B-CB8B-ACEBF31BF586">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:45:45 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GAS_USUARIO_IDPK" id="284E4589-BD6F-D15F-72E9-05C55C5F50A8">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:45:45 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3BCBFE3A-793F-4082-1CF7-F0CC1A099DD0" referredColumn="E9FF690F-6A59-0BC8-5F97-C31A91B88B2A"/>
+</associations>
+</Column>
+<Column name="GAS_CATEGORIA_IDPK" id="7954F3A8-88B2-B738-BB9D-B42E2E1C1BEF">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:46:45 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9EB13F4-3BF2-BD05-E93A-5AA9B16A0B47" referredColumn="0AB50724-7D2C-80AF-2A32-700F57B48BBD"/>
+</associations>
+</Column>
+<Column name="GAS_VALOR" id="6A463B8C-5D73-C5A0-AAAB-926EA5073218">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:46:45 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GAS_DATA" id="1941DC93-6643-1D13-B637-CAF69E5A20E1">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:46:45 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GAS_DESCRICAO" id="A6637BF5-00FF-A617-9D8A-01508529AC5F">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:46:45 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C9B24BB-CBED-2623-F4BE-3C7130D41979" name="GASTO_PK">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:45:45 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04A9F8BA-CD0C-C86B-CB8B-ACEBF31BF586"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99C311A0-8EE0-51A3-866A-A323AEFE30C3" name="GASTO_USUARIO_FK">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:45:45 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="284E4589-BD6F-D15F-72E9-05C55C5F50A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DCBEDF7-8416-97F8-AB7D-72B0D3EBC1D7" name="GASTO_CATEGORIA_FK">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:46:45 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7954F3A8-88B2-B738-BB9D-B42E2E1C1BEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

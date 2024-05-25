@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34590091-D1AA-2A4A-46D5-152BE715CB4A" name="USUARIO">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:36:32 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USU_IDPK" id="E9FF690F-6A59-0BC8-5F97-C31A91B88B2A">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:38:33 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USU_NOME" id="F2CA3B60-3887-5BB4-677B-38C07E9F9359">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:38:33 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USU_DATA_NASCIMENTO" id="FFE4F456-865B-056C-2FB3-068F86811484">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:38:33 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USU_GENERO" id="8A5CCC7A-AE4C-0CE1-82A5-1BF43E241FF2">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:38:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[1 = Masculino
+2 = Feminino]]></commentInRDBMS>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USU_EMAIL" id="9DCD5E37-4680-D769-C204-2C7C3BA8F2A3">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:38:33 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USU_SENHA" id="EBADD490-32C8-F027-1125-5E7780F276DD">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:38:33 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5EE3721A-0367-490B-8F7A-233F884204D1" name="USUARIO_PK">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:38:33 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9FF690F-6A59-0BC8-5F97-C31A91B88B2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

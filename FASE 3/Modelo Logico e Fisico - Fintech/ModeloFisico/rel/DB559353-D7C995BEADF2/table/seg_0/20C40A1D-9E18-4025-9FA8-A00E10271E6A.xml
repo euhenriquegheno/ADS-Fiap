@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20C40A1D-9E18-4025-9FA8-A00E10271E6A" name="OBJETIVO_FINANCEIRO">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:52:13 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OFI_IDPK" id="003B17D4-64BB-9DC2-7C89-3135FD3120E1">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:53:46 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFI_USUARIO_IDPK" id="6F61D9D3-8057-83B7-87E8-59172F80F565">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:53:46 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51DD9D31-BD26-5A72-0F44-581181AE7F19" referredColumn="E9FF690F-6A59-0BC8-5F97-C31A91B88B2A"/>
+</associations>
+</Column>
+<Column name="OFI_NOME" id="ED4324FF-8173-7368-B7B3-A532041259BE">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:53:46 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFI_DESCRICAO" id="B7869F49-1069-4D59-70CA-B64BC935F7FF">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:53:46 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFI_VALOR" id="6D3749DF-2199-A8B0-2B7A-E6085549FDD3">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:53:46 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFI_DATA" id="D1F34211-BD53-836A-8366-5DD4149043E0">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:53:46 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D44B300D-3518-1961-E897-9BFD94AF8DFB" name="OBJETIVO_FINANCEIRO_PK">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:53:46 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="003B17D4-64BB-9DC2-7C89-3135FD3120E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A99E2B8B-D734-C62A-8DA6-DE91D81FD463" name="OBJETIVO_FINANCEIRO_USUARIO_FK">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:53:46 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F61D9D3-8057-83B7-87E8-59172F80F565"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

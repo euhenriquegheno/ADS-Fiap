@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A9EB13F4-3BF2-BD05-E93A-5AA9B16A0B47" containerWithKeyObject="C5886F68-9DDB-8DE3-03F3-265988515598" localFKIndex="6DCBEDF7-8416-97F8-AB7D-72B0D3EBC1D7" name="GASTO_CATEGORIA_FK">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 01:46:45 UTC</createdTime>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<referredTableLongName>CATEGORIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1405D3D3-A843-9DC0-A82F-B4AEE9189755</referredTableID>
+<keyObject>2490E05E-CAA4-8A12-2D68-C20FC7EA95BB</keyObject>
+<referredKeyID>2490E05E-CAA4-8A12-2D68-C20FC7EA95BB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CAT_IDPK</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
