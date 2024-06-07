@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="D2B0C508-802E-D03E-34A8-7CFB515907D2" mainViewID="750E32F4-45F2-8B3A-360F-97B59149421B">
+<createdBy>henrique</createdBy>
+<createdTime>2024-05-13 22:21:44 UTC</createdTime>
+<ownerDesignName>Modelo Logico - Agenda</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

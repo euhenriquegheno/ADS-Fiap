@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo Logico - Agenda" id="D12EFA74-54FC-280C-8C3F-25CF0277F11B" version="3.5">
+<createdBy>henrique</createdBy>
+<createdTime>2024-05-13 22:21:44 UTC</createdTime>
+<ownerDesignName>Modelo Logico - Agenda</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D12EFA74-54FC-280C-8C3F-25CF0277F11B</designId>
+</OSDM_Design>

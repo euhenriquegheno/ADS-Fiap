@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="DD3AEDAF-0B17-D60B-4418-24F20A33D63C">
+<createdBy>henrique</createdBy>
+<createdTime>2024-05-13 22:34:16 UTC</createdTime>
+<ownerDesignName>Modelo Logico - Agenda</ownerDesignName>
+<engineerTo>
+<item key="2AB7A64F-F9EA-6330-7A13-5DAFB8E08E43" value="true"/>
+</engineerTo>
+<sourcePk>1914545D-6F99-2B2C-B72F-A3CA96AEB087</sourcePk>
+<targetPk>8792FB5A-C48D-0471-A5FE-83BECBD9FC40</targetPk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C36BF10D-736B-9447-09B3-300E861301EC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C2AFC84E-C5E0-80E6-8EB1-446714CBA921</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
