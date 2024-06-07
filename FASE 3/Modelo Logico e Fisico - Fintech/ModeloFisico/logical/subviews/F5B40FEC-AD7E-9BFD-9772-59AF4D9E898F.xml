@@ -13,34 +13,21 @@
 <diagramColor>-1</diagramColor>
 <display>false</display>
 <notation>1</notation>
-<objectViews>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="0C782656-B960-6718-CAA9-564726FA52FF" otype="Entity" vid="3C65CE97-BB04-C6CA-7AD0-FCBE1C57C6E4">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="58" y="306" width="224" height="76"/>
-</OView>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="0DCAEB61-7EAD-5D1F-007C-4AFE95F47773" otype="Entity" vid="0715B372-9916-1189-0909-D5811FBCAA4D">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="54" y="476" width="230" height="128"/>
-</OView>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="14DA9719-4409-5E35-121A-567B4AA521DA" otype="Entity" vid="4D747B98-1B76-1596-1111-02716D784C3F">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="684" y="486" width="213" height="95"/>
-</OView>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="1714D61C-1E62-4602-7DB4-BA9319315085" otype="Entity" vid="8238877B-5D4E-1FC0-CB93-B6331ECE9C1C">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="371" y="489" width="230" height="113"/>
-</OView>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="21323435-0A67-8853-96AB-8B238787A473" otype="Entity" vid="C1B4DA3C-B6BA-E3F4-4378-2EBFB2E772A4">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="683" y="142" width="204" height="71"/>
-</OView>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="31ADF400-D226-3FF8-EF58-5A15E82A0180" otype="Entity" vid="874B448C-A3A3-A451-F367-DD14F7A0A0BA">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="370" y="286" width="230" height="136"/>
-</OView>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="48C3ACCD-92D1-2CAD-DA6F-F01C83839503" otype="Entity" vid="9DA6324B-DA5C-CA89-0420-566A1B9D449A">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="669" y="270" width="240" height="162"/>
-</OView>
-</objectViews>
+<displays>
+<Display class="oracle.dbtools.crest.swingui.logical.DPVLogicalSubView" name="Display_1" id="FFE5FFD9-5CEA-DE41-3449-EE0532F41FFD">
+<createdBy>henri</createdBy>
+<modifiedBy>henri</modifiedBy>
+<createdTime>2024-05-25 02:03:06 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>true</display>
+<notation>1</notation>
+</Display>
+</displays>
 </Diagram>

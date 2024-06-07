@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4847B21E-20FC-8512-8B6F-17FAB94E116B" name="INVESTIMENTO">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>F78809C4-509E-E5F0-EC0C-A30E8F378F9F</generatorID>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
+<item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="INV IDPK" id="B2DD7302-1F2A-4CEF-75F8-8738AC9AA5B9">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>5723E4E9-1066-FC4B-F2A2-3CC5FCB6C9E6</generatorID>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
+<item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INV USUARIO IDPK" id="2E8C0302-A26C-70A9-5AA4-B235E403CD24">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>94887DA3-6AFD-7168-50F9-A73EE88AB663</generatorID>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
+<item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
+</engineerTo>
+<referedAttribute>CE0B0B8C-82E5-42D6-A2BD-7F01838ED164</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INV TIPO IDPK" id="102C0648-BBB1-BD28-F707-A1E0786FD8A5">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>6D5CFA3E-DEF0-A20C-ACE7-66D866D854E9</generatorID>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
+<item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
+</engineerTo>
+<referedAttribute>48F5FDAE-AA9F-C6D1-DE83-62698A4DFB5B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INV BANCO IDPK" id="4CE9169E-D0EC-E388-CE01-CDC7CC4FEE30">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>13C6F23F-3436-30EC-236D-C979904727DC</generatorID>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
+<item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
+</engineerTo>
+<referedAttribute>FD31FE90-C17C-400D-E099-CC52DA6F8656</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INV NOME" id="B1538531-D8C7-4996-E711-418663F1480C">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>BDEEA9D5-4ED4-4191-FCE9-FEF78456FC43</generatorID>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
+<item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INV VALOR" id="61E88B9F-634C-7F0C-21D7-D4DEB047F23C">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>371C265F-0120-0643-B5E3-EECACF95785B</generatorID>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
+<item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INV DATA INVESTIMENTO" id="C8A69B89-716A-AA10-E460-51AB89092CAC">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>CEE86FB5-272F-357F-37B8-057498390463</generatorID>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
+<item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INV DATA VENCIMENTO" id="404A9A2B-3C33-BC07-7B25-7622BED673C7">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>B8311C11-2E13-E640-EFA7-A031254F817F</generatorID>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
+<item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="64E25145-5AA0-E6B2-6C55-F2368A06C7FA" name="INVESTIMENTO PK">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>09CE66FB-14E8-195E-B980-CDC707DB6EB9</generatorID>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
+<item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B2DD7302-1F2A-4CEF-75F8-8738AC9AA5B9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

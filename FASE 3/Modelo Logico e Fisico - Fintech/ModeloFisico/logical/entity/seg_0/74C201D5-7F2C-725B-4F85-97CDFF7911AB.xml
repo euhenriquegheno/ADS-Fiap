@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1714D61C-1E62-4602-7DB4-BA9319315085" name="OBJETIVO_FINANCEIRO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="74C201D5-7F2C-725B-4F85-97CDFF7911AB" name="RECEBIMENTO">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:15:23 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>8A3FAB32-0489-A9B7-D553-D40411950721</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
-<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
 <item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -16,12 +16,12 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="OFI_IDPK" id="70E78C23-0AAE-E9C3-9F9C-D30B7E4C555F">
+<Attribute name="REC IDPK" id="78486D41-C540-009E-B629-777547550722">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:15:35 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>B5D1D1C0-8793-C26F-B82F-346F2781C97D</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
-<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
 <item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -29,54 +29,41 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="OFI_USUARIO_IDPK" id="EABC61D7-3DD4-3A6C-19B1-3E27103CA515">
+<Attribute name="REC USUARIO IDPK" id="EAE86FD0-64D9-9CB1-D0CB-E02B5A9CD5AD">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:15:47 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>F521F5AE-2B8E-A8CB-FC3C-7E6105ED502C</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
-<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
 <item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
 </engineerTo>
+<referedAttribute>CE0B0B8C-82E5-42D6-A2BD-7F01838ED164</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="OFI_NOME" id="0AFB44B5-3E6D-8DBF-76AC-CFAEED5AEC9E">
+<Attribute name="REC CATEGORIA IDPK" id="263C1287-07E7-3571-F372-569D72B1679E">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:15:59 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>CB6DF541-138A-4FAD-06E0-04201A0EBB8A</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
-<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
-<item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="OFI_DESCRICAO" id="CA7076EE-3152-A0F2-00E9-D49FE531AA2A">
-<createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:16:11 UTC</createdTime>
-<ownerDesignName>ModeloFisico</ownerDesignName>
-<engineerTo>
-<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
 <item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
+<referedAttribute>A3A74FE2-2DBF-3309-19A4-8F2D7B6E001E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="OFI_VALOR" id="7E2F1B3A-A6E7-5823-183A-A01F71721ED8">
+<Attribute name="REC VALOR" id="5B2ECC4C-26EB-5525-664F-AC8344C7D491">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:16:23 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>B9D2BB69-52CB-5D66-F378-60BCA9676762</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
-<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
 <item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -86,12 +73,12 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,15,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="OFI_DATA" id="03307808-BB1E-939D-38E7-AAADE4E75DBE">
+<Attribute name="REC DATA" id="A44B53AB-E055-17E0-1FED-AC29BA709278">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:16:33 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>9F5B7193-EF8C-3B52-2EAF-AE4AA8849065</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
-<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
 <item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -99,19 +86,33 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-</attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="EA24CD5A-DA29-2A2C-2B35-493F846BA95F" name="OBJETIVO_FINANCEIRO PK">
+<Attribute name="REC DESCRICAO" id="D132935F-DD2A-A6EE-03E9-6D8988648CC4">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:15:46 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>F11EE37B-A32A-D4A5-A0FC-0344CF83E63C</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
-<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
+<item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BDA7D052-ED5E-C484-69BB-40DF7208C425" name="RECEBIMENTO PK">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>9B8A2589-171C-A7AC-A286-962B2790FB75</generatorID>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<engineerTo>
 <item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>70E78C23-0AAE-E9C3-9F9C-D30B7E4C555F</attributeRef>
+<attributeRef>78486D41-C540-009E-B629-777547550722</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

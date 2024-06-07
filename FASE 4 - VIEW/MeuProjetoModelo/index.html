@@ -1,0 +1,100 @@
+<!DOCTYPE html> <!-- Tipo do documento -->
+<html lang="pt-BR"> <!-- Abertura da tag html + linguagem -->
+<head> <!-- Abertura do cabeçalho da pagina -->
+  <meta charset="UTF-8"> <!-- Tipo dos caracteres -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Tamanho do dispositivo -->
+  <title>Meu Projeto Web</title> <!-- Titulo da aba do naveador -->
+</head>
+<body> <!-- Corpo - Conteudo da pagina -->
+  <h1>Meu projeto web</h1>
+  
+  <h2>Links para seções da página</h2> <!-- Podemos criar links entre seções diferente da mesma pagina -->
+  <p>
+    <a href="#primeiro-site">Primeiro site do mundo</a>
+    <a href="#listas">Listas</a>
+    <a href="#links">Links</a>
+  </p>
+
+  <p> <!-- utilizado = lorem100 (texto aleatorio de 100 palavras) -->
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet libero dolorem eos sed voluptate possimus dolor saepe itaque dolores quo similique magnam corporis, error nemo aspernatur. Maxime itaque expedita, tenetur totam, nesciunt tempora dolorum recusandae distinctio ea sapiente unde aperiam? Dolorem dolor a, numquam, officiis repellendus architecto suscipit esse, minima incidunt culpa consectetur maxime hic magnam? Totam excepturi, tempore, beatae mollitia laboriosam illum nihil quisquam sed delectus, sint veniam alias nulla quibusdam suscipit. Voluptates, suscipit culpa praesentium quod at saepe beatae? Doloribus possimus minus quisquam, voluptatum repellendus a voluptatem ad nulla aperiam ab ipsa cumque eum doloremque ipsum eaque accusantium.
+  </p>
+
+  <h2 id="imagens">Imagens</h2>
+  <img src="assets/images/imagem01.jpg" alt="Planeta terra com naves" title="Planeta terra com naves">
+
+  <h2 id="primeiro-site">Primeiro site feito no mundo!</h2>
+  <p>Ele ainda esta no ar do jeitinho que foi desenvolvido pelo Sr. Tim Berners-Lee e sua equipe. A ideia era apenas divulgar a Internet, o conteúdo era formado apenas por textos e links. Imagens eram um recurso totalmente indisponivel naquele momento</p>
+  <a href="https://info.cern.ch/hypertext/WWW/TheProject.html">Para ver o site clique aqui!</a>
+
+  <h2 id="listas">Listas</h2>
+  <h3>Lista Ordenada</h3>
+  <h4>O que devemos conhecer em Front-End</h4>
+  <ol> <!--Lista ordenada-->
+    <li>HTML - Linguagem de marcação</li>
+    <li>CSS - Linguagem de formatação</li>
+    <li>JavaScript - Linguagem de programação</li>
+    <li>Bootstrap - Framework Front-End</li>
+    <li>React - Framework Javascript</li>
+  </ol>
+
+  <h3>Lista NÃO Ordenada</h3>
+  <h4>Frameworks para trabalhar com Web</h4>
+  <ul> <!--Lista NÃO ordenada-->
+    <li>Bootstrap</li>
+    <li>Tailwind</li>
+    <li>React</li>
+    <li>Vue</li>
+    <li>Angular</li>
+  </ul>
+
+  <h3>Lista de Definição</h3> <!-- Permite a criação de um conjunto de palavras e as suas respectivas definições -->
+  <h4>O que um dev front-end pode estudar?</h4>
+  <dl>
+    <dt>DOM</dt>
+    <dd>Document Object Model</dd>
+    <dt>API</dt>
+    <dd>Application Programming Interface</dd>
+    <dt>JSON</dt>
+    <dd>JavaScript Object Notation</dd>
+    <dt>SASS</dt>
+    <dd>Syntactically Awesome Style Sheets</dd>
+  </dl>
+
+  <h3>Lista Aninhada</h3> <!-- Voce pode montar uma nova lista dentro de um elemento <li>, uma lista dentro de outra lista -->
+  <ul>
+    <li>HTML</li>
+    <li>CSS
+      <ul>
+        <li>Box Model</li>
+        <li>Flexbox</li>
+        <li>CSS Grid</li>
+      </ul>
+    </li>
+    <li>JavaScript</li>
+  </ul>
+
+  <h2 id="links">Links</h2>
+  <h3>Criando Links Externos</h3> <!-- para criarmos links para outros sites ou aplicações -->
+  <p>
+    Visite o site da
+    <a href="http://www.fiap.com.br">Fiap</a>
+  </p>
+
+  <h3>Criando Links Internos</h3> <!-- Podemos criar links entre paginas do mesmo site, tanto para links internos quanto externos -->
+  <a href="index.html">Index.html</a>
+
+  <h3>Abrindo Links em novas abas</h3>
+  <a href="http://www.fiap.com.br" target="_blank">Fiap nova aba</a>
+
+  <h3>Links para Números de telefone</h3> <!-- Se o usuario estiver usando um celular para acessar a sua aplicação, a ligação sera feita automaticamente -->
+  <p>Ligue para o 
+    <a href="tel:51997809848">Henrique Gheno</a>
+  </p>
+
+  <h3>Link para Download de arquivos</h3> <!-- Podemos criar um link para que o usuario baixe um arquivo -->
+  <p>
+    Baixe o arquivo:
+    <a href="assets/images/imagem01.jpg" download>Imagem.jpg</a>
+  </p>
+</body>
+</html>

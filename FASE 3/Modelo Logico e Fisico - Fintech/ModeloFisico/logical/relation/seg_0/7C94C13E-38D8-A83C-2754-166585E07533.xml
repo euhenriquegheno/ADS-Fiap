@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BANCO_USUARIO_FK" directorySegmentName="seg_0" id="7C94C13E-38D8-A83C-2754-166585E07533">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>3BFB5DE7-C385-BA5E-6210-AC6E05CF091A</generatorID>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
+<item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
+</engineerTo>
+<sourcePk>DC1524A9-D43D-93CD-07C5-CAFB64860239</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7091C729-D243-A187-2715-FFE62144B6D7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4D667EBE-1843-F573-059A-1017CA5E7633</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

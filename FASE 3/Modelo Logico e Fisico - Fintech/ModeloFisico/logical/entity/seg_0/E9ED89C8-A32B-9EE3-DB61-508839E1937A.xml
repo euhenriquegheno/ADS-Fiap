@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0DCAEB61-7EAD-5D1F-007C-4AFE95F47773" name="GASTO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E9ED89C8-A32B-9EE3-DB61-508839E1937A" name="GASTO">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:10:45 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>C5886F68-9DDB-8DE3-03F3-265988515598</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
 <item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
@@ -16,9 +17,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="GAS_IDPK" id="8E84384F-2DA4-F539-1D10-80E5E7B8A6E0">
+<Attribute name="GAS IDPK" id="B6280C68-536C-E954-AD42-4FCCC25C90C1">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:10:54 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>04A9F8BA-CD0C-C86B-CB8B-ACEBF31BF586</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
 <item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
@@ -29,36 +31,40 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="GAS_USUARIO_IDPK" id="3CC3FB67-5A12-7C0C-4E0A-58939C91EF33">
+<Attribute name="GAS USUARIO IDPK" id="EBA50AFE-E580-6508-727E-E147F3B6BF8E">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:11:02 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>EB1C02C2-A39E-EACE-DE9E-D66A7070FBD5</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
 <item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
 <item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
 </engineerTo>
+<referedAttribute>CE0B0B8C-82E5-42D6-A2BD-7F01838ED164</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="GAS_CATEGORIA_IDPK" id="3B383842-4107-773A-A77D-5A39A780CE96">
+<Attribute name="GAS CATEGORIA IDPK" id="68508973-9C66-22BB-FB93-65F6B4C88D88">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:11:13 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>B517F871-46B3-A228-1142-4B15CA01290E</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
 <item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
 <item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A3A74FE2-2DBF-3309-19A4-8F2D7B6E001E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="GAS_VALOR" id="CE5783BD-CD40-DFC3-1BA8-D8968FA2F880">
+<Attribute name="GAS VALOR" id="A5A013F3-49B1-7D04-8B14-0F101EE18597">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:11:24 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>6A463B8C-5D73-C5A0-AAAB-926EA5073218</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
 <item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
@@ -71,9 +77,10 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,15,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="GAS_DATA" id="9A3B787E-84CF-25BB-8737-E59B806D8E48">
+<Attribute name="GAS DATA" id="3A8F0A91-EDE0-080B-3AE2-858EF27A26BD">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:11:37 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>1941DC93-6643-1D13-B637-CAF69E5A20E1</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
 <item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
@@ -84,9 +91,10 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="GAS_DESCRICAO" id="F1B06747-40CD-DBF5-9B04-86769DEADD26">
+<Attribute name="GAS DESCRICAO" id="64193F3C-BC25-C00A-AFF5-C52E312473DC">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:11:50 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>A6637BF5-00FF-A617-9D8A-01508529AC5F</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
 <item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
@@ -100,9 +108,10 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B0372682-27A6-1890-192F-7F73F04F01D7" name="GASTO PK">
+<identifier id="86D3C124-02CD-8441-6E8F-2ED0BE934993" name="GASTO PK">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:11:01 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>2C9B24BB-CBED-2623-F4BE-3C7130D41979</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
 <item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
@@ -110,7 +119,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>8E84384F-2DA4-F539-1D10-80E5E7B8A6E0</attributeRef>
+<attributeRef>B6280C68-536C-E954-AD42-4FCCC25C90C1</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

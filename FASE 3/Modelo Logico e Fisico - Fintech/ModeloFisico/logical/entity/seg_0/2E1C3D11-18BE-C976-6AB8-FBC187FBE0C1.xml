@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0C782656-B960-6718-CAA9-564726FA52FF" name="CATEGORIA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2E1C3D11-18BE-C976-6AB8-FBC187FBE0C1" name="TIPO INVESTIMENTO">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:04:05 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>C0247B16-43FB-001C-2D5D-B565D4B96BEA</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
 <item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
@@ -16,9 +17,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="CAT_IDPK" id="F2B3B391-F432-7641-81A9-C2EE10355407">
+<Attribute name="TIN IDPK" id="48F5FDAE-AA9F-C6D1-DE83-62698A4DFB5B">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:04:14 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>54D85FDB-66B0-03F0-B016-84438E38BD2E</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
 <item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
@@ -29,22 +31,25 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CAT_USUARIO_IDPK" id="4D5AD62A-6802-46AC-4B87-664A22F41351">
+<Attribute name="TIN USUARIO IDPK" id="841D9FD2-9660-B410-9EA8-EFA0C6BFCDB2">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:18:38 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>61EE047D-A890-5388-C3D2-648758493619</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
 <item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
 <item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
 </engineerTo>
+<referedAttribute>CE0B0B8C-82E5-42D6-A2BD-7F01838ED164</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CAT_NOME" id="5810FC89-4C5F-E368-04DF-A38628C7E198">
+<Attribute name="TIN NOME" id="1D95B0DC-007E-FD0E-9300-B4B8513B3905">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:04:31 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>83B91885-0316-FA4C-089A-07DA5525E772</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
 <item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
@@ -58,9 +63,10 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9AFE3F6C-8196-59AE-BA19-E5B313A5BDC9" name="CATEGORIA PK">
+<identifier id="91BDA28D-B31E-B3DE-C8A2-D595A17D7DB3" name="TIPO INVESTIMENTO PK">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:04:23 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>AD8BF3CE-BEF3-84F0-C8AF-62CF67CCC116</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
 <item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
@@ -68,7 +74,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>F2B3B391-F432-7641-81A9-C2EE10355407</attributeRef>
+<attributeRef>48F5FDAE-AA9F-C6D1-DE83-62698A4DFB5B</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

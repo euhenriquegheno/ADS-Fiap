@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="48C3ACCD-92D1-2CAD-DA6F-F01C83839503" name="INVESTIMENTO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7091C729-D243-A187-2715-FFE62144B6D7" name="USUARIO">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:12:17 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>34590091-D1AA-2A4A-46D5-152BE715CB4A</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
 <item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
@@ -16,9 +17,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="INV_IDPK" id="3F0226B9-B8D0-AA92-B4E5-F58047C757E0">
+<Attribute name="USU IDPK" id="CE0B0B8C-82E5-42D6-A2BD-7F01838ED164">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:12:31 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>E9FF690F-6A59-0BC8-5F97-C31A91B88B2A</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
 <item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
@@ -29,48 +31,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="INV_USUARIO_IDPK" id="20DAE484-0CD1-3D95-E4C8-B8F38AE65D77">
+<Attribute name="USU NOME" id="7D1F287B-4F98-CC39-ED5B-CB2668BF6E94">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:12:45 UTC</createdTime>
-<ownerDesignName>ModeloFisico</ownerDesignName>
-<engineerTo>
-<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
-<item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="INV_TIPO_IDPK" id="DEFC63E2-89D6-1119-207B-FC22834ED05D">
-<createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:12:56 UTC</createdTime>
-<ownerDesignName>ModeloFisico</ownerDesignName>
-<engineerTo>
-<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
-<item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="INV_BANCO_IDPK" id="5396BFAA-CE1F-7D89-B03F-D40BB3F7B9BB">
-<createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:13:11 UTC</createdTime>
-<ownerDesignName>ModeloFisico</ownerDesignName>
-<engineerTo>
-<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
-<item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="INV_NOME" id="A5B5E58C-4247-F3B4-A53A-898A4ECB7E88">
-<createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:13:24 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>F2CA3B60-3887-5BB4-677B-38C07E9F9359</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
 <item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
@@ -82,37 +46,10 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="INV_VALOR" id="CBD6D85D-9145-DEF9-FD37-B1B1711A1CE8">
+<Attribute name="USU DATA NASCIMENTO" id="602139B0-6D5C-3087-5DB3-D35D25374660">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:13:44 UTC</createdTime>
-<ownerDesignName>ModeloFisico</ownerDesignName>
-<engineerTo>
-<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
-<item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>15</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,15,2</ownDataTypeParameters>
-</Attribute>
-<Attribute name="INV_DATA_INVESTIMENTO" id="C5A939F1-1458-90BE-4A2D-0597C6A0D9E6">
-<createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:13:54 UTC</createdTime>
-<ownerDesignName>ModeloFisico</ownerDesignName>
-<engineerTo>
-<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
-<item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="INV_DATA_VENCIMENTO" id="F386F42C-1F0C-5182-0750-BA9B4B2878B7">
-<createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:14:07 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>FFE4F456-865B-056C-2FB3-068F86811484</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
 <item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
@@ -124,11 +61,59 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="USU GENERO" id="EC827D9E-FA56-20FA-1415-F668E8691850">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[1 = Masculino
+2 = Feminino]]></commentInRDBMS>
+<generatorID>8A5CCC7A-AE4C-0CE1-82A5-1BF43E241FF2</generatorID>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
+<item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USU EMAIL" id="54C9703A-BF14-D2F5-CF9A-F7BB9A6ABA8D">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>9DCD5E37-4680-D769-C204-2C7C3BA8F2A3</generatorID>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
+<item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USU SENHA" id="A4DBF155-FB2E-6713-56EA-A17811C1B2B0">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>EBADD490-32C8-F027-1125-5E7780F276DD</generatorID>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
+<item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B8945D57-2922-5F80-C429-4E9DEED9E7FC" name="INVESTIMENTO PK">
+<identifier id="DC1524A9-D43D-93CD-07C5-CAFB64860239" name="USUARIO PK">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:12:44 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>5EE3721A-0367-490B-8F7A-233F884204D1</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
 <item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
@@ -136,7 +121,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>3F0226B9-B8D0-AA92-B4E5-F58047C757E0</attributeRef>
+<attributeRef>CE0B0B8C-82E5-42D6-A2BD-7F01838ED164</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

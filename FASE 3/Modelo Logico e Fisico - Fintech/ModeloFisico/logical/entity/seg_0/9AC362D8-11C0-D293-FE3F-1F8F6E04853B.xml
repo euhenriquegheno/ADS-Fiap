@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="31ADF400-D226-3FF8-EF58-5A15E82A0180" name="USUARIO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9AC362D8-11C0-D293-FE3F-1F8F6E04853B" name="OBJETIVO FINANCEIRO">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:00:20 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>20C40A1D-9E18-4025-9FA8-A00E10271E6A</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
 <item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
@@ -16,9 +17,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="USU_IDPK" id="35E94320-D4B9-2F81-B2A9-F58561672538">
+<Attribute name="OFI IDPK" id="E47BCA6C-47F4-29F7-F089-38CDB6D9B235">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:00:40 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>003B17D4-64BB-9DC2-7C89-3135FD3120E1</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
 <item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
@@ -29,67 +31,25 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="USU_NOME" id="CB3CA557-D569-36B8-03A1-F6893F368039">
+<Attribute name="OFI USUARIO IDPK" id="5D4BF4CD-99A5-3DB0-3967-133B48E845CF">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:01:26 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>EC0FC374-4F9C-3D08-E70D-7ADAC117EABA</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
 <item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
 <item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="USU_DATA_NASCIMENTO" id="646C05C2-A537-A5A6-9D01-127A89CC41C3">
-<createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:01:59 UTC</createdTime>
-<ownerDesignName>ModeloFisico</ownerDesignName>
-<engineerTo>
-<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
-<item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="USU_GENERO" id="CF8ECF06-0CF9-C1DA-0A5A-798127906E10">
-<createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:02:18 UTC</createdTime>
-<commentInRDBMS><![CDATA[1 = Masculino
-2 = Feminino]]></commentInRDBMS>
-<ownerDesignName>ModeloFisico</ownerDesignName>
-<engineerTo>
-<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
-<item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CE0B0B8C-82E5-42D6-A2BD-7F01838ED164</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="USU_EMAIL" id="A7DBA6EE-2793-0E18-37A0-90496F480741">
+<Attribute name="OFI NOME" id="1E093A30-7BA4-EBDC-E4D7-A919CEE9245C">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:02:50 UTC</createdTime>
-<ownerDesignName>ModeloFisico</ownerDesignName>
-<engineerTo>
-<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
-<item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="USU_SENHA" id="1FB15558-580A-92E4-6C17-FF7C612416E9">
-<createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:03:34 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>ED4324FF-8173-7368-B7B3-A532041259BE</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
 <item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
@@ -101,11 +61,57 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="OFI DESCRICAO" id="43EF9171-A830-ED96-B8C1-31F8AF6279BD">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>B7869F49-1069-4D59-70CA-B64BC935F7FF</generatorID>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
+<item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OFI VALOR" id="3E070510-6D2A-FBA9-0E39-C2FA8B071EF8">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>6D3749DF-2199-A8B0-2B7A-E6085549FDD3</generatorID>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
+<item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OFI DATA" id="611B29FF-C09E-3330-3698-964CD6F186F8">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>D1F34211-BD53-836A-8366-5DD4149043E0</generatorID>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
+<item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="FB4F4173-61F7-F209-A4A8-4533F5538C77" name="USUARIO PK">
+<identifier id="540FABF5-17AD-9D2B-D5CD-B654C1836B9C" name="OBJETIVO FINANCEIRO PK">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:01:13 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>D44B300D-3518-1961-E897-9BFD94AF8DFB</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
 <item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
@@ -113,7 +119,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>35E94320-D4B9-2F81-B2A9-F58561672538</attributeRef>
+<attributeRef>E47BCA6C-47F4-29F7-F089-38CDB6D9B235</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

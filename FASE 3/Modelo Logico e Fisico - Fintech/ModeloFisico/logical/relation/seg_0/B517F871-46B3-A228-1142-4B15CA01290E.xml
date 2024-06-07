@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="GASTO_CATEGORIA_FK" directorySegmentName="seg_0" id="B517F871-46B3-A228-1142-4B15CA01290E">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>A9EB13F4-3BF2-BD05-E93A-5AA9B16A0B47</generatorID>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
+<item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
+</engineerTo>
+<sourcePk>091804B2-6F26-326C-C9CE-76CE03DA51D4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B607163D-58BF-1237-5E2E-91E61FC709D1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E9ED89C8-A32B-9EE3-DB61-508839E1937A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="21323435-0A67-8853-96AB-8B238787A473" name="BANCO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B607163D-58BF-1237-5E2E-91E61FC709D1" name="CATEGORIA">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:04:57 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>1405D3D3-A843-9DC0-A82F-B4AEE9189755</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
 <item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
@@ -16,9 +17,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="BAN_IDPK" id="169EE5CE-B5ED-6CEB-B705-42B2B9AF3759">
+<Attribute name="CAT IDPK" id="A3A74FE2-2DBF-3309-19A4-8F2D7B6E001E">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:05:07 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>0AB50724-7D2C-80AF-2A32-700F57B48BBD</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
 <item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
@@ -29,9 +31,25 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="BAN_NOME" id="491257D1-ABBB-84BF-05C1-AF58BD4E379B">
+<Attribute name="CAT USUARIO IDPK" id="6C950B2B-80DB-D7DE-FA2F-8B18ABF566E2">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:05:17 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>5CDEFBF0-FF9A-2DA3-BEAC-0592A67A0EB7</generatorID>
+<ownerDesignName>ModeloFisico</ownerDesignName>
+<engineerTo>
+<item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
+<item key="DB559353-B6DF-6C65-3787-D7C995BEADF2" value="true"/>
+</engineerTo>
+<referedAttribute>CE0B0B8C-82E5-42D6-A2BD-7F01838ED164</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CAT NOME" id="50281F08-6CE1-71CB-C714-956CC30A7CB2">
+<createdBy>henri</createdBy>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>FEC7F372-61F9-AB5A-E06C-F91FA914ED02</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
 <item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
@@ -45,9 +63,10 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="59985979-BE14-B505-9EF3-56E675EA51FC" name="BANCO PK">
+<identifier id="091804B2-6F26-326C-C9CE-76CE03DA51D4" name="CATEGORIA PK">
 <createdBy>henri</createdBy>
-<createdTime>2024-05-25 01:05:14 UTC</createdTime>
+<createdTime>2024-05-25 02:27:43 UTC</createdTime>
+<generatorID>2490E05E-CAA4-8A12-2D68-C20FC7EA95BB</generatorID>
 <ownerDesignName>ModeloFisico</ownerDesignName>
 <engineerTo>
 <item key="5EE3ED64-B78B-78C0-2164-020F2B255B59" value="true"/>
@@ -55,7 +74,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>169EE5CE-B5ED-6CEB-B705-42B2B9AF3759</attributeRef>
+<attributeRef>A3A74FE2-2DBF-3309-19A4-8F2D7B6E001E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
