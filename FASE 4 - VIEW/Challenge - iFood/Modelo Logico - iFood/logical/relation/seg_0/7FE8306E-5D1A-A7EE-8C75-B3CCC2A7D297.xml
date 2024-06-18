@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MOVIMENTO_CONTA_FK" directorySegmentName="seg_0" id="7FE8306E-5D1A-A7EE-8C75-B3CCC2A7D297">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-17 23:28:13 UTC</createdTime>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="27F04DD4-B1A4-8406-9902-A2F1EA275041" value="true"/>
+</engineerTo>
+<sourcePk>0C03F1B2-B3C0-9316-04F7-1FF8CD360466</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C8457D2B-2471-E3F1-9E7C-E8040F7C1247</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F8096B01-E172-1CCF-D35A-4F2DF69AADF3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

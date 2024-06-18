@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PRODUTO_PEDIDO_PRODUTO_FK" directorySegmentName="seg_0" id="972A6797-484A-48CD-39D8-8AB46B6A94FE">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-17 23:44:46 UTC</createdTime>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="27F04DD4-B1A4-8406-9902-A2F1EA275041" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>E38A430F-0347-4088-6206-C5142CB08F3F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B933A508-1919-B3FE-F3F8-FEFFD6C86D0D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

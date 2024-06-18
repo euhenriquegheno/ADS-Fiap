@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="7592DFB8-8F24-5AF1-10D7-8A58F877D2DC" mainViewID="797E94CD-3E93-E774-9C85-D0B2BDFA6BC4">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-17 22:34:15 UTC</createdTime>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DE0E6A54-37EB-88CC-23FB-E0A0D5162062" containerWithKeyObject="CC3E6424-BDDE-E2C5-38F1-8F271892AED8" localFKIndex="68DE87EB-27D4-E82D-A59A-3E7E6D99AB3D" name="CONTA_PARCEIRO_FK">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-17 23:22:21 UTC</createdTime>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<referredTableLongName>PARCEIRO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6E77604F-914C-7FC4-6BA8-8D048FD3A64D</referredTableID>
+<keyObject>0D73BD93-5651-371E-D199-E822EF6B979A</keyObject>
+<referredKeyID>0D73BD93-5651-371E-D199-E822EF6B979A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDPK_PARCEIRO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

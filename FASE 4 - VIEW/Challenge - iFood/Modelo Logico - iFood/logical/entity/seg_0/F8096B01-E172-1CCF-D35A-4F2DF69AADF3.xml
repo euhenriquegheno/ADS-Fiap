@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F8096B01-E172-1CCF-D35A-4F2DF69AADF3" name="MOVIMENTACAO">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-17 23:25:49 UTC</createdTime>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="27F04DD4-B1A4-8406-9902-A2F1EA275041" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDPK_MOVIMENTACAO" id="F8D51BC7-332C-6C3F-DFC9-40EB0997E6E9">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-17 23:25:57 UTC</createdTime>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="27F04DD4-B1A4-8406-9902-A2F1EA275041" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDPK_CONTA" id="F1D6896E-EB63-CDDC-58D7-7B8AC82056D5">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-17 23:26:09 UTC</createdTime>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="27F04DD4-B1A4-8406-9902-A2F1EA275041" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO" id="1FE75438-9714-8C85-07A1-23A6E091B0EB">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-17 23:26:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTRADA
+SAIDA	]]></commentInRDBMS>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="27F04DD4-B1A4-8406-9902-A2F1EA275041" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VALOR" id="B4E0C041-26FC-CADC-51FA-59E88305B23D">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-17 23:27:00 UTC</createdTime>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="27F04DD4-B1A4-8406-9902-A2F1EA275041" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,15,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_MOVIMENTACAO" id="C7A2ECD6-BCAE-D396-3F2E-6CA057BE2300">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-17 23:27:11 UTC</createdTime>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="27F04DD4-B1A4-8406-9902-A2F1EA275041" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRICAO" id="BAF48355-8FD7-1081-7FD6-AB704DF01744">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-17 23:27:22 UTC</createdTime>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="27F04DD4-B1A4-8406-9902-A2F1EA275041" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDPK CONTA" id="853E8FC8-BB6E-4B54-8211-69E4E89FF41D">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-17 23:28:13 UTC</createdTime>
+<generatorID>7FE8306E-5D1A-A7EE-8C75-B3CCC2A7D297</generatorID>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="27F04DD4-B1A4-8406-9902-A2F1EA275041" value="true"/>
+</engineerTo>
+<referedAttribute>7C0594E1-4D37-8606-9ADC-BF7AFA5BB5A3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="312FAB03-18DC-544B-9950-695047BA7351" name="MOVIMENTACAO PK">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-17 23:26:07 UTC</createdTime>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="27F04DD4-B1A4-8406-9902-A2F1EA275041" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F8D51BC7-332C-6C3F-DFC9-40EB0997E6E9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
