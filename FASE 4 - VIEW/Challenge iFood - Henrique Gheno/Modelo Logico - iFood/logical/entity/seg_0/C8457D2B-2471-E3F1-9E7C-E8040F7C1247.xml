@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C8457D2B-2471-E3F1-9E7C-E8040F7C1247" name="CONTA">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-17 23:23:33 UTC</createdTime>
+<generatorID>CC3E6424-BDDE-E2C5-38F1-8F271892AED8</generatorID>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDPK CONTA" id="7C0594E1-4D37-8606-9ADC-BF7AFA5BB5A3">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-17 23:23:33 UTC</createdTime>
+<generatorID>6F948B71-7409-DD45-B94B-6623A3F05C7F</generatorID>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDPK_PARCEIRO" id="CD79DB71-F8E4-3E9C-CBB5-249126152F1A">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-18 00:13:29 UTC</createdTime>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SALDO ATUAL" id="F3F839A0-B75E-9C59-3986-145C31BD1594">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-17 23:23:33 UTC</createdTime>
+<generatorID>7A682600-A948-2919-441D-6167118772C5</generatorID>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,15,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA CRIACAO" id="AF7A4CB4-44C4-6C12-78B9-1EA81441C8BB">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-17 23:23:33 UTC</createdTime>
+<generatorID>E9C26A49-49F7-C2A9-3A53-6A0A25A0EA03</generatorID>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDPK PARCEIRO" id="22A2D088-6C4E-B662-35B2-F505FAC4621B">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-18 00:13:55 UTC</createdTime>
+<generatorID>3889FC0C-7860-DB7E-1613-481C38267420</generatorID>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<referedAttribute>3B5A6696-F5EE-26DB-20CD-E104BDF35174</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0C03F1B2-B3C0-9316-04F7-1FF8CD360466" name="CONTA PK">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-17 23:23:33 UTC</createdTime>
+<generatorID>017A9BF9-DFFD-C3F6-32FA-EBDC2FFB5971</generatorID>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7C0594E1-4D37-8606-9ADC-BF7AFA5BB5A3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

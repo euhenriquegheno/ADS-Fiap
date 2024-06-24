@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AA87B5A3-910D-462A-3E92-C692E57790AE" containerWithKeyObject="A9306436-A450-A097-6B0B-926BF6BC6B46" localFKIndex="36F35BB3-FDBF-EB26-6A82-B89584521E49" name="PEDIDO_PRODUTO_FK_PEDIDO_PRODUTO_FK">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-18 00:12:16 UTC</createdTime>
+<generatorID>726031BF-18D8-CA03-19A9-8850F7A82ABF</generatorID>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<referredTableLongName>PEDIDO_PRODUTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8A7804CD-D3D4-327C-E857-4079D90E344B</referredTableID>
+<keyObject>7E75B626-1535-4FBA-C56C-CC5AEE2EC863</keyObject>
+<referredKeyID>7E75B626-1535-4FBA-C56C-CC5AEE2EC863</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDPK_PEDIDO_PRODUTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EE58B421-4B5D-12C5-1541-EBFBF48D5492" name="PARCEIRO">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-17 23:23:33 UTC</createdTime>
+<generatorID>6E77604F-914C-7FC4-6BA8-8D048FD3A64D</generatorID>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDPK PARCEIRO" id="3B5A6696-F5EE-26DB-20CD-E104BDF35174">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-17 23:23:33 UTC</createdTime>
+<generatorID>E6CF9825-251B-0BF3-4BDE-07A4722091C6</generatorID>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="3569BCA0-F2EE-E2AC-FEFD-82A60466F15F">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-17 23:23:33 UTC</createdTime>
+<generatorID>88896E39-5328-2A7E-8351-19EE2A612924</generatorID>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="F3EECEFB-BD0D-2F5F-2ED5-DA5AB2B7AC25">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-17 23:23:33 UTC</createdTime>
+<generatorID>84ABCD06-9E2C-A732-8E51-3E8C534D98D9</generatorID>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SENHA" id="238905C5-FD8D-8BE8-4AA8-AE62FFFF08F2">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-17 23:23:33 UTC</createdTime>
+<generatorID>7AB47429-20D4-CFF2-9D87-3EAFC60E844A</generatorID>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONE" id="8B514DF6-8DB3-2767-0726-D80F198CE6D0">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-17 23:23:33 UTC</createdTime>
+<generatorID>40ED5B85-B445-2565-2B62-F15A92EB8179</generatorID>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ENDERECO" id="888FC042-F2DD-F842-8D64-3B82BC54F444">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-17 23:23:33 UTC</createdTime>
+<generatorID>802DCAAB-F981-D6C6-0014-57784C1CDCB4</generatorID>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CIDADE" id="AB1B2A09-23FE-6321-1794-F1E65DEC8DB0">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-17 23:23:33 UTC</createdTime>
+<generatorID>6DB50145-FC07-DB6C-67FB-BDFEDA527FC6</generatorID>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BAIRRO" id="F9190E20-AF90-0A58-F558-AD6D35BF15D6">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-17 23:23:33 UTC</createdTime>
+<generatorID>654F536A-E4B5-2CDE-4738-C62C2F7715D7</generatorID>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="361FA01D-04BF-89B1-F4D6-F40F0B6BA1C7" name="PARCEIRO PK">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-17 23:23:33 UTC</createdTime>
+<generatorID>0D73BD93-5651-371E-D199-E822EF6B979A</generatorID>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3B5A6696-F5EE-26DB-20CD-E104BDF35174</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

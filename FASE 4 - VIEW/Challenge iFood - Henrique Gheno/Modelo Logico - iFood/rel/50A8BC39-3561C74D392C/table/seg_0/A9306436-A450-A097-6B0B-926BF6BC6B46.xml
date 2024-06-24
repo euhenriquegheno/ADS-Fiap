@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9306436-A450-A097-6B0B-926BF6BC6B46" name="PEDIDO_PRODUTO_FK">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-18 00:12:16 UTC</createdTime>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PEDIDO_IDPK_PEDIDO" id="9D1F32A0-CCD1-5614-DCA5-E40DDF44357D">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-18 00:12:16 UTC</createdTime>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD4E0AAB-661C-44FE-2021-898C6D090985" referredColumn="DEACCB11-46A2-3B71-491C-6654DA91A44F"/>
+</associations>
+</Column>
+<Column name="PEDIDO_PRODUTO_IDPK_PEDIDO_PRODUTO" id="EDFC2268-0159-1224-8676-5E3AB50DF0D7">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-18 00:12:16 UTC</createdTime>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA87B5A3-910D-462A-3E92-C692E57790AE" referredColumn="DC210914-D430-BF58-BC3D-6CE6DAA06DAC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="41F38074-9BDF-C57F-92B9-C1B5A28A7159" name="PEDIDO_PRODUTO_FK_PK">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-18 00:12:16 UTC</createdTime>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D1F32A0-CCD1-5614-DCA5-E40DDF44357D"/>
+<colUsage columnID="EDFC2268-0159-1224-8676-5E3AB50DF0D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E587C189-1714-B100-A849-6E1FE2E5D2E0" name="PEDIDO_PRODUTO_FK_PEDIDO_FK">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-18 00:12:16 UTC</createdTime>
+<generatorID>726031BF-18D8-CA03-19A9-8850F7A82ABF</generatorID>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D1F32A0-CCD1-5614-DCA5-E40DDF44357D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36F35BB3-FDBF-EB26-6A82-B89584521E49" name="PEDIDO_PRODUTO_FK_PEDIDO_PRODUTO_FK">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-18 00:12:16 UTC</createdTime>
+<generatorID>726031BF-18D8-CA03-19A9-8850F7A82ABF</generatorID>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDFC2268-0159-1224-8676-5E3AB50DF0D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

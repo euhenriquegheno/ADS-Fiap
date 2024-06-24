@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1BCC3E51-FDC2-5705-CC05-2F3FAFD179A1" containerWithKeyObject="A9BA3E22-E74B-974D-F109-129F78185890" localFKIndex="4A9FB571-A4F2-F17A-981E-921B6A81362C" name="MOVIMENTACAO_CONTA_FK">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-18 00:12:16 UTC</createdTime>
+<generatorID>7FE8306E-5D1A-A7EE-8C75-B3CCC2A7D297</generatorID>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<referredTableLongName>CONTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F7048D9D-4FF9-6D87-FD39-1DB0B0DD811B</referredTableID>
+<keyObject>4891800E-DF30-09EC-8C3B-7D12EE505230</keyObject>
+<referredKeyID>4891800E-DF30-09EC-8C3B-7D12EE505230</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDPK_CONTA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

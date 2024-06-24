@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="17FDA1F7-F1D7-42BE-D711-04098CF7AB1A" name="PERMISSAO">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-18 00:17:54 UTC</createdTime>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDPK_PERMISSAO" id="CBBCD2E7-60DD-7DC0-C0B5-A67BA6945452">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-18 00:18:00 UTC</createdTime>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDPK_USUARIO" id="0E3910BA-CD44-B956-443E-E39E7F0A9656">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-18 00:18:13 UTC</createdTime>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIVEL_ACESSO" id="B07BD2F6-A5F0-C98B-8614-9EC5449F8740">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-18 00:18:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[ADMINISTRADOR
+USUARIO
+REGULAR]]></commentInRDBMS>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_ATRIBUICAO" id="28A281F8-27F0-4B62-F348-0A2AA7FA3FE7">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-18 00:18:59 UTC</createdTime>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDPK_USUARIO1" id="707C8E6F-1E2F-1D94-19DA-10FB73566371">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-18 00:19:37 UTC</createdTime>
+<generatorID>486ACC4E-449C-8CBA-B67A-C113300B4804</generatorID>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<referedAttribute>D773C6DB-E1D9-337D-783C-84F55BE27636</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="90E0E775-E046-5845-C0EC-F987B82E1FD7" name="PERMISSAO PK">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-18 00:18:12 UTC</createdTime>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CBBCD2E7-60DD-7DC0-C0B5-A67BA6945452</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

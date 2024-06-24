@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="739DAD40-FCF0-5EFD-08EF-52F7B3442952" name="USUARIO">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-18 00:15:00 UTC</createdTime>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDPK_USUARIO" id="D773C6DB-E1D9-337D-783C-84F55BE27636">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-18 00:15:06 UTC</createdTime>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="CDF2F823-9BB6-9FB2-7468-ABEB6F3D2CA2">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-18 00:15:16 UTC</createdTime>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="0F9CEF5C-C990-6986-2657-50AEA6A1FBB6">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-18 00:15:25 UTC</createdTime>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SENHA" id="153041C2-6A52-54D3-8870-12655710E44C">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-18 00:15:35 UTC</createdTime>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDPK PARCEIRO" id="34EEC627-EE4C-8EEC-A3E5-E20612019649">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-18 00:17:24 UTC</createdTime>
+<generatorID>73277E4F-B347-BB93-931E-B7AC910138F1</generatorID>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<referedAttribute>3B5A6696-F5EE-26DB-20CD-E104BDF35174</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BCAD3C97-41ED-E1DF-2EC1-F69D4306053C" name="USUARIO PK">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-18 00:15:15 UTC</createdTime>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D773C6DB-E1D9-337D-783C-84F55BE27636</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

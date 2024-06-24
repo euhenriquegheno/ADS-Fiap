@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PARCEIRO_CONTA_FK" directorySegmentName="seg_0" id="3889FC0C-7860-DB7E-1613-481C38267420">
+<createdBy>henri</createdBy>
+<createdTime>2024-06-18 00:13:55 UTC</createdTime>
+<ownerDesignName>Modelo Logico - iFood</ownerDesignName>
+<engineerTo>
+<item key="50A8BC39-F982-102E-F52A-3561C74D392C" value="true"/>
+</engineerTo>
+<sourcePk>361FA01D-04BF-89B1-F4D6-F40F0B6BA1C7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EE58B421-4B5D-12C5-1541-EBFBF48D5492</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C8457D2B-2471-E3F1-9E7C-E8040F7C1247</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
