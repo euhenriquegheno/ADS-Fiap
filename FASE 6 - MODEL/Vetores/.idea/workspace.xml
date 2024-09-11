@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="73775055-4a9a-473e-aca0-dac9ebf3765d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/CadastroFuncionarios/CadastroFuncionarios.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/CadastroFuncionarios/src/br/com/usbsystem/model/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/CadastroFuncionarios/src/br/com/usbsystem/model/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/CadastroFuncionarios/src/br/com/usbsystem/model/Gerente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/CadastroFuncionarios/src/br/com/usbsystem/model/Programador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/CadastroFuncionarios/src/br/com/usbsystem/model/Vendedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/CadastroFuncionarios/src/br/com/usbsystems/view/ViewGerente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/CadastroFuncionarios/src/br/com/usbsystems/view/ViewProgramador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/CadastroFuncionarios/src/br/com/usbsystems/view/ViewVendedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/ControleEstoque/ControleEstoque.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/ControleEstoque/src/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/Desafio/src/br/com/fiap/faculdade/model/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/Desafio/src/br/com/fiap/faculdade/model/Cidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/Desafio/src/br/com/fiap/faculdade/model/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/Encapsulamento/src/br/com/fiap/loja/model/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/Encapsulamento/src/br/com/fiap/loja/model/ClienteEspecial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/ExemploHerancaClasses/ExemploHerancaClasses.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/ExemploHerancaClasses/src/br/com/fiap/restaurante/model/Bebida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/ExemploHerancaClasses/src/br/com/fiap/restaurante/model/PratoQuente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/ExemploHerancaClasses/src/br/com/fiap/restaurante/model/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/ExemploHerancaClasses/src/br/com/fiap/restaurante/view/TestandoHeranca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/Fintech/Fintech.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/Fintech/src/br/com/fiap/fintech/model/Banco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/Fintech/src/br/com/fiap/fintech/model/FinanceiroMovimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/Fintech/src/br/com/fiap/fintech/model/Investimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/Fintech/src/br/com/fiap/fintech/model/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/Fintech/src/br/com/fiap/fintech/model/ObjetivoFinanceiro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/Fintech/src/br/com/fiap/fintech/model/Pagamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/Fintech/src/br/com/fiap/fintech/model/Recebimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/Fintech/src/br/com/fiap/fintech/model/Senha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/Fintech/src/br/com/fiap/fintech/model/TipoInvestimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/Fintech/src/br/com/fiap/fintech/model/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/Fintech/src/br/com/fiap/fintech/view/Teste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/Fintech/src/br/com/fiap/fintech/view/ViewBanco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/Fintech/src/br/com/fiap/fintech/view/ViewInvestimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/Fintech/src/br/com/fiap/fintech/view/ViewLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/Fintech/src/br/com/fiap/fintech/view/ViewObjetivoFinanceiro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/Fintech/src/br/com/fiap/fintech/view/ViewPagamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/Fintech/src/br/com/fiap/fintech/view/ViewRecebimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/Fintech/src/br/com/fiap/fintech/view/ViewSenha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/Fintech/src/br/com/fiap/fintech/view/ViewTipoInvestimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/Fintech/src/br/com/fiap/fintech/view/ViewUsuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/OrientacaoObjetos/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/OrientacaoObjetos/src/br/com/fiap/game/model/HabilidadeEspecial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/OrientacaoObjetos/src/br/com/fiap/game/model/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/OrientacaoObjetos/src/br/com/fiap/game/model/PersonagemMagico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/OrientacaoObjetos/src/br/com/fiap/game/view/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FASE 5 - OOP/OrientacaoObjetos/src/br/com/fiap/game/view/ViewItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FASE 5 - OOP/OrientacaoObjetos/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FASE 5 - OOP/OrientacaoObjetos/src/PersonagemMagico.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2lwUj8famHgnlKU0byG7iYP9tpt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Github/ADS-Fiap/FASE 6 - MODEL/Vetores/ExemplosVetores",
+    "onboarding.tips.debug.path": "C:/Github/ADS-Fiap/FASE 6 - MODEL/Vetores/src/Main.java"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="73775055-4a9a-473e-aca0-dac9ebf3765d" name="Changes" comment="" />
+      <created>1726090765400</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726090765400</updated>
+    </task>
+    <servers />
+  </component>
+</project>
