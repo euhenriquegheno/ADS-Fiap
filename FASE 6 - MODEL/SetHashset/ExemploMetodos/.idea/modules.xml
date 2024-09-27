@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SetHashset.iml" filepath="$PROJECT_DIR$/SetHashset.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExemploMetodos.iml" filepath="$PROJECT_DIR$/ExemploMetodos.iml" />
     </modules>
   </component>
 </project>
