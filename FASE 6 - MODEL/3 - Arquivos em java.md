@@ -9,22 +9,22 @@ A declaração de uma variável ArrayList envolve especificar o tipo da variáve
 
 Antes de tudo é essencial importar tanto a interface List quanto a classe ArrayList do pacote java.util.
 
- - Exemplo de declaração:
+Exemplo de declaração:
 
-> import java.util.ArrayList;
-import java.util.List;
-public class ExemploArrayList {
-    public static void main(String[] args) {
-        // Declaração e inicialização de um ArrayList de Strings
-        List<String> frutas = new ArrayList<>();
-        // Adicionando elementos à lista
-        frutas.add("Maçã");
-        frutas.add("Banana");
-        frutas.add("Morango");
-        // Exibindo os elementos da lista
-        System.out.println(frutas);
+    import java.util.ArrayList;
+    import java.util.List;
+    public class ExemploArrayList {
+	     public static void main(String[] args) {
+	       // Declaração e inicialização de um ArrayList de Strings
+	       List<String> frutas = new ArrayList<>();
+	       // Adicionando elementos à lista
+	       frutas.add("Maçã");
+	       frutas.add("Banana");
+	       frutas.add("Morango");
+	       // Exibindo os elementos da lista
+	       System.out.println(frutas);
+	     }
     }
-}
 
 ### Métodos da interface List
 
@@ -57,18 +57,19 @@ O set é uma interface no Java Collections Framework projetada para representar 
 O HashSet não garante nenhuma ordem para os elementos armazenados, podendo parecer aleatória durante a iteração.
 
 Exemplo de declaração:
-> import java.util.HashSet;
-import java.util.Set;
-public class HashSetExample {
-public static void main(String[] args) {
-Set<String> frutas = new HashSet<>();
-frutas.add("Maçã");
-frutas.add("Banana");
-frutas.add("Morango");
-frutas.add("Maçã"); // Tentativa de adicionar duplicata
-System.out.println(frutas); // Observe a ausência de duplicatas
-}
-}
+
+    import java.util.HashSet;
+    import java.util.Set;
+    public class HashSetExample {
+      public static void main(String[] args) {
+        Set<String> frutas = new HashSet<>();
+        frutas.add("Maçã");
+        frutas.add("Banana");
+        frutas.add("Morango");
+        frutas.add("Maçã"); // Tentativa de adicionar duplicata
+        System.out.println(frutas); // Observe a ausência de duplicatas
+      }
+    }
 
   
 
