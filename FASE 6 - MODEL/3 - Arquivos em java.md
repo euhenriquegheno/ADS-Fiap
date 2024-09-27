@@ -62,7 +62,9 @@ Principais métodos da interface List:
 
 - **toArray()**: Converte a lista em um array. Isso é particularmente útil quando você precisa passar a lista para um método que aceita apenas arrays;
 
-***Exemplo de uso:*** [Repositório de exemplos dos métodos do ArrayList](https://github.com/euhenriquegheno/ADS-Fiap/tree/main/FASE%206%20-%20MODEL/ListArrayList/MetodosInterfaceList)
+### Exemplos
+***Exemplo de uso dos métodos:*** [Repositório de exemplos dos métodos do ArrayList](https://github.com/euhenriquegheno/ADS-Fiap/tree/main/FASE%206%20-%20MODEL/ListArrayList/MetodosInterfaceList)
+
 ***Exercício:*** [Repositório do exercício;]()
 
 ## Set e HashSet
@@ -104,7 +106,9 @@ Vamos entender os principais métodos do Set, perceba que são muito parecidos o
     
 -   **toArray()**: Retorna um array contendo todos os elementos no conjunto. Este método oferece uma maneira de obter uma representação de array dos elementos do conjunto.
 
+### Exemplos
 ***Exemplo de uso dos métodos:*** [Repositório de exemplos dos métodos do HashSet;](https://github.com/euhenriquegheno/ADS-Fiap/tree/main/FASE%206%20-%20MODEL/SetHashset/ExemploMetodos)
+
 ***Exercício:*** [Repositório do exercício;]()
 
 ## Map e HashMap
@@ -148,5 +152,7 @@ Exemplo de declaração:
 
 -  **clear()**: Remove todas as entradas do HashMap, deixando-o vazio.
 
+### Exemplos
 ***Exemplo de uso dos métodos:*** [Repositório de exemplos dos métodos do HashMap;](https://github.com/euhenriquegheno/ADS-Fiap/tree/main/FASE%206%20-%20MODEL/MapHashMap/ExemplosMetodos)
+
 ***Exercício:*** [Repositório do exercício;]()
