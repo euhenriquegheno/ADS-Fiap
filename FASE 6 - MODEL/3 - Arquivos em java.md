@@ -1,5 +1,5 @@
 # 3 - Arquivos em java
-
+## Coleções e manipulação de arquivos
 ### Explicação do Conteúdo usando analogias
 Imagine que você está em uma biblioteca (o Java) e você precisa organizar seus livros (dados). O framework de coleções é como as prateleiras dessa biblioteca, onde você pode escolher diferentes tipos de prateleiras para diferentes tipos de livros. 
 
@@ -156,3 +156,51 @@ Exemplo de declaração:
 ***Exemplo de uso dos métodos:*** [Repositório de exemplos dos métodos do HashMap;](https://github.com/euhenriquegheno/ADS-Fiap/tree/main/FASE%206%20-%20MODEL/MapHashMap/ExemplosMetodos)
 
 ***Exercício:*** [Repositório do exercício;]()
+
+
+## Manipulação de Arquivos
+
+A manipulação de arquivos é uma necessidade comum em muitas alicações, permitindo que programas leiam, criem, editem ou excluam arquivos no sistema de arquivos.
+
+Java utiliza várias classes localizadas nos pacotes *java.io* e *java.nio.file* para oferecer um controle detalhado sobre os arquivos. Com essas classes podemos criar arquivos, ler o conteúdo de arquivos, escrever dados em arquivos, copiar, mover e excluir arquivos.
+
+## Leitura de arquivos
+
+Focaremos no uso das classes File, FileReader e BufferedReader para ler arquivos de texto.
+
+A classe File do pacote *java.io* é utilizada para representar os metadas de um arquivo, ou diretório do sistema de arquivos. Não é usado diretamente para ler ou escrever conteudo.
+
+    File file = new File("caminho/do/seu/arquivo.txt");
+
+Para ler o arquivo texto e ler as suas linhas, utilizamos as classes FileReader e BufferedReader.
+
+FileReader é uma classe conveniente para ler arquivos de texto, que le caracteres. Para melhor eficiencia e facilidade de uso, é comum envolver um FileReader com um BufferesReader. Ele aumenta a eficiencia da leitura atraves do uso de um buffer e oferece o método readLine() para ler uma linha de texto de cada vez.
+
+Exemplo de como ler e exibir o conteúdo de um arquivo de texto chamado alunos.txt:
+
+    import java.io.*;
+    public class LeituraArquivo {
+      public static void main(String[] args) {
+        File file = new File("alunos.txt");
+        try (FileReader fr = new FileReader(file);
+             BufferedReader br = new BufferedReader(fr)) {
+            String linha;
+            while ((linha = br.readLine()) != null) {
+                System.out.println(linha);
+            }
+        }catch (FileNotFoundException e){
+            System.err.println("Arquivo não encontrado");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+      }
+    }
+
+FileNotFoundException = Se o arquivo especificado não for encontrado.
+IOException = Exceção mais genérica para erros de I/O.
+
+***Exemplo de leitura:*** [Repositório com exemplo de leitura de arquivo;](https://github.com/euhenriquegheno/ADS-Fiap/tree/main/FASE%206%20-%20MODEL/ManipulacaoArquivos/ExemploLeitura)
+
+## Escrita em arquivos
+
+
