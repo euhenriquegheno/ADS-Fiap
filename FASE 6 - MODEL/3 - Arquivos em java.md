@@ -203,4 +203,18 @@ IOException = Exceção mais genérica para erros de I/O.
 
 ## Escrita em arquivos
 
+Classes FileWrite e BufferedWrite. Fornecem métodos para escrever texto em arquivos, tanto para criar arquivos quanto para adicionar conteúdos a arquivos existentes.
 
+FileWrite serve para escrever caracteres em um arquivo. Basta instanciar um objeto FileWrite, especificando o caminho e o nome do arquivo que deseja escrever ou criar. É possivel tambem sobrescrever o arquivo existente ou adicionar ao final dele, atraves de um constructor que aceita um parametro booleano para indicar essa escolha.
+
+Exemplo declaração:
+
+    // Adiciona ao arquivo se existir
+    FileWriter fw = new FileWriter("saida.txt", true);
+
+Para melhorar a eficiencia, envolver o FileWrite em um BufferedWrite. Ele fornece o mpetodo newLine() para inserir quebras de linhas.
+
+Exemplo: 
+    BufferedWriter bw = new BufferedWriter(new FileWriter("saida.txt"));
+
+***Exemplo que demonstra como criar um arquivo e escrever nele algumas linhas de texto:*** [Repositório com exemplo;](https://github.com/euhenriquegheno/ADS-Fiap/tree/main/FASE%206%20-%20MODEL/ManipulacaoArquivos/ExemploEscrita)
