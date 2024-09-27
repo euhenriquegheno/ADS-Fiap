@@ -1,5 +1,19 @@
 # 3 - Arquivos em java
 
+### Explicação do Conteúdo usando analogias
+Imagine que você está em uma biblioteca (o Java) e você precisa organizar seus livros (dados). O framework de coleções é como as prateleiras dessa biblioteca, onde você pode escolher diferentes tipos de prateleiras para diferentes tipos de livros. 
+
+* List é como uma prateleira onde você pode colocar seus livros em ordem, como uma estante com prateleiras numeradas. Você pode adicionar, remover ou acessar um livro em uma posição específica.
+* Set é como uma prateleira onde você só pode colocar um exemplar de cada livro. Não é permitido ter dois iguais, assim como em uma estante onde você só coloca um livro por título.
+* Queue é como uma fila na biblioteca. Os livros que você coloca para leitura são retirados na ordem que foram adicionados, como as pessoas na fila.
+* Map é como um catálogo da biblioteca, onde cada livro tem um identificador único (chave) e você pode encontrá-lo rapidamente usando esse identificador.
+
+Agora, sobre a manipulação de arquivos, imagine que você está anotando informações em um caderno (arquivos). As classes como File, FileReader, e FileWriter são as ferramentas que você usa para escrever e ler as páginas desse caderno. E, com as técnicas mais avançadas, como a API NIO.2, você pode até fazer coisas como copiar anotações de um caderno para outro, mover páginas e organizar tudo da melhor forma.
+
+## Interfaces do FrameWork de coleções
+
+As interfaces são a espinha dorsal do framework de coleções em Java, fornecendo uma fundação comum sobre a qual as coleções são construídas. Cada interface define um tipo específico de comportamento de coleção, como listas ordenadas, conjuntos únicos ou filas de elementos.
+
 ## List e ArrayList
 
 As listas suportam elementos duplicados e garantem uma ordem especifica na qual os elementos são inseridos, permitindo assim uma manipulação flexível e intuitiva dos dados.
@@ -26,29 +40,30 @@ Exemplo de declaração:
 	     }
     }
 
-### Métodos da interface List
+### Métodos da interface List - ArrayList
 
 Principais métodos da interface List:
 
-- add(E e): Adiciona o elemento especifico ao final desta lista. Este método também é sobrecarregado na forma add(int index, E element), permitindo adicionar um elemento em uma posição específica, deslocando os elementos atuais para a direita(adiciona um elemento na posição index e os subsequentes são movidos);
+- **add(E e)**: Adiciona o elemento especifico ao final desta lista. Este método também é sobrecarregado na forma add(int index, E element), permitindo adicionar um elemento em uma posição específica, deslocando os elementos atuais para a direita(adiciona um elemento na posição index e os subsequentes são movidos);
 
-- get(int index): Retorna o elemento na posição especifica nesta lista. Permite o acesso direto aos elementos com base no índice;
+- **get(int index)**: Retorna o elemento na posição especifica nesta lista. Permite o acesso direto aos elementos com base no índice;
 
-- set(int index, E element): Substitui o elemento na posição especificada nessa lista pelo elemento especificado. É útil para atualizar um valor já existente em uma posição especifica.
+- **set(int index, E element)**: Substitui o elemento na posição especificada nessa lista pelo elemento especificado. É útil para atualizar um valor já existente em uma posição especifica.
 
-- remove(int index): Remove o elemento na posição especificada nesta lista, deslocando qualquer elemento subsequente para a esquerda (subtrai um dos seus indices). Existe também uma versão sobrecarregada, remove(Object o), que remove a primeira ocorrencia do elemento especificado nesta lista.
+- **remove(int index)**: Remove o elemento na posição especificada nesta lista, deslocando qualquer elemento subsequente para a esquerda (subtrai um dos seus indices). Existe também uma versão sobrecarregada, remove(Object o), que remove a primeira ocorrencia do elemento especificado nesta lista.
 
-- size(): Retorna o número de elementos nesta lista. Este método é essencial para iterar sobre a lista quando combinado com o método get(int index);
+- **size()**: Retorna o número de elementos nesta lista. Este método é essencial para iterar sobre a lista quando combinado com o método get(int index);
 
-- clear(): Remove todos os elementos desta lista. A lista estará vazia após esta chamada retornar;
+- **clear()**: Remove todos os elementos desta lista. A lista estará vazia após esta chamada retornar;
 
-- subList(int fromIndex, int toIndex): Retorna uma visão da porção desta lista entre os índices especificados fromIndex, inclusive, e toIndex, exclusivo. Isso permite trabalhar com um segmento da lista sem a necessidade de criar uma lista;
+- **subList(int fromIndex, int toIndex)**: Retorna uma visão da porção desta lista entre os índices especificados fromIndex, inclusive, e toIndex, exclusivo. Isso permite trabalhar com um segmento da lista sem a necessidade de criar uma lista;
 
-- contains(Object o): Retorna "true" se esta lista contém o elemento especificado. É um método útil para verificar a presença de um elemento na lista;
+- **contains(Object o)**: Retorna "true" se esta lista contém o elemento especificado. É um método útil para verificar a presença de um elemento na lista;
 
-- toArray(): Converte a lista em um array. Isso é particularmente útil quando você precisa passar a lista para um método que aceita apenas arrays;
+- **toArray()**: Converte a lista em um array. Isso é particularmente útil quando você precisa passar a lista para um método que aceita apenas arrays;
 
-Exemplo de uso: [Repositório de exemplos dos métodos do ArrayList](https://github.com/euhenriquegheno/ADS-Fiap/tree/main/FASE%206%20-%20MODEL/ListArrayList)
+***Exemplo de uso:*** [Repositório de exemplos dos métodos do ArrayList](https://github.com/euhenriquegheno/ADS-Fiap/tree/main/FASE%206%20-%20MODEL/ListArrayList/MetodosInterfaceList)
+***Exercício:*** [Repositório do exercício;]()
 
 ## Set e HashSet
 
@@ -72,21 +87,66 @@ Exemplo de declaração:
     }
 
   
-
+### Métodos da interface Set - HashSet
 Vamos entender os principais métodos do Set, perceba que são muito parecidos ou iguais ao da List.
 
--   add(E e): Adiciona o elemento especificado ao conjunto se ele ainda não estiver presente. Retorna true se o conjunto não continha o elemento (e, portanto, o elemento foi adicionado) e false caso contrário.
+-   **add(E e)**: Adiciona o elemento especificado ao conjunto se ele ainda não estiver presente. Retorna true se o conjunto não continha o elemento (e, portanto, o elemento foi adicionado) e false caso contrário.
     
--   remove(Object o): Remove o elemento especificado do conjunto, se estiver presente. Retorna true se o conjunto continha o elemento (e o elemento foi removido) e false caso contrário.
+-   **remove(Object o)**: Remove o elemento especificado do conjunto, se estiver presente. Retorna true se o conjunto continha o elemento (e o elemento foi removido) e false caso contrário.
     
--   contains(Object o): Verifica se o conjunto contém o elemento especificado. Retorna true se o conjunto contém o elemento e false se não contém.
+-   **contains(Object o)**: Verifica se o conjunto contém o elemento especificado. Retorna true se o conjunto contém o elemento e false se não contém.
     
--   size(): Retorna o número de elementos no conjunto. Este método é útil para saber quantos elementos únicos estão armazenados no conjunto.
+-   **size()**: Retorna o número de elementos no conjunto. Este método é útil para saber quantos elementos únicos estão armazenados no conjunto.
     
--   isEmpty(): Verifica se o conjunto está vazio, ou seja, se não contém nenhum elemento. Retorna true se o conjunto estiver vazio e false se contiver pelo menos um elemento.
+-  **isEmpty()**: Verifica se o conjunto está vazio, ou seja, se não contém nenhum elemento. Retorna true se o conjunto estiver vazio e false se contiver pelo menos um elemento.
     
--   clear(): Remove todos os elementos do conjunto. Após a chamada deste método, o conjunto estará vazio.
+-   **clear()**: Remove todos os elementos do conjunto. Após a chamada deste método, o conjunto estará vazio.
     
--   toArray(): Retorna um array contendo todos os elementos no conjunto. Este método oferece uma maneira de obter uma representação de array dos elementos do conjunto.
+-   **toArray()**: Retorna um array contendo todos os elementos no conjunto. Este método oferece uma maneira de obter uma representação de array dos elementos do conjunto.
 
-Exemplo de uso dos métodos: [Repositório de exemplos dos métodos do HashSet](https://github.com/euhenriquegheno/ADS-Fiap/tree/main/FASE%206%20-%20MODEL/SetHashset/ExemploMetodos)
+***Exemplo de uso dos métodos:*** [Repositório de exemplos dos métodos do HashSet;](https://github.com/euhenriquegheno/ADS-Fiap/tree/main/FASE%206%20-%20MODEL/SetHashset/ExemploMetodos)
+***Exercício:*** [Repositório do exercício;]()
+
+## Map e HashMap
+O Map representa uma estrutura de dados que armazena pares de **chave-valor**. Diferentemente de coleções como List e Set, um Map não é uma coleção de valores individuais, mas sim de pares, onde cada chave é única e mapeada para exatamente um valor.
+
+O HashMap é conhecido por sua eficiência em operações de busca, inserção e remoção, pois não mantém nenhuma ordem para as chaves ou valores.
+
+Exemplo de declaração:
+
+    import java.util.HashMap;
+    import java.util.Map;
+    public class NotasAlunos {
+      public static void main(String[] args) {
+        // Criação do mapa de alunos e notas
+        Map<String, Double> notasAlunos = new HashMap<>();
+        // Adicionando elementos ao mapa
+        notasAlunos.put("Maria", 9.5);
+        notasAlunos.put("João", 7.8);
+        notasAlunos.put("Ana", 8.7);
+        notasAlunos.put("Pedro", 5.4);
+      }
+    }
+
+### Métodos da interface Map - HashMap
+
+- **put(K key, V value)**: Adiciona uma nova chave e valor ao HashMap. Se a chave já existir, atualiza o valor.
+
+- **get(Object key)**: Retorna o valor associado à chave especificada. Se a chave não estiver presente, retorna null.
+
+-  **remove(Object key)**: Remove a entrada que corresponde à chave especificada do HashMap.
+
+-  **containsKey(Object key)**: Verifica se o HashMap contém a chave especificada. Retorna true se a chave estiver presente, false caso contrário.
+
+-  **containsValue(Object value)**: Verifica se existe algum valor associado a uma chave no HashMap. Retorna true se o valor estiver presente.
+
+-  **keySet()**: Retorna um conjunto (Set) que contém todas as chaves do HashMap.
+
+-  **values()**: Retorna uma coleção (Collection) que contém todos os valores do HashMap.
+
+-  **size()**: Retorna o número de pares chave-valor presentes no HashMap.
+
+-  **clear()**: Remove todas as entradas do HashMap, deixando-o vazio.
+
+***Exemplo de uso dos métodos:*** [Repositório de exemplos dos métodos do HashMap;](https://github.com/euhenriquegheno/ADS-Fiap/tree/main/FASE%206%20-%20MODEL/MapHashMap/ExemplosMetodos)
+***Exercício:*** [Repositório do exercício;]()
