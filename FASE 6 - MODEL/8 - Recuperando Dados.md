@@ -190,7 +190,74 @@ Expressão| Descrição
 `LIKE '%A_'` |Todas as palavras que tenham a letra A na penúltima posição e a última seja qualquer outro caractere.
 `LIKE '_A%'` | Todos que tenham a letra A na segunda posição e o primeiro caractere seja qualquer um.
 
+### OPERADOR DE CONCATENAÇÃO ( || )
+Esse operador permite a concatenação de colunas ou *string* de caracteres com outras colunas. Representamos o operador através de de duas colunas verticais "||". A coluna resultante de uma consulta, em que utilizamos este operador, é uma expressão de caracteres.
 
+Exemplo de consulta utilizando operador de concatenação. Será apresentado o texto `O funcionário <nome> foi admitido em <data admissão>`, onde "nome" e "data admissão" serão obtidos a partir da leitura das colunas, as demais informações representam uma *string* de caracteres que será concatenada aos campos, formando a frase desejada.
+
+```
+-- EXIBIR O TEXTO: "O FUNCIONARIO <NOME> FOI 
+-- ADMITIDO EM <DATA ADMISSAO>"
+SELECT NR_MATRICULA,
+ 'O FUNCIONARIO ' || 
+ NM_FUNCIONARIO ||
+ ', FOI ADMITIDO EM: ' || 
+ DT_ADMISSAO "TEXTO"
+  FROM T_SIP_FUNCIONARIO;
+```
+
+
+Resultado do campo texto:
+Texto = `O FUNCIONARIO JOAO DA SILVA, FOI ADMITIDO EM: 15/09/12`
+
+### PSEUDOCOLUNA ROWNUM
+A pseudocoluna é utilizada quando precisamos limitar a quantidade de linhas retornadas através de um comando SELECT. No caso, a pseudocoluna ROWNUM numera os registros retornados por uma consulta.
+Podemos utilizar, por exemplo, para recuperar um certo número de linhas por vez, para auxiliar a paginação em uma página WEB.
+
+Exemplo de consulta:
+```
+--  Exemplo pseudocoluna ROWNUM
+SELECT  ROWNUM   , 
+        CD_DEPTO , 
+        NM_DEPTO
+ FROM   T_SIP_DEPARTAMENTO ;
+```
+
+O resultado vai mostrar uma coluna com o número da linha de cada uma.
+
+Exemplo de consulta, restringindo a quantidade de linhas recuperadas durante a consulta:
+```
+-- RESTRINGINDO A QUANTIDADE DE LINHAS RECUPERADAS 
+-- DURANTE A CONSULTA
+SELECT    NR_MATRICULA ,
+    CD_DEPTO ,
+    DT_ADMISSAO ,
+    VL_SALARIO_MENSAL ,
+    (VL_SALARIO_MENSAL * 12) "SALÁRIO ANUAL"
+  FROM   T_SIP_FUNCIONARIO
+ WHERE  ROWNUM < 4;
+```
+
+O resultado vai nos trazer apenas 3 registros.
+
+## CONFIGURANDO PARAMETROS NLS (NATIONAL LANGUAGE SUPPORT)
+Os parametros NLS determinam o comportamente especifico do local no cliente e no servidor.
+Os parametros "ALTER SESSION" podem ser usados para substituir os padrões definidos para uma sessão de arquivo de inicialização ou definido pelo cliente com definições de ambiente.
+
+Podemos visualizar a configuração de todos os atributos NLS, através do comando:
+```
+-- VISUALIZAR A CONFIGURAÇÃO ATUAL DOS ATRIBUTOS NLS
+-- ATUAIS PARA A SUA SESSÃO
+SELECT * FROM V$NLS_PARAMETERS;
+```
+
+Exemplo de alteração de sessão para o formato de data igual a "DD/MM/YYYY":
+Todas as consultas realizadas após essa alteração serão visualizadas com o novo formato.
+```
+-- Para alterar o formato de exibição de uma data 
+-- é utilizado a sintaxe:
+ALTER SESSION SET NLS_DATE_FORMAT = 'DD/MM/YYYY';
+```
 
 
 
