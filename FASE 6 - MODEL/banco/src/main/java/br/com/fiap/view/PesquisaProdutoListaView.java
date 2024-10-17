@@ -13,7 +13,8 @@ public class PesquisaProdutoListaView {
             List<Produto> produtos = dao.listar();
 
             for (Produto produto : produtos) {
-                System.out.println(produto.getCodigo());
+                System.out.println(produto.getCodigo() + " " + produto.getNome() + ", " +
+                        produto.getDescricao() + ", R$ " + produto.getValor() + ", " + produto.getEstoque());
             }
 
             dao.fecharConexao();

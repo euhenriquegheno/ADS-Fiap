@@ -48,22 +48,38 @@ public class ProdutoDao {
 
         List<Produto> lista = new ArrayList<>();
         while (result.next()) {
-            Long id = result.getLong("cd_produto");
-            String nome = result.getString("nm_produto");
-            String descricao = result.getString("ds_produto");
-            double valor = result.getDouble("vl_produto");
-            int estoque = result.getInt("nr_estoque");
-            lista.add(new Produto(id, nome, descricao, valor, estoque));
+            lista.add(parseProduto(result));
         }
         return lista;
     }
 
-    public void atualizar(Produto produto) {
-
+    private Produto parseProduto(ResultSet result) throws SQLException {
+        Long id = result.getLong("cd_produto");
+        String nome = result.getString("nm_produto");
+        String descricao = result.getString("ds_produto");
+        double valor = result.getDouble("vl_produto");
+        int estoque = result.getInt("nr_estoque");
+        return new Produto(id, nome, descricao, valor, estoque);
     }
 
-    public void remover(long codigo) {
+    public void atualizar(Produto produto) throws SQLException {
+        PreparedStatement stm = conexao.prepareStatement("UPDATE tb_produto SET nm_produto = ?, " +
+            "ds_produto = ?, vl_produto = ?, nr_estoque = ? where cd_produto = ?");
+            stm.setString(1, produto.getNome());
+            stm.setString(2, produto.getDescricao());
+            stm.setDouble(3, produto.getValor());
+            stm.setInt(4, produto.getEstoque());
+            stm.setLong(5, produto.getCodigo());
+            stm.executeUpdate();
+    }
 
+    public void remover(long codigo) throws SQLException, EntidadeNaoEncontradaException {
+        PreparedStatement stm = conexao.prepareStatement("DELETE FROM tb_produto where cd_produto = ?");
+        stm.setLong(1, codigo);
+
+        int linha = stm.executeUpdate();
+        if (linha == 0)
+            throw new EntidadeNaoEncontradaException("Produto não foi encontrado para ser removido!");
     }
 
     public void fecharConexao() throws SQLException {
