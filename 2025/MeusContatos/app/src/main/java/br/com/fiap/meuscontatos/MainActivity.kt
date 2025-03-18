@@ -169,12 +169,12 @@ fun ContatoForm(
         Spacer(modifier = Modifier.height(16.dp))
         Button(
             onClick = {
-//                val contato = Contato(
-//                    nome = nome,
-//                    telefone = telefone,
-//                    amigo = amigo
-//                )
-//                contatoRepository.salvar(contato)
+                val contato = Contato(
+                    nome = nome,
+                    telefone = telefone,
+                    amigo = amigo
+                )
+                contatoRepository.salvar(contato)
                 atualizar()
             },
             modifier = Modifier.fillMaxWidth()
