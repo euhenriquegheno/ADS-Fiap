@@ -1,0 +1,11 @@
+SET SERVEROUTPUT ON;
+declare
+	/* Nesse início de processamento vamos 
+	criar uma variavel que irá receber a data e hora do sistema
+	*/
+	v_data date; /*  A variável v_data será do tipo date */
+begin
+	select sysdate into v_data from dual; 
+    dbms_output.put_line('O conteúdo da variável v_data é: ' || v_data);
+end;
+/

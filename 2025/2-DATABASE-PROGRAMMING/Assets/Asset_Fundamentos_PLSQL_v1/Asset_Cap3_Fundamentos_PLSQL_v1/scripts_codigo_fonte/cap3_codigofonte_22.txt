@@ -1,0 +1,29 @@
+SET SERVEROUTPUT ON;
+-- Cria as variáveis para serem utilizadas no algoritmo.
+DECLARE
+	v_dt_evento t_dim_tempo.dt_evento%TYPE;
+	v_nr_dia_semana t_dim_tempo.nr_dia_semana%TYPE;
+	v_ds_dia_semana varchar2(20);
+BEGIN
+	-- Carrega as variáveis data do evento e número do dia da semana
+-- a partir dos dados existentes na tabela T_DIM_TEMPO
+	SELECT 	dt_evento, nr_dia_semana
+	INTO	v_dt_evento, v_nr_dia_semana
+	FROM	t_dim_tempo
+	where	trunc(dt_evento) = trunc(sysdate);
+	
+	v_ds_dia_semana :=
+		CASE WHEN v_nr_dia_semana = 1 THEN 'Domingo'
+			 WHEN v_nr_dia_semana = 2 THEN 'Segunda-feira'
+			 WHEN v_nr_dia_semana = 3 THEN 'Terça-feira'
+			 WHEN v_nr_dia_semana = 4 THEN 'Quarta-feira'
+			 WHEN v_nr_dia_semana = 5 THEN 'Quinta-feira'
+			 WHEN v_nr_dia_semana = 6 THEN 'Sexta-feira'
+			 WHEN v_nr_dia_semana = 7 THEN 'Sábado'
+		ELSE 'Dia da semana inválido'
+		END;
+		
+	dbms_output.put_line('A data do evento: ' || v_dt_evento  || 
+	' e o dia da semana é: ' || v_ds_dia_semana );
+END;
+/

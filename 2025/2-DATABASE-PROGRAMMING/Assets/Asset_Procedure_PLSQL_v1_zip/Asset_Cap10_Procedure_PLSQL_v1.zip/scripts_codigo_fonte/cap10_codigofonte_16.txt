@@ -1,0 +1,74 @@
+CREATE OR REPLACE PROCEDURE PRC_DB_CALC_VENDAS_LOJA_PROD_ANO_MES (
+P_NR_LOJA IN DB_PRODUTO_LOJA.NR_LOJA%TYPE,
+P_NR_ANO IN NUMBER,
+P_NR_MES IN NUMBER,
+P_QT_TOT_PRD_VENDIDOS OUT NUMBER,
+P_STATUS_PROCESSAMENTO IN OUT VARCHAR2
+)
+IS
+	-- VARIÁVEL QUE IRÁ RECEBER O RESULTADO DO CALCULO 
+	-- DA QUANTIDADE DE VENDAS AGRUPADA POR ANO E MÊS
+	-- DE DETERMINADO PRODUTO
+	V_QTD_VENDAS DB_RESUMO_VENDA_PROD_ANO_MES.QT_VENDAS%TYPE := 00;
+	-- VARIÁVEL CRIADA PARA ARMAZENAR A QUANTIDADE TOTAL DE LINHAS PROCESSADAS.
+	V_QT_LINHAS_PROCESSADAS NUMBER := 00;
+BEGIN
+	-- ANTES DE REALIZAR O PROCESSAMENTO, LIMPAMOS TODOS OS DADOS DA TABELA.
+	DELETE FROM DB_RESUMO_VENDA_PROD_ANO_MES WHERE NR_LOJA = P_NR_LOJA AND
+	NR_ANO = P_NR_ANO AND NR_MES = P_NR_MES;
+
+	P_QT_TOT_PRD_VENDIDOS := 00;
+
+	-- Para cada produto exibido vamos verificar se existe vendas realizadas do produto durante o ano e mês corrente
+	FOR X IN (	SELECT CD_PRODUTO_LOJA FROM DB_PRODUTO_LOJA 
+                WHERE NR_LOJA = P_NR_LOJA
+	)
+	LOOP
+		-- Instrução SQL que calcula a quantidade total de vendas de cada produto
+		-- de uma determinada loja, agrupado por ano e mês de venda.
+		-- veja os parâmetros de filtros (cd_produto_loja, ano e mês)
+		SELECT  COUNT(IP.QT_PEDIDO) QTD_TOT_VENDAS
+		INTO 	V_QTD_VENDAS
+		FROM    DB_PRODUTO_LOJA PL  INNER JOIN DB_ITEM_PEDIDO IP
+		ON		(PL.CD_PRODUTO_LOJA = IP.CD_PRODUTO_LOJA) INNER JOIN DB_PEDIDO P
+		ON		(IP.NR_LOJA = P.NR_LOJA AND IP.NR_PEDIDO = P.NR_PEDIDO)
+		WHERE   PL.NR_LOJA = P_NR_LOJA
+		AND    	IP.CD_PRODUTO_LOJA = x.cd_produto_loja
+		AND    	EXTRACT( YEAR FROM P.DT_PEDIDO) = P_NR_ANO
+		AND    	EXTRACT( MONTH FROM P.DT_PEDIDO) = P_NR_MES;
+		
+		-- ACUMULA VALORES DAS QUANTIDADES VENDIDAS DE TODOS OS PRODUTOS.
+		P_QT_TOT_PRD_VENDIDOS := P_QT_TOT_PRD_VENDIDOS + V_QTD_VENDAS;
+		
+		-- Para cada linha, processada, vamos armazenar as informações na tabela resumo.
+		BEGIN
+			INSERT INTO  DB_RESUMO_VENDA_PROD_ANO_MES(
+			CD_PRODUTO_LOJA, NR_ANO, NR_MES, NR_LOJA,  QT_VENDAS
+			)
+			VALUES (
+			x.cd_produto_loja,
+			p_nr_ano,
+            p_nr_mes,
+            p_nr_loja,
+			V_QTD_VENDAS
+			);
+		
+			-- Armazena a quantidade todal de transações pendentes,
+			--	 Usando o atributo do cursor implícito SQL%ROWCOUNT
+			V_QT_LINHAS_PROCESSADAS := V_QT_LINHAS_PROCESSADAS + SQL%ROWCOUNT;
+			
+        EXCEPTION
+			WHEN OTHERS THEN
+				DBMS_OUTPUT.PUT_LINE('ERRO NO INSERT DA TABELA DB_RESUMO_VENDA_PRODUTO_ANO, CODIGO PRODUTO (' || X.CD_PRODUTO_LOJA || ') ' || SQLERRM);
+        END;
+    END LOOP;
+	
+	IF V_QT_LINHAS_PROCESSADAS > 0 THEN
+		P_STATUS_PROCESSAMENTO := 'SUCESSO';
+	END IF;
+	
+	-- Após o final do processamento, se tudo ocorreu bem, 
+	-- confirmar as transações pendentes.
+	COMMIT;
+	
+END PRC_DB_CALC_VENDAS_LOJA_PROD_ANO_MES;

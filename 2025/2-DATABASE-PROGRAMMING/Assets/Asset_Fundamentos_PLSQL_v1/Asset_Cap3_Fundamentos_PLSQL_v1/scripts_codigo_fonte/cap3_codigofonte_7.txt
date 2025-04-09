@@ -1,0 +1,9 @@
+SET SERVEROUTPUT ON;
+-- Início do processamento
+declare
+	v_data date;
+begin
+	select sysdate into v_data from dual; -- armazena a data atual 
+    dbms_output.put_line('O conteúdo da variável v_data é: ' || v_data);
+end;
+/

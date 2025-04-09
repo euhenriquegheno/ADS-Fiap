@@ -1,0 +1,19 @@
+
+DECLARE
+    cursor cfechamento is SELECT * FROM DB_PEDIDO WHERE NR_PEDIDO = 0;
+    rec_fechamento cfechamento%rowtype;
+BEGIN
+
+OPEN cfechamento;
+/* O cursor abaixo tem como objetivo receber e processar
+   os dados do pedido número 0 do projeto DBurger.
+   Por questão de debug deixamos de realizar o processamento devido aos    
+   comentários de multiplas linhas.
+    LOOP
+        FETCH cfechamento INTO rec_fechamento;
+        EXIT WHEN cfechamento%NOTFOUND;
+    END LOOP;
+*/
+CLOSE cfechamento;
+END;
+/

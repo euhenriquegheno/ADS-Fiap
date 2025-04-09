@@ -1,0 +1,37 @@
+--
+-- CRIA A TRIGGER DENTRO DA TABELA DB_PRODUTO
+-- E PARA CADA MOVIENTAÇÃO DML UMA NOVA LINHA
+-- É GERADA NA TABELA DE AUDITORIA.
+CREATE OR REPLACE TRIGGER TRG_DB_AUDITORIA_OPERACAO 
+AFTER INSERT OR UPDATE OR DELETE
+ON DB_PRODUTO
+FOR EACH ROW
+-- PERCEBA QUE EXISTE A NECESSIDADE DE SE UTILIZAR 
+-- A CLÁSULA DECLARE EM TRIGGERS.
+DECLARE
+    v_tipo_evento VARCHAR2(10);
+	v_ds_evento VARCHAR2(500);
+BEGIN
+    -- Identificar e armzenar o tipo de evento
+    IF INSERTING THEN
+        v_tipo_evento := 'INSERT';
+		v_ds_evento := 'O produto número(' || :new.cd_produto || ') ' || :new.ds_produto || ' esta sendo criado';
+		
+    ELSIF UPDATING THEN
+        v_tipo_evento := 'UPDATE';
+		v_ds_evento := 'O produto número(' || :new.cd_produto || ') ' || :new.ds_produto || ' possui o novo valor em R$ ' || 
+		:new.vl_unitario || ' e o valor anterior era R$ ' || :old.vl_unitario || ' e o novo percentual de lucro agora está em ' ||
+		:new.vl_perc_lucro || '%, e o antigo percentual de lucro era: '|| :old.vl_perc_lucro || '%';
+		
+    ELSIF DELETING THEN
+        v_tipo_evento := 'DELETE';
+		v_ds_evento := 'O produto número(' || :old.cd_produto || ') ' || :old.ds_produto || ' foi excluído !. O valor unitário era: R$ ' ||
+		:old.vl_unitario || ' e o percentual do lucro era de ' || :old.vl_perc_lucro || '%';
+	END IF;
+    -- Inserir registro na tabela de auditoria
+    INSERT INTO DB_AUDITORIA_OPERACAO (
+                DT_EVENTO, NM_USUARIO, 
+                NM_LOCALIZACAO_EVENTO,
+                TP_EVENTO, DS_EVENTO)
+    VALUES (SYSDATE, USER, 'DB_PRODUTO', V_TIPO_EVENTO, V_DS_EVENTO);
+END TRG_DB_AUDITORIA_OPERACAO;

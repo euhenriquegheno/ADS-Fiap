@@ -1,0 +1,7 @@
+SET SERVEROUTPUT ON;
+DECLARE
+	v_nr_nota NUMBER NOT NULL; -- não permitido pois não foi inicializada.
+BEGIN
+	dbms_output.put_line('A nota atual do aluno é: ' || v_nr_nota);
+END;
+/

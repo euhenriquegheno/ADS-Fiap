@@ -1,0 +1,7 @@
+SET SERVEROUTPUT ON;
+DECLARE
+	v_nr_nota POSITIVEN NOT NULL := 5; -- declara variável com conteúdo obrigatório.
+BEGIN
+	dbms_output.put_line('A nota atual do aluno é: ' || v_nr_nota);
+END;
+/

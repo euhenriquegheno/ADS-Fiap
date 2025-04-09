@@ -1,0 +1,5 @@
+COLUMN NM_LOJA FORMAT A30;
+SELECT * FROM db_loja_resumo_venda_ano_mes;
+
+
+

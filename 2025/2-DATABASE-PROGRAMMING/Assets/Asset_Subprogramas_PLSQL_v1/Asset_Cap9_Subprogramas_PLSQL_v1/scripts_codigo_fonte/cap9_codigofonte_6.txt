@@ -1,0 +1,6 @@
+--
+-- Exibe todas as lojas das mais recentes as mais antigas
+--
+SELECT 		NR_LOJA, NM_LOJA, DT_INAUGURACAO 
+FROM 		DB_LOJA 
+ORDER BY NR_LOJA DESC;

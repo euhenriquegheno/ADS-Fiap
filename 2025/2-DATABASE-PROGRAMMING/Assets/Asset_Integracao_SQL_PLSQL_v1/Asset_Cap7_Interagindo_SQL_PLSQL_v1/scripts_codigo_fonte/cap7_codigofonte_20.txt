@@ -1,0 +1,13 @@
+-- Script que utiliza o conceito de ROLLBACK
+SET SERVEROUTPUT ON;
+BEGIN
+    UPDATE DB_CLIENTE
+    SET QT_ESTRELAS = -1, VL_MEDIO_COMPRA = -9999
+    WHERE NR_CLIENTE < 11;
+
+    DBMS_OUTPUT.PUT_LINE('Rollback executado em (' || SQL%ROWCOUNT || ') linhas processadas');
+
+    ROLLBACK; -- Garantir que nenhuma alteração permaneça no banco de dados
+    DBMS_OUTPUT.PUT_LINE('Rollback executado. Nenhuma alteração foi permanente.');
+    
+END

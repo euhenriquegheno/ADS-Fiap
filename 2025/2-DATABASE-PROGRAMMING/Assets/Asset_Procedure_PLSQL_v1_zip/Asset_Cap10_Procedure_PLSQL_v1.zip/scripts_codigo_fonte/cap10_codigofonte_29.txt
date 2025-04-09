@@ -1,0 +1,21 @@
+-- ELIMINA A TABELA DB_LOG_SISTEMA CASO ELA EXISTA.
+DROP TABLE db_log_sistema CASCADE CONSTRAINTS;
+DROP SEQUENCE SQ_DB_log_sistema;
+
+-- CRIA A SEQUENCE QUE IRÁ FAZER O AUTOINCREMENTO.
+CREATE SEQUENCE SQ_DB_log_sistema 		START WITH 1 INCREMENT BY 1;
+
+
+-- CRIA A TABELA DB_LOG_SISTEMA AINDA NÃO ESTEJA CRIADA
+CREATE TABLE db_log_sistema (
+    nr_sequencial_log   NUMBER(10) NOT NULL,
+    nm_local_ocorrencia VARCHAR2(100) NOT NULL,
+    dt_log              DATE NOT NULL,
+    ds_mensagem         VARCHAR2(4000) NOT NULL
+);
+
+-- cria a chave PK para a tabela DB_LOG_SISTEMA
+ALTER TABLE db_log_sistema ADD CONSTRAINT db_pk_log_sistema PRIMARY KEY ( nr_sequencial_log );
+
+
+ 

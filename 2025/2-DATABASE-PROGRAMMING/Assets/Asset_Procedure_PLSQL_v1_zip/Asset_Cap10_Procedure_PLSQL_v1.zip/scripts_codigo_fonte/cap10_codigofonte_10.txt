@@ -1,0 +1,13 @@
+-- Insere um novo produto para análise do processamento
+INSERT INTO DB_PRODUTO(CD_PRODUTO, CD_SUB_CATEGORIA_PROD,
+DS_PRODUTO, VL_UNITARIO, TP_EMBALAGEM, ST_PRODUTO, VL_PERC_LUCRO)
+VALUES
+(sq_db_produto.nextval, 1, 'Suco de Agua de Coco com hortela e Alecrim', 18, 'Copo', 'I', 53);
+
+INSERT INTO DB_PRODUTO_LOJA(CD_PRODUTO_LOJA, NR_LOJA, CD_PRODUTO, DT_CADASTRO, ST_ATUAL)
+VALUES (sq_db_produto_loja.nextval, 1, sq_db_produto.currval, SYSDATE, 'I');
+
+COMMIT;
+
+-- Exibimos o novo produto na tabela DB_PRODUTO
+SELECT * FROM DB_PRODUTO WHERE DS_PRODUTO = 'Suco de Agua de Coco com hortela e Alecrim';

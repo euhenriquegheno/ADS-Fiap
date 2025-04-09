@@ -1,0 +1,10 @@
+SET SERVEROUTPUT ON;
+-- Teste do atributo %type.
+DECLARE
+	v_dt_evento t_dim_tempo.dt_evento%TYPE;
+BEGIN
+	v_dt_evento := null; -- assumindo o valor nulo para a variável, onde %type da tabela original é um PK (atrituto obrigatório)
+	
+	dbms_output.put_line('A data do evento: ' || v_dt_evento);
+END;
+/

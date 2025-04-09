@@ -1,0 +1,15 @@
+SET SERVEROUTPUT ON;
+DECLARE
+	v_conclusao BOOLEAN := false;
+	v_contador INTEGER := 0;
+BEGIN
+	WHILE NOT v_conclusao 
+	LOOP
+	   v_contador := v_contador + 1;
+	   IF v_contador = 4 then
+		  v_conclusao := TRUE;
+	   END IF;
+	   dbms_output.put_line('O valor do contador é: ' || v_contador);
+	END LOOP;
+END;
+/

@@ -1,0 +1,9 @@
+DECLARE
+	v_vl_credito REAL(7);
+	v_vl_debito  v_vl_credito%type;
+	v_qt_estrelas db_cliente.qt_estrelas%type;
+BEGIN
+	v_qt_estrelas := 5;
+END;
+/
+

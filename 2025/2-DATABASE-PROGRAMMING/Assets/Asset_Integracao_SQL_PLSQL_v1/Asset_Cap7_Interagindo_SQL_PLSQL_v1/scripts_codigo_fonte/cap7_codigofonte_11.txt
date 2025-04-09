@@ -1,0 +1,19 @@
+-- Script que utiliza o cursor implicito SQL
+-- e permite criar gerenciamento sobre ele.
+--
+SET SERVEROUTPUT ON;
+DECLARE V_QTD_LINHAS_PROCESSADA NUMBER := 00;
+BEGIN
+    
+    UPDATE DB_CLIENTE SET QT_ESTRELAS = 0
+    WHERE NR_CLIENTE < 10;
+
+    V_QTD_LINHAS_PROCESSADA := SQL%ROWCOUNT;
+    DBMS_OUTPUT.PUT_LINE( V_QTD_LINHAS_PROCESSADA || 
+                          ' CLIENTES FORAM ALTERADOS!');
+    
+    -- Descarta todas as alterações, voltando ao estado original.
+    ROLLBACK;
+    
+END;
+/

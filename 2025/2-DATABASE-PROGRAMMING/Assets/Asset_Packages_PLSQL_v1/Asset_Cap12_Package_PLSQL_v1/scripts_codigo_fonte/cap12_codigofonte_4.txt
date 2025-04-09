@@ -1,0 +1,19 @@
+CREATE OR REPLACE PACKAGE PKG_DB_COMERCIAL AS
+
+   -- Variável para conversão de gramas para onças
+   v_converte_grama_onca CONSTANT NUMBER := 1 / 28.3495; -- 1 grama equivale a 0.03527396 onças
+
+   -- Função para converter gramas para onças
+   FUNCTION FUN_DB_GRAMAS_PARA_ONCAS(p_qt_gramas NUMBER) RETURN NUMBER;
+
+   -- Procedure para exibir o resultado da conversão
+   PROCEDURE PRC_DB_EXIBIR_CONVERSAO_GRAMA_ONCA(p_gramas NUMBER);
+
+END PKG_DB_COMERCIAL;
+/
+
+** Colocar como exercicio guiado 
+criar uma nova variavel global (kilometro p milhas)
+fazer alterar a package spec PKG_DB_COMERCIAL
+fazer alterar a package body PKG_DB_COMERCIAL
+

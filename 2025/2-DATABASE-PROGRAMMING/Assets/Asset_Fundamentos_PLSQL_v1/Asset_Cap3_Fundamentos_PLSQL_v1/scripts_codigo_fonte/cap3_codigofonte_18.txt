@@ -1,0 +1,19 @@
+-- Caso a tabel t_dim_tempo não esteja criada, utilize o codigo fonte 16 para realizar essa tarefa
+-- Inclui uma nova linha na tabela t_dim_tempo
+insert into t_dim_tempo(dt_evento, nr_dia_semana, nm_dia_semana, nm_mes_extenso) values (sysdate+1, to_char(sysdate+1,'d'), to_char(sysdate+1,'day'), to_char(sysdate+1,',month'));
+commit;
+
+SET SERVEROUTPUT ON;
+DECLARE
+	rec_dim_tempo t_dim_tempo%ROWTYPE;
+	CURSOR c1 IS SELECT * FROM t_dim_tempo;
+BEGIN
+	OPEN c1;
+	LOOP
+		FETCH c1 into rec_dim_tempo;
+		EXIT WHEN c1%NOTFOUND;
+        dbms_output.put_line('A data do evento: ' || rec_dim_tempo.dt_evento);
+	END LOOP;
+	CLOSE c1;
+END;	
+/

@@ -1,0 +1,38 @@
+-- Script que aplica o conceito do procedimento
+-- RAISE_APPLICATION_ERROR
+SET SERVEROUTPUT ON;
+DECLARE
+	-- Essa variável irá receber o status do cliente
+	V_ST_CLIENTE DB_CLIENTE.ST_CLIENTE%TYPE;
+
+BEGIN
+	-- Perceba que estamos usando o FOR LOOP diretamente
+	-- com um subconsulta, eliminando assim a necessidade 
+	-- de escrita comando CURSOR.
+	FOR i IN (
+		SELECT 	NR_CLIENTE, 
+				ROUND(AVG(VL_TOT_PEDIDO),2) VL_MEDIO_VENDAS
+		FROM  		DB_PEDIDO
+		WHERE 		EXTRACT(YEAR FROM DT_PEDIDO) = EXTRACT(YEAR FROM SYSDATE)
+		GROUP 		BY NR_CLIENTE
+				)
+	LOOP
+	
+		BEGIN
+		   -- Para cada cliente selecionado, verificamos se o cliente está INATIVO
+		   -- em caso positivo, exibimos uma mensagem de aviso.
+		   SELECT ST_CLIENTE 
+		   INTO	V_ST_CLIENTE
+		   FROM	DB_CLIENTE 
+		   WHERE	NR_CLIENTE = i.NR_CLIENTE;
+			
+		   IF V_ST_CLIENTE = 'I' or V_ST_CLIENTE IS NULL THEN
+			  RAISE_APPLICATION_ERROR( -20157, 'Erro crítico pois existe o cliente (' || i.NR_CLIENTE || ') está com o status ( ' || V_ST_CLIENTE || ') =>' || SQLERRM);
+		   END IF;
+			
+		END;
+	
+	END LOOP;
+
+END;
+/

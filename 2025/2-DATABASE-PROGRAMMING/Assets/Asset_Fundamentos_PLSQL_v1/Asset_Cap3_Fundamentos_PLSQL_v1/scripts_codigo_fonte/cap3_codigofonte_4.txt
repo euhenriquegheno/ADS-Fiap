@@ -1,0 +1,16 @@
+--
+-- habilita 10.000 caracteres para serem exibidos como saída de dados
+--
+set serveroutput on size 10000;
+
+declare
+	v_nr_nota_satisfacao number(2);
+    V_NM_CLIENTE DB_CLIENTE.NM_CLIENTE%TYPE;
+begin
+	V_NR_NOTA_SATISFACAO := 9;
+    	v_nm_cliente := 'Oivlas Sakspildap';
+	
+dbms_output.put_line('O cliente ' || v_NM_CLIENTE || 
+    	' recomendou a seguinte nota de satisfacao de entrega: ' || V_NR_nota_satisfacao);
+end;
+/

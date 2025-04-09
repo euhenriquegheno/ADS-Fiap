@@ -1,0 +1,22 @@
+-- Gerado por Oracle SQL Developer Data Modeler 22.2.0.165.1149
+-- Elimina a tabela db_resumo_venda_produto_ano caso já exista
+DROP TABLE db_resumo_venda_produto_ano CASCADE CONSTRAINTS;
+
+-- cria a tabela db_resumo_venda_produto_anomes caso ainda não esteja criada.
+CREATE TABLE db_resumo_venda_produto_ano (
+    cd_produto               NUMBER(5) NOT NULL,
+    nr_ano                   NUMBER(4) NOT NULL,
+    ds_produto               VARCHAR2(80) NOT NULL,
+    qt_vendas_ano            NUMBER NOT NULL,
+    vl_total_venda_ano       NUMBER(10, 2),
+    vl_maior_venda_feita_ano NUMBER(8, 2),
+    vl_menor_venda_feita_ano NUMBER(8, 2),
+    vl_medio_venda_ano       NUMBER(8, 2)
+);
+
+-- Cria a chave primária para a tabela resumo
+ALTER TABLE db_resumo_venda_produto_ano ADD CONSTRAINT db_pk_resumo_venda_produto_ano PRIMARY KEY ( cd_produto,
+   
+
+                                                                                                 nr_ano );
+

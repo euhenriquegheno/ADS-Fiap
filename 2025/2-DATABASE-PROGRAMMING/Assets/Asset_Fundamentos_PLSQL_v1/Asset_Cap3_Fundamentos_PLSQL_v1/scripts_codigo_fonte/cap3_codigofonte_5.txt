@@ -1,0 +1,6 @@
+SET SERVEROUTPUT ON;
+declare v_nota1 number; v_nota2 number; v_maior_nota number;
+begin
+IF v_nota1 > v_nota2 THEN v_maior_nota := v_nota1; ENDIF; -- este comando está incorreto
+end;
+/

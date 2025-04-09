@@ -1,0 +1,18 @@
+-- Instrução SQL que agrupa as vendas das lojas
+-- por ano e mês
+--
+SELECT  L.NR_LOJA,
+        L.NM_LOJA,
+        EXTRACT( YEAR FROM P.DT_PEDIDO) ANO_VENDA,
+		EXTRACT( MONTH FROM P.DT_PEDIDO) MES_VENDA,
+		SUM(P.VL_TOT_PEDIDO) VL_TOTAL_VENDA  
+FROM    DB_LOJA L INNER JOIN DB_PEDIDO P 
+ON      (L.NR_LOJA = P.NR_lOJA)
+GROUP BY    L.NR_LOJA,
+            L.NM_LOJA,
+            EXTRACT( YEAR FROM P.DT_PEDIDO),
+            EXTRACT( MONTH FROM P.DT_PEDIDO)
+ORDER BY 1,2,3,4;
+
+
+

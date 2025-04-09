@@ -1,0 +1,10 @@
+SET SERVEROUTPUT ON;
+DECLARE
+      v_contador INTEGER := 0; -- Conteúdo assumido será NULL, ou seja, valor indefinido.
+BEGIN
+	-- Somando o número 1 a um valor indefinido, o resultado será NULL
+	v_contador := v_contador + 1;
+	
+	dbms_output.put_line('O valor do contador é: ' || v_contador);
+END;
+/

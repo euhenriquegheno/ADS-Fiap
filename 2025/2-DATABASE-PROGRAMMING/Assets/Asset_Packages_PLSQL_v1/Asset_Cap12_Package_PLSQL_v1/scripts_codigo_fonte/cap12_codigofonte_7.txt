@@ -1,0 +1,19 @@
+CREATE OR REPLACE PACKAGE BODY PKG_DB_COMERCIAL AS
+   -- Função para realizar a conversão de gramas para onças
+   FUNCTION FUN_DB_GRAMAS_PARA_ONCAS(p_qt_gramas NUMBER) RETURN NUMBER IS
+      v_qt_oncas NUMBER;
+   BEGIN
+      -- Realiza a conversão
+      v_qt_oncas := p_qt_gramas * v_converte_grama_onca;
+      RETURN v_qt_oncas;
+   END FUN_DB_GRAMAS_PARA_ONCAS;
+
+   -- Procedure para exibir o peso convertido
+   PROCEDURE PRC_DB_EXIBIR_CONVERSAO_GRAMA_ONCA(p_gramas NUMBER) IS
+      v_oncas NUMBER;
+   BEGIN
+      -- Chama a função para realizar a conversão
+      v_oncas := FUN_DB_GRAMAS_PARA_ONCAS(p_gramas);
+      DBMS_OUTPUT.PUT_LINE(p_gramas || ' gramas equivalem a ' || v_oncas || ' onças.');
+   END PRC_DB_EXIBIR_CONVERSAO_GRAMA_ONCA;
+END PKG_DB_COMERCIAL;

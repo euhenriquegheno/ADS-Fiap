@@ -1,0 +1,3 @@
+-- Habilita o conteúdo único para a coluna ds_email
+ALTER TABLE DB_CLIENTE 
+ADD CONSTRAINT CK_EMAIL_DB_CLIENTE UNIQUE (DS_EMAIL);

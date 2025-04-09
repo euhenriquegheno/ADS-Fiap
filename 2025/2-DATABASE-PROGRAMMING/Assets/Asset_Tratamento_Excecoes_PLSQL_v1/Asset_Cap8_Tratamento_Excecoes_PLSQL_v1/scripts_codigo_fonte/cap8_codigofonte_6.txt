@@ -1,0 +1,13 @@
+-- Script que trata do conceito de gerenciamento
+-- da exceção DUP_VAL_ON_INDEX 
+SET SERVEROUTPUT ON;
+BEGIN
+    -- Já temos esse email cadastrado para outro cliente, ou seja,
+    -- a exceção dup_val_on_index é acionada.
+    INSERT INTO DB_CLIENTE(NR_CLIENTE, NM_CLIENTE, QT_ESTRELAS, VL_MEDIO_COMPRA,
+    ST_CLIENTE, DS_EMAIL, NR_TELEFONE)
+    VALUES (987654321, 'Claudia Monegatto', 0, 0, 'A', 'adriana1gmail.com.br', null);
+EXCEPTION
+    WHEN DUP_VAL_ON_INDEX THEN
+        DBMS_OUTPUT.PUT_LINE( 'A EXCEÇÃO DUP_VAL_ON_INDEX FOI ACIONADA, POIS O EMAIL adriana1gmail.com.br JÁ ESTÁ CADASTRADA.' || SQLERRM);
+END;

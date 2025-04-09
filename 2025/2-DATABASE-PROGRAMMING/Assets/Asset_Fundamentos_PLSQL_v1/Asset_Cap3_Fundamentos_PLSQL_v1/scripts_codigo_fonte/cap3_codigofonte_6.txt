@@ -1,0 +1,5 @@
+declare v_contador number; 
+begin
+v_contador  : = v_contador + 1; -- este comando está incorreto.
+end;
+/

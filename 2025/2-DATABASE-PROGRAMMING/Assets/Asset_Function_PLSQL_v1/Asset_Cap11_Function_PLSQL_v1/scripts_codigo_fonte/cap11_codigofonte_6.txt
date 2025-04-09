@@ -1,0 +1,4 @@
+--
+-- Consulta SQL criada para acionar a function FUN_DB_CALCULA_VL_TOT_VENDA
+--
+SELECT FUN_DB_CALCULA_VL_TOT_VENDA (EXTRACT( YEAR FROM SYSDATE)) FROM DUAL;

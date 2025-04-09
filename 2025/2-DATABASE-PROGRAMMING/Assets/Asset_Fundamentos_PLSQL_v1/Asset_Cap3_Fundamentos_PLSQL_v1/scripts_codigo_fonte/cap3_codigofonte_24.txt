@@ -1,0 +1,24 @@
+SET SERVEROUTPUT ON;
+DECLARE
+	v_nr_cliente db_pedido.nr_cliente%type;
+	v_ds_forma_pagto db_forma_pagamento.ds_forma_pagto%type;
+	v_qt_vezes_utilizada INTEGER := 00;
+BEGIN
+    v_nr_cliente := '&informe_numero_cliente';
+	/* 	Vamos aproveitar a instrução SQL anterior e adapta-la para uso no PL/SQL.
+		Perceba que a claúsula INTO foi criada para receber o conteúdo da instrução SQL.
+	*/
+	-- Exibe a forma de pagamento mais utilizada do cliente a partir de seu código
+	select  fp.ds_forma_pagto, count(*) qtd_utilizadas
+	into	v_ds_forma_pagto, v_qt_vezes_utilizada
+	from    db_forma_pagamento fp inner join db_pedido p
+	on (fp.cd_forma_pagto = p.cd_forma_pagto)
+	where   p.nr_cliente = v_nr_cliente
+	group by fp.ds_forma_pagto
+	order by 2 desc
+	fetch  first 1 rows only;
+	-- Vamos exibir o resultado dos dados calculados.
+	dbms_output.put_line('O cliente ' || v_nr_cliente || ' utilizou a forma de pagamento ' 
+	|| v_ds_forma_pagto  || ' por ' || v_qt_vezes_utilizada ||  ' vezes.');
+ END;
+/

@@ -1,0 +1,52 @@
+                             
+-- Antes de realizar o processamento, limpamos todos os dados da tabela.
+TRUNCATE TABLE DB_LOJA_RESUMO_VENDA_ANO_MES;
+SELECT * FROM DB_LOJA_RESUMO_VENDA_ANO_MES;
+
+-- Script que faz a carga das vendas das lojas
+-- agrupada por ano e mês.
+--
+SET SERVEROUTPUT ON;
+DECLARE
+	-- Cria variável que irá acumular a quantidade de linhas processadas.
+	V_QT_LINHAS_PROCESSADAS NUMBER := 00;
+BEGIN
+FOR X IN (	SELECT  L.NR_LOJA,
+					L.NM_LOJA,
+					EXTRACT( YEAR FROM P.DT_PEDIDO) ANO_VENDA,
+					EXTRACT( MONTH FROM P.DT_PEDIDO) MES_VENDA,
+					SUM(P.VL_TOT_PEDIDO) VL_TOTAL_VENDA       
+			FROM    DB_LOJA L INNER JOIN DB_PEDIDO P 
+			ON      (L.NR_LOJA = P.NR_lOJA)
+			GROUP BY    L.NR_LOJA,
+						L.NM_LOJA,
+						EXTRACT( YEAR FROM P.DT_PEDIDO),
+						EXTRACT( MONTH FROM P.DT_PEDIDO)
+			)
+LOOP
+	BEGIN
+		INSERT INTO DB_LOJA_RESUMO_VENDA_ANO_MES (
+		NR_LOJA,NR_ANO, NR_MES,	NM_LOJA, VL_TOTAL_VENDA,
+		VL_MAIOR_VENDA_FEITA, VL_MENOR_VENDA_FEITA,	VL_MEDIO_VENDA
+        )
+		VALUES (
+		X.NR_LOJA, X.ANO_VENDA, X.MES_VENDA,X.NM_LOJA, X.VL_TOTAL_VENDA,
+		0, 0, 0
+		);
+		
+		-- Armazena a quantidade todal de transações pendentes,
+		-- Usando o atributo do cursor implícito SQL%ROWCOUNT
+		V_QT_LINHAS_PROCESSADAS := V_QT_LINHAS_PROCESSADAS + SQL%ROWCOUNT;
+		
+	EXCEPTION
+		WHEN OTHERS THEN
+            DBMS_OUTPUT.PUT_LINE('Erro encontrado: ' || SQLErrM);
+            ROLLBACK;
+	END;
+END LOOP;
+	
+	DBMS_OUTPUT.PUT_LINE('Quantidade de linhas processadas: ' || V_QT_LINHAS_PROCESSADAS);
+	-- Após o final do processamento, se tudo ocorreu bem, 
+	-- confirmar as transações pendentes.
+	COMMIT;
+END;

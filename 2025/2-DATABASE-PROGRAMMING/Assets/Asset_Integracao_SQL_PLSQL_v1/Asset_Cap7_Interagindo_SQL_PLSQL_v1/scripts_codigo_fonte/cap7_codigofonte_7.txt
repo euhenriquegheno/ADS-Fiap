@@ -1,0 +1,23 @@
+--
+-- Script que evidencia o conceito de ROLLBACK
+-- e preserva os dados anteriores. 
+-- PARA DETERMINADO CLIENTE
+--
+SET SERVEROUTPUT ON;
+DECLARE
+	V_NR_CLIENTE DB_CLIENTE.NR_CLIENTE%TYPE;
+	
+BEGIN
+
+	V_NR_CLIENTE := &Informe_o_codigo_do_cliente;
+
+	UPDATE DB_CLIENTE SET VL_MEDIO_COMPRA = 999999 
+	WHERE NR_CLIENTE = V_NR_CLIENTE;
+	
+	-- NÃO Confirma a transação
+	ROLLBACK;
+
+    DBMS_OUTPUT.PUT_LINE('Transação não confirmada!');
+
+END;
+/

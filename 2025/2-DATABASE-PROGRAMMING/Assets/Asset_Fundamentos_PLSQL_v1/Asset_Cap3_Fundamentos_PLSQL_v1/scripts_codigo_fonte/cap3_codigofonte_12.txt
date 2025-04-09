@@ -1,0 +1,8 @@
+SET SERVEROUTPUT ON;
+
+DECLARE
+	v_tipo_sanguineo varchar2(3) DEFAULT 'AB+';
+BEGIN
+	dbms_output.put_line('O tipo sanguíneo atual é: ' || v_tipo_sanguineo);
+END;
+/

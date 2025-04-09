@@ -1,0 +1,33 @@
+-- Script que trata do conceito de gerenciamento
+-- da exceção com funções agregadas.
+SET SERVEROUTPUT ON;
+DECLARE
+   -- Variável para armazenar o número do cliente
+   V_NR_CLIENTE DB_PEDIDO.NR_CLIENTE%TYPE;
+   -- Variável que armazena a quantidade de pedidos
+   -- realizados pelo cliente. Iniciamos ela com valor negativo (-1).
+   V_QT_PEDIDOS_REALIZADOS NUMBER := -1;
+   -- Variável que irá exibir a mensagem
+   V_DS_MENSAGEM VARCHAR2(4000);
+   --
+BEGIN
+   -- Solicitamos informar o código da forma de pagto
+   V_NR_CLIENTE := &Informe_o_numero_do_cliente;
+   BEGIN
+	   -- RECUPERAR O NOME DA FORMA DE PAGTO A PARTIR DO SEU CÓDIGO
+	   SELECT COUNT(*)
+	   INTO V_QT_PEDIDOS_REALIZADOS
+	   FROM DB_PEDIDO
+	   WHERE EXTRACT(YEAR FROM DT_PEDIDO) = EXTRACT(YEAR FROM SYSDATE)
+       AND  NR_CLIENTE = V_NR_CLIENTE;
+       
+       V_DS_MENSAGEM := 'A quantidade de pedidos feito pelo cliente (' || v_nr_cliente || ') nesse ano corrente foi de (' || V_QT_PEDIDOS_REALIZADOS || ') pedidos';
+   EXCEPTION
+		-- A exceção NO_DATA_FOUND não é acionada quando informamos um
+        -- número de cliente que não tem pedido de compra nesse ano.
+		WHEN NO_DATA_FOUND THEN
+            V_DS_MENSAGEM := 'NÃO TEMOS PEDIDOS FEITOS PELO CLIENTE DE NÚMERO (' || v_nr_cliente || ')';
+   END;
+   -- Exibe o resultado da mensagem caso enconte ou não a forma de pagto.
+   DBMS_OUTPUT.PUT_LINE( V_DS_MENSAGEM );
+END;

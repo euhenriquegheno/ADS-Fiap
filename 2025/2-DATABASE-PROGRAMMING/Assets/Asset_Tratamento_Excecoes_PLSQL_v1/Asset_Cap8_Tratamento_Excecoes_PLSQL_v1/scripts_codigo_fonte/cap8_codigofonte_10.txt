@@ -1,0 +1,13 @@
+-- Script que aciona a exceção VALUE ERROR
+SET SERVEROUTPUT ON;
+DECLARE
+    V_NR_NOTA_FINAL_SCORE NUMBER;  -- Variável para armazenar um número
+BEGIN
+    -- Tentativa de conversão de uma string inválida para número
+    V_NR_NOTA_FINAL_SCORE := TO_NUMBER('A=10');  -- Isso gera um VALUE_ERROR
+    DBMS_OUTPUT.PUT_LINE('O valor convertido é: ' || V_NR_NOTA_FINAL_SCORE);
+EXCEPTION
+    WHEN VALUE_ERROR THEN
+        -- Tratamento do erro
+        DBMS_OUTPUT.PUT_LINE('Erro: O valor fornecido não pode ser convertido para número.' || SQLERRM);
+END;

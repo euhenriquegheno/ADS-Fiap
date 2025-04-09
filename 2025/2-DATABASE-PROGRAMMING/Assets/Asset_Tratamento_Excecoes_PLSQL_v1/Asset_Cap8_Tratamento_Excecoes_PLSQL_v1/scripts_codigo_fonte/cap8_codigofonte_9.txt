@@ -1,0 +1,34 @@
+-- Script que aciona a exceção TOO_MANY_ROWS
+SET SERVEROUTPUT ON;
+DECLARE
+	V_CD_DEPTO 			DB_FUNC_LOJA.CD_DEPTO%TYPE;
+	V_NM_FUNCIONARIO 	DB_FUNCIONARIO.NM_FUNCIONARIO%TYPE;
+	V_VL_PERC_COMISSAO 	DB_FUNC_LOJA.VL_PERC_COMISSAO%TYPE;
+	-- Variável que irá exibir a mensagem
+	V_DS_MENSAGEM VARCHAR2(4000);
+BEGIN
+	-- Solicita que seja informado o codigo do departamento
+	V_CD_DEPTO := &Informe_o_codigo_do_departamento;
+    -- A partir de um determinado departamento
+	-- é solicitado selecionar os funcionários que 
+	-- trabalham no departamento
+	BEGIN
+		SELECT 	F.NM_FUNCIONARIO, FL.VL_PERC_COMISSAO
+		INTO 	V_NM_FUNCIONARIO, V_VL_PERC_COMISSAO
+		FROM	DB_FUNCIONARIO F INNER JOIN DB_FUNC_LOJA FL
+		ON		(F.NR_MATRICULA_FUNC = FL.NR_MATRICULA_FUNC)
+		WHERE	FL.CD_DEPTO = V_CD_DEPTO;
+		
+		V_DS_MENSAGEM := 'O funcionário ' || V_NM_FUNCIONARIO || ' trabalha no departamento número (' || V_CD_DEPTO || ')';
+		
+	EXCEPTION
+		WHEN NO_DATA_FOUND THEN
+			V_DS_MENSAGEM := 'NÃO EXISTE FUNCIONÁRIO CADASTRADO PARA O DEPARTAMENTO (' || V_CD_DEPTO || ')';
+		WHEN TOO_MANY_ROWS THEN
+			V_DS_MENSAGEM := 'MUITAS LINHAS RETORNADAS PARA O DEPARTAMENTO(' || V_CD_DEPTO || '). ERRO CRÍTICO... FAVOR ANALISAR';
+	END;
+	
+	-- Exibe o resultado da mensagem.
+	DBMS_OUTPUT.PUT_LINE( V_DS_MENSAGEM );
+END;
+

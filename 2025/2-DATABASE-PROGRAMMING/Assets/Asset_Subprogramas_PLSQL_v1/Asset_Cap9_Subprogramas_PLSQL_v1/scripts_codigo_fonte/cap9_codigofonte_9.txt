@@ -1,0 +1,6 @@
+--
+-- Acessa os dados da tabela após o insert
+--
+SELECT 		NR_LOJA, NM_LOJA, DT_INAUGURACAO 
+FROM 		DB_LOJA 
+ORDER BY NR_LOJA DESC;

@@ -1,0 +1,24 @@
+-- Gerado por Oracle SQL Developer Data Modeler 22.2.0.165.1149
+-- Elimina a tabela caso já exista cadastrada
+DROP TABLE db_loja_resumo_venda_ano_mes CASCADE CONSTRAINTS;
+
+-- Cria a tabela caso ainda não exista
+CREATE TABLE db_loja_resumo_venda_ano_mes (
+    nr_loja              NUMBER(5) NOT NULL,
+    nr_ano               NUMBER(4) NOT NULL,
+    nr_mes               NUMBER(2) NOT NULL,
+    nm_loja              VARCHAR2(100) NOT NULL,
+    vl_total_venda       NUMBER(10, 2) NOT NULL,
+    vl_maior_venda_feita NUMBER(8, 2) NOT NULL,
+    vl_menor_venda_feita NUMBER(8, 2) NOT NULL,
+    vl_medio_venda       NUMBER(8, 2)
+);
+
+-- Cria a chave PK para essa tabela
+ALTER TABLE db_loja_resumo_venda_ano_mes
+    ADD CONSTRAINT db_sk_loja_res_venda_ano_mes PRIMARY KEY ( nr_loja,
+                                                              nr_ano,
+                                                              nr_mes );
+
+
+

@@ -1,0 +1,48 @@
+-- Script que aplica o conceito da exceção
+-- v_exception_status_cliente definida para o negócio. 
+SET SERVEROUTPUT ON;
+DECLARE
+	-- Essa variável irá receber o status do cliente
+	V_ST_CLIENTE DB_CLIENTE.ST_CLIENTE%TYPE;
+	
+	v_exception_status_cliente EXCEPTION;
+    PRAGMA EXCEPTION_INIT(v_exception_status_cliente, -20222);  
+	
+BEGIN
+	-- Perceba que estamos usando o FOR LOOP diretamente
+	-- com um subconsulta, eliminando assim a necessidade 
+	-- de escrita comando CURSOR.
+	FOR i IN (
+				SELECT 	NR_CLIENTE, 
+						ROUND(AVG(VL_TOT_PEDIDO),2) VL_MEDIO_VENDAS
+				FROM  	DB_PEDIDO
+				WHERE 	EXTRACT(YEAR FROM DT_PEDIDO) = EXTRACT(YEAR FROM SYSDATE)
+				GROUP 	BY NR_CLIENTE
+				)
+	LOOP
+	
+		BEGIN
+			-- Para cada cliente selecionado, verificamos se o cliente está INATIVO
+			-- em caso positivo, exibimos uma mensagem de aviso.
+			SELECT ST_CLIENTE 
+			INTO	V_ST_CLIENTE
+			FROM	DB_CLIENTE 
+			WHERE	NR_CLIENTE = i.NR_CLIENTE;
+			
+			IF V_ST_CLIENTE = 'I' or V_ST_CLIENTE IS NULL THEN
+				  RAISE v_exception_status_cliente;
+				  
+			END IF;
+		EXCEPTION
+			-- Exceção pré-definida pelo desenvolvedor
+			-- para atender a uma regra de negócio.
+			WHEN v_exception_status_cliente THEN
+			 DBMS_OUTPUT.PUT_LINE('A exceção de negócio foi acionada para o cliente (' || i.NR_CLIENTE || ') e podemos tratar da maneira que quisermos, sem parar o processmaento!');
+			-- Veja a exceção OTHERS que trata de qualquer outra exceção que ainda não foi definida
+			WHEN OTHERS THEN
+		         DBMS_OUTPUT.PUT_LINE('Exceção crítica para o cliente (' || i.NR_CLIENTE || ') ' || SQLERRM);
+		END;
+	
+	END LOOP;
+
+END;

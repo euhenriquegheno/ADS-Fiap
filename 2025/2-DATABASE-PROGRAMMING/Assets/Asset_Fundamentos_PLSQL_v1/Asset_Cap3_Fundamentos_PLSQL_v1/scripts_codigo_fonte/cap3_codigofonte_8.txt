@@ -1,0 +1,2 @@
+-- DELETE FROM db_funcionario WHERE st_funcionario IS NULL;
+/

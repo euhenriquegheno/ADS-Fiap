@@ -1,0 +1,7 @@
+-- Colocamos alguns clientes como inativo para criar uma exceção
+-- pré-definida para o negócio.
+--
+UPDATE DB_CLIENTE SET ST_CLIENTE = 'I' WHERE NR_CLIENTE IN (3,4,10,12,13);
+
+-- Confirmamos as transações pendentes.
+COMMIT;

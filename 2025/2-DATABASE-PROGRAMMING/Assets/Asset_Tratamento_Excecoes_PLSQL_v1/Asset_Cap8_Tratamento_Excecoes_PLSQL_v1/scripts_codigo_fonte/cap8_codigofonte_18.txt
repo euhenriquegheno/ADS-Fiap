@@ -1,0 +1,13 @@
+-- Insere um novo produto para análise do processamento
+-- do exercício guiado.
+INSERT INTO DB_PRODUTO(CD_PRODUTO, CD_SUB_CATEGORIA_PROD,
+DS_PRODUTO, VL_UNITARIO, TP_EMBALAGEM, ST_PRODUTO, VL_PERC_LUCRO)
+VALUES
+(sq_db_produto.nextval, 1, 'Suco de bebiduva', 11, 'Copo', 'I', 53);
+
+COMMIT;
+
+-- Exibimos o novo produto na tabela DB_PRODUTO
+SELECT * FROM DB_PRODUTO WHERE DS_PRODUTO = 'Suco de bebiduva';
+                                                                                         nr_ano );
+

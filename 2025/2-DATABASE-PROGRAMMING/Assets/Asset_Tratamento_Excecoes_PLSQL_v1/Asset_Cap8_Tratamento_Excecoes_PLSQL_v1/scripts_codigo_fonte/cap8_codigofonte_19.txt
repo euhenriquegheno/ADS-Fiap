@@ -1,0 +1,73 @@
+-- Script que faz a carga das vendas dos produtos  agrupada por ano.
+--
+-- Antes de realizar o processamento, limpamos todos os dados da tabela.
+DELETE FROM DB_RESUMO_VENDA_PRODUTO_ANO WHERE NR_ANO = EXTRACT(YEAR FROM SYSDATE);
+SELECT * FROM DB_RESUMO_VENDA_PRODUTO_ANO;
+
+SET SERVEROUTPUT ON;
+DECLARE
+	-- Cria variável que irá acumular a quantidade de linhas processadas.
+	V_QT_LINHAS_PROCESSADAS NUMBER := 00;
+	
+	-- Calcula o valor resumido para cada produto.
+	V_QTD_TOT_PRODUTO NUMBER;
+	
+	-- Cria variável de negócio caso a quantidade total de produtos vendidos seja null, ou seja,
+	-- não temos vendas para o produto, assumimos o valor zero para a quantidade.
+	v_exception_produto_sem_venda EXCEPTION;
+    PRAGMA EXCEPTION_INIT(v_exception_produto_sem_venda, -20234);  
+
+BEGIN
+-- Para cada produto exibido vamos verificar se existe vendas realizadas do produto durante o ano e mês corrente
+FOR X IN (	SELECT CD_PRODUTO, DS_PRODUTO
+			FROM	DB_PRODUTO 
+		 )
+		LOOP
+			BEGIN
+				SELECT  SUM(IP.QT_PEDIDO) QTD_TOT_PRODUTO  
+				INTO 	V_QTD_TOT_PRODUTO
+				FROM    DB_PRODUTO P INNER JOIN DB_PRODUTO_LOJA PL 
+				ON      (P.CD_PRODUTO = PL.CD_PRODUTO) INNER JOIN DB_ITEM_PEDIDO IP
+				ON		(PL.CD_PRODUTO_LOJA = IP.CD_PRODUTO_LOJA) INNER JOIN DB_PEDIDO P
+				ON		(IP.NR_LOJA = P.NR_LOJA AND IP.NR_PEDIDO = P.NR_PEDIDO)
+				WHERE 	EXTRACT(YEAR FROM P.DT_PEDIDO) = EXTRACT(YEAR FROM SYSDATE)
+				AND		P.CD_PRODUTO = X.CD_PRODUTO;
+				
+				IF V_QTD_TOT_PRODUTO IS NULL THEN
+					RAISE v_exception_produto_sem_venda;
+				END IF;
+				
+			EXCEPTION
+					WHEN v_exception_produto_sem_venda THEN
+						V_QTD_TOT_PRODUTO := 00;
+					WHEN OTHERS THEN
+						DBMS_OUTPUT.PUT_LINE('Encontramos um erro crítico : ' || SQLERRM);
+			END;
+			
+			-- Para cada linha, processada, vamos armazenar as informações na tabela resumo.
+			BEGIN
+				INSERT INTO  DB_RESUMO_VENDA_PRODUTO_ANO(
+				CD_PRODUTO, NR_ANO, DS_PRODUTO, QT_VENDAS_ANO
+				)
+				VALUES (
+				X.CD_PRODUTO,
+				EXTRACT(YEAR FROM SYSDATE),
+				X.DS_PRODUTO,
+				V_QTD_TOT_PRODUTO
+				);
+				
+				-- Armazena a quantidade todal de transações pendentes,
+				-- Usando o atributo do cursor implícito SQL%ROWCOUNT
+				V_QT_LINHAS_PROCESSADAS := V_QT_LINHAS_PROCESSADAS + SQL%ROWCOUNT;
+			EXCEPTION
+				WHEN OTHERS THEN
+					DBMS_OUTPUT.PUT_LINE('ERRO NO INSERT DA TABELA DB_RESUMO_VENDA_PRODUTO_ANO, CODIGO PRODUTO (' || X.CD_PRODUTO || ') ' || SQLERRM);
+			END;
+
+		END LOOP;
+	
+		DBMS_OUTPUT.PUT_LINE('Quantidade de linhas processadas: ' || V_QT_LINHAS_PROCESSADAS);
+		-- Após o final do processamento, se tudo ocorreu bem, 
+		-- confirmar as transações pendentes.
+		COMMIT;
+END;

@@ -1,0 +1,53 @@
+-- Script que utiliza o conceito de REF CURSOR
+SET SERVEROUTPUT ON;
+
+DECLARE
+    -- Definição do tipo REF CURSOR
+    TYPE CURSOR_TYPE IS REF CURSOR;
+
+    -- Variável do tipo REF CURSOR
+    CURSOR_VAR CURSOR_TYPE;
+
+    -- Variáveis para armazenar os valores obtidos do cursor
+    V_NR_CLIENTE DB_PEDIDO.NR_CLIENTE%TYPE;
+    V_VL_MEDIO_VENDAS DB_PEDIDO.VL_TOT_PEDIDO%TYPE;
+
+    -- Variável que irá controlar quantas linhas foram manipuladas
+    V_CONTADOR_CURSOR NUMBER := 0;
+
+BEGIN
+    -- Abrindo o REF CURSOR com a consulta
+    OPEN CURSOR_VAR FOR 
+        SELECT  NR_CLIENTE, 
+                ROUND(AVG(VL_TOT_PEDIDO), 2) VL_MEDIO_VENDAS
+        FROM    DB_PEDIDO
+        WHERE   EXTRACT(YEAR FROM DT_PEDIDO) = EXTRACT(YEAR FROM SYSDATE)
+        GROUP   BY NR_CLIENTE;
+
+    -- Loop para processar os registros do REF CURSOR
+    LOOP
+        -- Buscando o próximo registro no REF CURSOR
+        FETCH CURSOR_VAR INTO V_NR_CLIENTE, V_VL_MEDIO_VENDAS;
+
+        -- Saindo do loop se não houver mais registros
+        EXIT WHEN CURSOR_VAR%NOTFOUND;
+
+        -- Atualizando o valor médio de compras para o cliente atual
+        UPDATE DB_CLIENTE
+        SET VL_MEDIO_COMPRA = V_VL_MEDIO_VENDAS
+        WHERE NR_CLIENTE = V_NR_CLIENTE;
+
+        -- A cada linha processada, acumulamos o valor na variável V_CONTADOR_CURSOR
+        V_CONTADOR_CURSOR := V_CONTADOR_CURSOR + SQL%ROWCOUNT;
+    END LOOP;
+
+    -- Fechando o REF CURSOR
+    CLOSE CURSOR_VAR;
+
+    -- Atualizando todas as transações pendentes
+    COMMIT;
+
+    -- Exibindo o número de linhas processadas
+    DBMS_OUTPUT.PUT_LINE('A quantidade de linhas processadas foi: ' || V_CONTADOR_CURSOR);
+
+END;

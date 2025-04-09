@@ -1,0 +1,23 @@
+-- cria uma tabela de exemplo
+create table t_dim_tempo
+( dt_evento date primary key,
+  nr_dia_semana number(1),
+  nm_dia_semana varchar2(20),
+  nm_mes_extenso varchar2(20)
+  );
+-- insere uma linha de exemplo
+insert into t_dim_tempo(dt_evento, nr_dia_semana, nm_dia_semana, nm_mes_extenso) values (sysdate, to_char(sysdate,'d'), to_char(sysdate,'day'), to_char(sysdate,',month'));
+
+SET SERVEROUTPUT ON;
+-- Agora vamos acessar dados da tabela criada.
+DECLARE
+	v_dt_evento t_dim_tempo.dt_evento%TYPE;
+BEGIN
+	SELECT 	dt_evento
+	INTO	v_dt_evento
+	FROM	t_dim_tempo
+	where	trunc(dt_evento) = trunc(sysdate);
+	
+	dbms_output.put_line('A data do evento: ' || v_dt_evento);
+END;
+/

@@ -1,0 +1,25 @@
+-- Script que acessa o banco de dados Oracle 
+-- e armazena no cursor  C_VALOR_TOTAL_MEDIA_VENDAS_CLIENTE
+-- o valor médio de vendas durante o ano corrente
+-- para todos os clientes da DBurger, depois disso 
+-- abrimos e fechamos o cursor.
+SET SERVEROUTPUT ON;
+
+DECLARE
+	CURSOR C_VALOR_TOTAL_MEDIA_VENDAS_CLIENTE IS
+    SELECT NR_CLIENTE, ROUND(AVG(VL_TOT_PEDIDO),2)
+    FROM  DB_PEDIDO
+    WHERE EXTRACT(YEAR FROM DT_PEDIDO) = EXTRACT(YEAR FROM SYSDATE)
+	GROUP BY NR_CLIENTE;
+
+BEGIN
+	OPEN C_VALOR_TOTAL_MEDIA_VENDAS_CLIENTE;
+	-- Em breve vamos inserir as regras de negócio para realizar
+	-- o processamento
+	
+	-- Fechamos o cursor para não deixa-lo aberto na memória do SGBD,
+	-- evitando assim existir áreas de memórias inconsistentes.
+	CLOSE C_VALOR_TOTAL_MEDIA_VENDAS_CLIENTE;
+	
+END;
+/

@@ -1,0 +1,30 @@
+-- Script que trata do conceito de gerenciamento
+-- da exceção NO_DATA_FOUND
+SET SERVEROUTPUT ON;
+DECLARE
+   -- Variável para armazenar o código da forma de pagamento
+   V_CD_FORMA_PAGTO DB_FORMA_PAGAMENTO.CD_FORMA_PAGTO%TYPE;
+   -- Variável para armazenar a descrição da forma de pagamento
+   V_DS_FORMA_PAGTO DB_FORMA_PAGAMENTO.DS_FORMA_PAGTO%TYPE;
+   -- Variável que irá exibir a mensagem
+   V_DS_MENSAGEM VARCHAR2(4000);
+BEGIN
+   -- Solicitamos informar o código da forma de pagto
+   V_CD_FORMA_PAGTO := &Informe_o_codigo_da_forma_de_pagamento;
+   BEGIN
+	   -- RECUPERAR O NOME DA FORMA DE PAGTO A PARTIR DO SEU CÓDIGO
+	   SELECT DS_FORMA_PAGTO
+	   INTO V_DS_FORMA_PAGTO
+	   FROM DB_FORMA_PAGAMENTO
+	   WHERE CD_FORMA_PAGTO = V_CD_FORMA_PAGTO;
+       
+       V_DS_MENSAGEM := 'A forma de pagamento escolhida (' || V_CD_FORMA_PAGTO || ') refere-se a ' || V_DS_FORMA_PAGTO;
+   EXCEPTION
+		-- A exceção NO_DATA_FOUND irá fazer o tratamento para não ocorrer erro
+		-- nas situações onde a forma de pagto não estiver sido cadastrada
+		WHEN NO_DATA_FOUND THEN
+            V_DS_MENSAGEM := 'A FORMA DE PAGAMENTO (' || V_DS_FORMA_PAGTO || ') NÃO EXISTE!';
+   END;
+   -- Exibe o resultado da mensagem caso enconte ou não a forma de pagto.
+   DBMS_OUTPUT.PUT_LINE( V_DS_MENSAGEM );
+END;
