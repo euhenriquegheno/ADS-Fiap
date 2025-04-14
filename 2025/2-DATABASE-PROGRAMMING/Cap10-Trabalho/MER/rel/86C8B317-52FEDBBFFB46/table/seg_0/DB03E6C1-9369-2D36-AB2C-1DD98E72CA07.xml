@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB03E6C1-9369-2D36-AB2C-1DD98E72CA07" name="CONSUMO_RESUMO_SETOR">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>0BE940DC-0E66-C5F9-E02D-5B7CFFEDD497</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CRS_IDPK" id="A1446682-26E6-F168-631D-6F65B84A725E">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>50519B0A-01BE-03C6-AAD0-CDAE228B625E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>91D1B1F9-A509-1E56-2131-641D2430FF7D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CRS_SETOR_IDPK" id="AFE8D068-7B8C-3991-916B-8985C1CAFB76">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>7BA7A227-8AF4-E63E-C42D-6178977BEB4C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>91D1B1F9-A509-1E56-2131-641D2430FF7D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CRS_DATA_RESUMO" id="62259006-6C01-78E5-F520-866FD83FC4E5">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>CC33B80E-C9CB-A671-CD02-11DE6858D463</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>9E2D6F94-DF12-0ABD-8541-8CEC7F498504</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CRS_TOTAL_CONSUMO_KWH" id="4DFF2449-4A3B-3299-53F2-88367E02FCED">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>D3DA7DEA-3396-DF36-B771-C7FFE431C23B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>977408C3-37D4-A3A4-F5A9-80BBDA7AD51B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B416A2D9-1064-5825-9F8F-84B63E404BDA" name="CONSUMO_RESUMO_SETOR_PK">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>8D4E2F0A-4473-F962-2EBC-D03BB3419B30</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1446682-26E6-F168-631D-6F65B84A725E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0D32A0AE-33E8-AFC0-D647-EDE336B2720B" containerWithKeyObject="F6D8629B-74C4-0169-27A5-46C2FC7CF3F3" localFKIndex="3A5BA49D-543C-6700-8948-7195E446C928" name="MANUTENCAO_PREVENTIVA_EQUIPAMENTO_FK">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>06682C33-28AC-A596-C418-7FE37A523B7A</importedID>
+<referredTableLongName>EQUIPAMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5C6AB624-487F-F738-2A04-455531EB4FE2</referredTableID>
+<keyObject>7056A192-DC52-53CC-9A35-896C4B4A4AB0</keyObject>
+<referredKeyID>7056A192-DC52-53CC-9A35-896C4B4A4AB0</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>EQU_IDPK</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

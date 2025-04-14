@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="CONSUMO_RESUMO_SETOR" directorySegmentName="seg_0" id="DB03E6C1-9369-2D36-AB2C-1DD98E72CA07">
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CRS_TOTAL_CONSUMO_KWH" id="4DFF2449-4A3B-3299-53F2-88367E02FCED">
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CRS_DATA_RESUMO" id="62259006-6C01-78E5-F520-866FD83FC4E5">
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CRS_IDPK" id="A1446682-26E6-F168-631D-6F65B84A725E">
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CRS_SETOR_IDPK" id="AFE8D068-7B8C-3991-916B-8985C1CAFB76">
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CONSUMO_RESUMO_SETOR_PK" id="B416A2D9-1064-5825-9F8F-84B63E404BDA">
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

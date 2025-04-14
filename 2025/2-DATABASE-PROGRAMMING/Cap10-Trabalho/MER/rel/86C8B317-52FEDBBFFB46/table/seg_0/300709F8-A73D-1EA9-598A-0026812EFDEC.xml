@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="300709F8-A73D-1EA9-598A-0026812EFDEC" name="ALERTA_ENERGIA">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>298E792C-DD0B-A75B-7528-542F8DC6296A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AEN_IDPK" id="4E558866-3392-F291-E250-DB67A856F529">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>8414E69A-0ED5-E090-41CD-1E2A938CAC00</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>91D1B1F9-A509-1E56-2131-641D2430FF7D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AEN_SETOR_IDPK" id="C9385D83-7880-9F94-8A02-67AC9513EB98">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>E7E16E40-F8FC-738A-B903-A4F72E45BC21</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>91D1B1F9-A509-1E56-2131-641D2430FF7D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C463FD4-5A3E-85C0-E9CB-0727F2AC5578" referredColumn="54809599-095C-ADF9-B9A2-0EAF2DB0FAA6"/>
+</associations>
+</Column>
+<Column name="AEN_DATA_ALERTA" id="8B885321-E107-251B-697F-8E48673DE446">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>E3FC80A7-BA74-A342-964A-9591D111C67E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>9E2D6F94-DF12-0ABD-8541-8CEC7F498504</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AEN_CONSUMO_KWH" id="4D469418-C935-C7F9-1781-6B33C37A2EB6">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>62F56377-9C9B-BF4F-1614-3A4215E906E5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>977408C3-37D4-A3A4-F5A9-80BBDA7AD51B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AEN_LIMITE_KWH" id="927D81CC-78D0-1DF8-AE5E-7832A93334E2">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>0CCF73C1-4AB5-E9C5-C278-32DADABE2B5B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>977408C3-37D4-A3A4-F5A9-80BBDA7AD51B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AEN_MENSAGEM" id="D39B3DEE-58D2-EB3D-8A22-036AB7BB1121">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>83ABD6A8-F5D3-C9A4-8C86-52352740D4F9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>94BCC296-5997-EC16-42D3-D28335D5709C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="149AC13D-029F-36D0-7D1B-DC4D0ACBB7B3" name="ALERTA_ENERGIA_PK">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>EEDBA857-9C71-80D1-A3D4-26A133DCAD24</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E558866-3392-F291-E250-DB67A856F529"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62802822-011A-9D62-5A8E-7EBF9876FAA9" name="ALERTA_ENERGIA_SETOR_FK">
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9385D83-7880-9F94-8A02-67AC9513EB98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

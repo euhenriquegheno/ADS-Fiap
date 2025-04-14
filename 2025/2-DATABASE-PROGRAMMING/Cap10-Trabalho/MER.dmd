@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MER" id="DF322002-971B-D6BA-200B-9BA6DE4740BF" version="3.5">
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 21:48:28 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>DF322002-971B-D6BA-200B-9BA6DE4740BF</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="96695EDA-8D27-E036-80DE-A194E8824B99">
+<designStoragePath>C:\Scripts_ESG_PL_SQL</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="1B8FC1F7-B24E-6E89-3845-222DA6300E0D">
+<designStoragePath>C:\sql</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

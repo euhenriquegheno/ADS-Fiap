@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C6AB624-487F-F738-2A04-455531EB4FE2" name="EQUIPAMENTO">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>02B5EE3D-826E-53FA-0C68-F4FBC6C2F82E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EQU_IDPK" id="BA5607C0-D525-4198-24D9-4D82CC9B6C13">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>A9DC0DCE-F776-A6E5-B1C7-3C33DFF21C4C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>91D1B1F9-A509-1E56-2131-641D2430FF7D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EQU_NOME" id="5444D8A6-F471-5C58-12BF-4E2B29EB0AE9">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>C79786E9-0616-BC6E-0CA8-854A10191CE1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CC27D926-F73A-F363-42E0-21B81AC66CAC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EQU_SETOR_IDPK" id="06730BBF-84F0-134F-1209-7FF9DA4F2346">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>331817E4-D42A-EF0D-4A3A-3031FE75185A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>91D1B1F9-A509-1E56-2131-641D2430FF7D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34C0666E-DC3B-1F94-C9FD-68AC081901A3" referredColumn="54809599-095C-ADF9-B9A2-0EAF2DB0FAA6"/>
+</associations>
+</Column>
+<Column name="EQU_POTENCIA_KW" id="3C5B7502-58C9-B529-9396-5C879472FC2D">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>A32A48E8-2EA3-B8ED-2A84-17BEA7C7EC39</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>977408C3-37D4-A3A4-F5A9-80BBDA7AD51B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7056A192-DC52-53CC-9A35-896C4B4A4AB0" name="EQUIPAMENTO_PK">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>719EB595-120C-483F-B88F-E135C7537510</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA5607C0-D525-4198-24D9-4D82CC9B6C13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F8EDC8F-5694-0606-8CDA-DDF7720F6DF5" name="EQUIPAMENTO_SETOR_FK">
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06730BBF-84F0-134F-1209-7FF9DA4F2346"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

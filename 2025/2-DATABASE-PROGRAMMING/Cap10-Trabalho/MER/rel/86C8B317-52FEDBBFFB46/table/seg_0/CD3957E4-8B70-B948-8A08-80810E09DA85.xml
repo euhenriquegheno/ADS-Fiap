@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD3957E4-8B70-B948-8A08-80810E09DA85" name="CONSUMO_ENERGIA">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>FCB7F900-C34B-D6E1-F11A-34C29012A2D3</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CEN_IDPK" id="7BEE7B28-9B1A-CAA6-4451-E79B57552E70">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>3D060A6B-BA56-7E42-11DC-F05E5D9234AF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>91D1B1F9-A509-1E56-2131-641D2430FF7D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CEN_EQUIPAMENTO_IDPK" id="71E209C4-0F72-EFA8-CE5F-402F514ED449">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>06CF6DDE-D864-484A-6D76-662C0D264BC0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>91D1B1F9-A509-1E56-2131-641D2430FF7D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="675B5A28-8970-9E6D-F7BA-8379388826E4" referredColumn="BA5607C0-D525-4198-24D9-4D82CC9B6C13"/>
+</associations>
+</Column>
+<Column name="CEN_DATA_CONSUMO" id="C86B63A6-04BF-C6FC-57A7-5CF732E72505">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>28AD7CBE-6A85-8D86-F2B7-A05CB613897F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>9E2D6F94-DF12-0ABD-8541-8CEC7F498504</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CEN_CONSUMO_KWH" id="2B05E01E-2773-91EF-7690-C26DB0DB35FD">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>B2DB3DB8-834D-4B29-40E4-F02CCA30EE21</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>977408C3-37D4-A3A4-F5A9-80BBDA7AD51B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="334207E9-0014-BDAC-2ABB-C0D0DE986309" name="CONSUMO_ENERGIA_PK">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>20814464-5609-D5C8-7738-DAF809E3EBB1</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BEE7B28-9B1A-CAA6-4451-E79B57552E70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4F27754-27E8-343F-85DA-81A55A908528" name="CONSUMO_ENERGIA_EQUIPAMENTO_FK">
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71E209C4-0F72-EFA8-CE5F-402F514ED449"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

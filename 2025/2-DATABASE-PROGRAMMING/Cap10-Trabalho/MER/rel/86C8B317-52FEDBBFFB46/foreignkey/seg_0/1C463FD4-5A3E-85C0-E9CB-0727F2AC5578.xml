@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1C463FD4-5A3E-85C0-E9CB-0727F2AC5578" containerWithKeyObject="300709F8-A73D-1EA9-598A-0026812EFDEC" localFKIndex="62802822-011A-9D62-5A8E-7EBF9876FAA9" name="ALERTA_ENERGIA_SETOR_FK">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>29476F67-A0C5-CBEC-AF60-F0BE95F91CBB</importedID>
+<referredTableLongName>SETOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1D105D3A-C749-265B-448B-A3A27399035F</referredTableID>
+<keyObject>58D53B6C-2C1D-87C7-DE63-F474921BD185</keyObject>
+<referredKeyID>58D53B6C-2C1D-87C7-DE63-F474921BD185</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>SET_IDPK</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

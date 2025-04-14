@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="675B5A28-8970-9E6D-F7BA-8379388826E4" containerWithKeyObject="CD3957E4-8B70-B948-8A08-80810E09DA85" localFKIndex="D4F27754-27E8-343F-85DA-81A55A908528" name="CONSUMO_ENERGIA_EQUIPAMENTO_FK">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>68365324-1A40-18CE-BCB0-A791DE58B7D7</importedID>
+<referredTableLongName>EQUIPAMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5C6AB624-487F-F738-2A04-455531EB4FE2</referredTableID>
+<keyObject>7056A192-DC52-53CC-9A35-896C4B4A4AB0</keyObject>
+<referredKeyID>7056A192-DC52-53CC-9A35-896C4B4A4AB0</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>EQU_IDPK</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="34C0666E-DC3B-1F94-C9FD-68AC081901A3" containerWithKeyObject="5C6AB624-487F-F738-2A04-455531EB4FE2" localFKIndex="1F8EDC8F-5694-0606-8CDA-DDF7720F6DF5" name="EQUIPAMENTO_SETOR_FK">
+<sourceDDLFile>sql.sql</sourceDDLFile>
+<createdBy>euhen</createdBy>
+<createdTime>2025-04-14 22:46:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>955C6A35-3B6D-D5C3-FD74-7FBFD82114AA</importedID>
+<referredTableLongName>SETOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1D105D3A-C749-265B-448B-A3A27399035F</referredTableID>
+<keyObject>58D53B6C-2C1D-87C7-DE63-F474921BD185</keyObject>
+<referredKeyID>58D53B6C-2C1D-87C7-DE63-F474921BD185</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>SET_IDPK</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
