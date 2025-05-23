@@ -1,0 +1,247 @@
+{
+	"info": {
+		"_postman_id": "2f24ef74-26af-4023-9e73-34c8f4971f0e",
+		"name": "Eficiência Energética API",
+		"description": "Versão simplificada da coleção de endpoints para a API de Eficiência Energética e Sustentabilidade (sem scripts de pré-requisição/teste para facilitar importação).",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29961025"
+	},
+	"item": [
+		{
+			"name": "Dispositivos",
+			"item": [
+				{
+					"name": "Criar Dispositivo",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nome\": \"Sensor Escritório Simplificado\",\n    \"localizacao\": \"Escritório B-02\",\n    \"tipo\": \"Medidor de Energia Básico\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/dispositivos",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"dispositivos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar Todos os Dispositivos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/dispositivos",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"dispositivos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Dispositivo por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/dispositivos/{{dispositivoId}}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"dispositivos",
+								"{{dispositivoId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Atualizar Dispositivo",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nome\": \"Sensor Escritório Simplificado (Atualizado)\",\n    \"localizacao\": \"Escritório B-02 - Mesa Direita\",\n    \"tipo\": \"Medidor de Energia Básico Plus\",\n    \"ativo\": true\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/dispositivos/{{dispositivoId}}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"dispositivos",
+								"{{dispositivoId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Deletar Dispositivo",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/dispositivos/{{dispositivoId}}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"dispositivos",
+								"{{dispositivoId}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Leituras",
+			"item": [
+				{
+					"name": "Registrar Nova Leitura",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"dispositivoId\": {{dispositivoId}},\n    \"valor\": 100.50,\n    \"unidadeMedida\": \"kWh\",\n    \"dataHoraLeitura\": \"2025-05-13T12:00:00Z\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/leituras",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"leituras"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar Leituras por Dispositivo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/leituras/dispositivo/{{dispositivoId}}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"leituras",
+								"dispositivo",
+								"{{dispositivoId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar Leituras por Dispositivo e Período",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/leituras/dispositivo/{{dispositivoId}}/periodo?inicio=2025-05-13T00:00:00Z&fim=2025-05-13T23:59:59Z",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"leituras",
+								"dispositivo",
+								"{{dispositivoId}}",
+								"periodo"
+							],
+							"query": [
+								{
+									"key": "inicio",
+									"value": "2025-05-13T00:00:00Z"
+								},
+								{
+									"key": "fim",
+									"value": "2025-05-13T23:59:59Z"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "password",
+				"value": "{{api_password}}",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "{{api_username}}",
+				"type": "string"
+			}
+		]
+	},
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:8080",
+			"type": "string"
+		},
+		{
+			"key": "dispositivoId",
+			"value": "1",
+			"type": "string"
+		},
+		{
+			"key": "api_username",
+			"value": "user",
+			"type": "string"
+		},
+		{
+			"key": "api_password",
+			"value": "password",
+			"type": "string"
+		}
+	]
+}
