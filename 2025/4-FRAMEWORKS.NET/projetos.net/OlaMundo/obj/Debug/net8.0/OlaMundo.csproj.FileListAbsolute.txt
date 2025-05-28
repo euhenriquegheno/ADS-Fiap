@@ -1,0 +1,15 @@
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\OlaMundo\bin\Debug\net8.0\OlaMundo.exe
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\OlaMundo\bin\Debug\net8.0\OlaMundo.deps.json
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\OlaMundo\bin\Debug\net8.0\OlaMundo.runtimeconfig.json
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\OlaMundo\bin\Debug\net8.0\OlaMundo.dll
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\OlaMundo\bin\Debug\net8.0\OlaMundo.pdb
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\OlaMundo\obj\Debug\net8.0\OlaMundo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\OlaMundo\obj\Debug\net8.0\OlaMundo.AssemblyInfoInputs.cache
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\OlaMundo\obj\Debug\net8.0\OlaMundo.AssemblyInfo.cs
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\OlaMundo\obj\Debug\net8.0\OlaMundo.csproj.CoreCompileInputs.cache
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\OlaMundo\obj\Debug\net8.0\OlaMundo.sourcelink.json
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\OlaMundo\obj\Debug\net8.0\OlaMundo.dll
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\OlaMundo\obj\Debug\net8.0\refint\OlaMundo.dll
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\OlaMundo\obj\Debug\net8.0\OlaMundo.pdb
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\OlaMundo\obj\Debug\net8.0\OlaMundo.genruntimeconfig.cache
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\OlaMundo\obj\Debug\net8.0\ref\OlaMundo.dll

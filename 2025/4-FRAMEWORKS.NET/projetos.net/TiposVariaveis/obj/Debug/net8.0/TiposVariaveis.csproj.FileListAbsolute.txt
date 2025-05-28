@@ -1,0 +1,15 @@
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\TiposVariaveis\bin\Debug\net8.0\TiposVariaveis.exe
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\TiposVariaveis\bin\Debug\net8.0\TiposVariaveis.deps.json
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\TiposVariaveis\bin\Debug\net8.0\TiposVariaveis.runtimeconfig.json
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\TiposVariaveis\bin\Debug\net8.0\TiposVariaveis.dll
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\TiposVariaveis\bin\Debug\net8.0\TiposVariaveis.pdb
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\TiposVariaveis\obj\Debug\net8.0\TiposVariaveis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\TiposVariaveis\obj\Debug\net8.0\TiposVariaveis.AssemblyInfoInputs.cache
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\TiposVariaveis\obj\Debug\net8.0\TiposVariaveis.AssemblyInfo.cs
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\TiposVariaveis\obj\Debug\net8.0\TiposVariaveis.csproj.CoreCompileInputs.cache
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\TiposVariaveis\obj\Debug\net8.0\TiposVariaveis.sourcelink.json
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\TiposVariaveis\obj\Debug\net8.0\TiposVariaveis.dll
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\TiposVariaveis\obj\Debug\net8.0\refint\TiposVariaveis.dll
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\TiposVariaveis\obj\Debug\net8.0\TiposVariaveis.pdb
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\TiposVariaveis\obj\Debug\net8.0\TiposVariaveis.genruntimeconfig.cache
+C:\Users\euhen\Documents\Github\ADS-Fiap\2025\4-FRAMEWORKS.NET\projetos.net\TiposVariaveis\obj\Debug\net8.0\ref\TiposVariaveis.dll
