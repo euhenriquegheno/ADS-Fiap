@@ -1,5 +1,9 @@
 package br.com.fiap.saudemental.model
 
+import androidx.room.Entity
+import androidx.room.TypeConverters
+import br.com.fiap.saudemental.database.converter.Converters
+
 /**
  * Enum que representa os níveis de risco psicossocial.
  */

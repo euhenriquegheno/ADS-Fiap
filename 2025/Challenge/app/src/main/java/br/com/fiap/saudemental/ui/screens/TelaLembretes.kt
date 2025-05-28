@@ -4,164 +4,155 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Notifications
+import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import br.com.fiap.saudemental.data.RepositorioDados
-import java.text.SimpleDateFormat
-import java.util.*
-import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.verticalScroll
-import androidx.compose.foundation.layout.heightIn
-import androidx.compose.foundation.layout.IntrinsicSize
+import br.com.fiap.saudemental.database.repository.RepositorioDadosRoom
 
 /**
- * Tela de lembretes e dicas personalizadas.
- * Exibe lembretes, dicas e apoio personalizado com base no histórico do usuário.
+ * Tela de lembretes e dicas personalizadas com base no histórico do usuário.
  */
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun TelaLembretes() {
-    val historicoHumor = remember { RepositorioDados.obterHistoricoHumor() }
-    val dicasPersonalizadas = remember { RepositorioDados.obterDicasPersonalizadas(historicoHumor) }
+fun TelaLembretes(
+    repositorio: RepositorioDadosRoom,
+    onVoltar: () -> Unit
+) {
+    val historicoHumor = remember { repositorio.obterHistoricoHumor() }
+    val dicasPersonalizadas = remember { repositorio.obterDicasPersonalizadas(historicoHumor) }
 
-    // Use um Column com verticalScroll para fazer toda a tela rolar
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(16.dp)
-            .verticalScroll(rememberScrollState()), // Isso faz toda a tela rolar
-        verticalArrangement = Arrangement.spacedBy(16.dp)
-    ) {
-        Text(
-            text = "Lembretes e Dicas",
-            style = MaterialTheme.typography.headlineMedium,
-            fontWeight = FontWeight.Bold
-        )
-
-        Text(
-            text = "Confira lembretes e dicas personalizadas para apoiar seu bem-estar.",
-            style = MaterialTheme.typography.bodyLarge
-        )
-
-        Spacer(modifier = Modifier.height(8.dp))
-
-        // Lembretes diários
-        Card(
-            modifier = Modifier.fillMaxWidth()
-        ) {
-            Column(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(16.dp),
-                verticalArrangement = Arrangement.spacedBy(8.dp)
-            ) {
-                Row(
-                    verticalAlignment = Alignment.CenterVertically
-                ) {
-                    Icon(
-                        imageVector = Icons.Default.Notifications,
-                        contentDescription = null,
-                        modifier = Modifier.padding(end = 8.dp)
-                    )
-
-                    Text(
-                        text = "Lembretes Diários",
-                        style = MaterialTheme.typography.titleLarge,
-                        fontWeight = FontWeight.Bold
-                    )
+    Scaffold(
+        topBar = {
+            CenterAlignedTopAppBar(
+                title = {
+                    Text("Lembretes e Dicas")
+                },
+                navigationIcon = {
+                    IconButton(onClick = onVoltar) {
+                        Icon(
+                            imageVector = Icons.Default.ArrowBack,
+                            contentDescription = "Voltar"
+                        )
+                    }
                 }
-
-                Divider()
-
-                // Lembretes fixos
-                val lembretes = listOf(
-                    "Registre seu humor diariamente",
-                    "Faça uma pausa a cada 2 horas de trabalho",
-                    "Beba água regularmente",
-                    "Pratique 5 minutos de respiração profunda"
+            )
+        }
+    ) { paddingValues ->
+        // Uma única LazyColumn para toda a tela, garantindo rolagem completa
+        LazyColumn(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(paddingValues)
+                .padding(horizontal = 16.dp),
+            verticalArrangement = Arrangement.spacedBy(16.dp),
+            contentPadding = PaddingValues(vertical = 16.dp)
+        ) {
+            // Título e descrição das dicas personalizadas
+            item {
+                Text(
+                    text = "Dicas Personalizadas",
+                    style = MaterialTheme.typography.headlineMedium,
+                    fontWeight = FontWeight.Bold
                 )
 
-                lembretes.forEach { lembrete ->
-                    LembreteItem(
-                        texto = lembrete,
-                        horario = obterHorarioAleatorio()
-                    )
-                }
+                Spacer(modifier = Modifier.height(4.dp))
 
-                Button(
-                    onClick = { /* Adicionar novo lembrete */ },
-                    modifier = Modifier.align(Alignment.End)
-                ) {
-                    Text("Adicionar Lembrete")
+                Text(
+                    text = "Com base no seu histórico de humor e avaliações, preparamos algumas dicas para ajudar a melhorar seu bem-estar mental.",
+                    style = MaterialTheme.typography.bodyLarge
+                )
+
+                Spacer(modifier = Modifier.height(8.dp))
+            }
+
+            // Dicas personalizadas ou mensagem quando não há dicas
+            if (dicasPersonalizadas.isEmpty()) {
+                item {
+                    Box(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(200.dp),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        Text(
+                            text = "Registre seu humor diariamente para receber dicas personalizadas.",
+                            style = MaterialTheme.typography.bodyLarge
+                        )
+                    }
+                }
+            } else {
+                items(dicasPersonalizadas) { dica ->
+                    DicaCard(dica = dica)
                 }
             }
+
+            // Espaçador entre seções
+            item {
+                Spacer(modifier = Modifier.height(16.dp))
+
+                Text(
+                    text = "Lembretes Diários",
+                    style = MaterialTheme.typography.headlineMedium,
+                    fontWeight = FontWeight.Bold
+                )
+
+                Spacer(modifier = Modifier.height(8.dp))
+            }
+
+            // Lembretes diários
+            val lembretesDiarios = listOf(
+                "Registre seu humor pela manhã",
+                "Faça uma pausa de 5 minutos a cada hora de trabalho",
+                "Beba água regularmente",
+                "Pratique respiração profunda por 2 minutos",
+                "Faça uma avaliação de risco semanalmente"
+            )
+
+            items(lembretesDiarios) { lembrete ->
+                LembreteItem(lembrete = lembrete)
+
+                // Pequeno espaçamento entre os itens
+                if (lembrete != lembretesDiarios.last()) {
+                    Spacer(modifier = Modifier.height(8.dp))
+                }
+            }
+
+            // Espaço adicional no final para garantir que o último item seja visível
+            item {
+                Spacer(modifier = Modifier.height(32.dp))
+            }
         }
+    }
+}
 
-        Spacer(modifier = Modifier.height(16.dp))
-
-        // Dicas personalizadas
-        Text(
-            text = "Dicas Personalizadas",
-            style = MaterialTheme.typography.titleLarge,
-            fontWeight = FontWeight.Bold
+@Composable
+fun DicaCard(dica: String) {
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        colors = CardDefaults.cardColors(
+            containerColor = MaterialTheme.colorScheme.secondaryContainer
         )
-
-        // Use Column em vez de LazyColumn para as dicas
+    ) {
         Column(
+            modifier = Modifier.padding(16.dp),
             verticalArrangement = Arrangement.spacedBy(8.dp)
         ) {
-            dicasPersonalizadas.forEach { dica ->
-                DicaPersonalizadaItem(dica = dica)
-            }
+            Text(
+                text = dica,
+                style = MaterialTheme.typography.bodyLarge
+            )
         }
-
-        // Adicione um espaço no final para garantir que tudo seja visível
-        Spacer(modifier = Modifier.height(24.dp))
     }
 }
 
-/**
- * Componente que exibe um item de lembrete.
- */
 @Composable
-fun LembreteItem(
-    texto: String,
-    horario: String
-) {
-    Row(
-        modifier = Modifier
-            .fillMaxWidth()
-            .padding(vertical = 8.dp),
-        horizontalArrangement = Arrangement.SpaceBetween,
-        verticalAlignment = Alignment.CenterVertically
-    ) {
-        Text(
-            text = texto,
-            style = MaterialTheme.typography.bodyLarge,
-            modifier = Modifier.weight(1f)
-        )
-        
-        Text(
-            text = horario,
-            style = MaterialTheme.typography.bodyMedium
-        )
-        
-        Switch(
-            checked = true,
-            onCheckedChange = { /* Ativar/desativar lembrete */ }
-        )
-    }
-}
+fun LembreteItem(lembrete: String) {
+    var checked by remember { mutableStateOf(false) }
 
-/**
- * Componente que exibe um item de dica personalizada.
- */
-@Composable
-fun DicaPersonalizadaItem(dica: String) {
     Card(
         modifier = Modifier.fillMaxWidth()
     ) {
@@ -169,37 +160,22 @@ fun DicaPersonalizadaItem(dica: String) {
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(16.dp),
-            verticalAlignment = Alignment.Top
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween
         ) {
             Text(
-                text = "💡",
-                style = MaterialTheme.typography.titleLarge,
-                modifier = Modifier.padding(end = 16.dp)
+                text = lembrete,
+                style = MaterialTheme.typography.bodyLarge,
+                modifier = Modifier.weight(1f)
             )
-            
-            Column {
-                Text(
-                    text = "Dica para você",
-                    style = MaterialTheme.typography.titleMedium,
-                    fontWeight = FontWeight.Bold
+
+            Checkbox(
+                checked = checked,
+                onCheckedChange = { checked = it },
+                colors = CheckboxDefaults.colors(
+                    checkedColor = MaterialTheme.colorScheme.primary
                 )
-                
-                Spacer(modifier = Modifier.height(4.dp))
-                
-                Text(
-                    text = dica,
-                    style = MaterialTheme.typography.bodyLarge
-                )
-            }
+            )
         }
     }
-}
-
-/**
- * Gera um horário aleatório para simulação.
- */
-private fun obterHorarioAleatorio(): String {
-    val horas = (8..20).random()
-    val minutos = listOf(0, 15, 30, 45).random()
-    return String.format("%02d:%02d", horas, minutos)
 }

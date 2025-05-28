@@ -11,7 +11,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import br.com.fiap.saudemental.data.RepositorioDados
+import br.com.fiap.saudemental.database.repository.RepositorioDadosRoom
 import br.com.fiap.saudemental.model.Pergunta
 
 /**
@@ -20,9 +20,10 @@ import br.com.fiap.saudemental.model.Pergunta
  */
 @Composable
 fun TelaAvaliacao(
-    onAvaliacaoConcluida: (Map<String, Int>) -> Unit
+    repositorio: RepositorioDadosRoom,
+    onAvaliacaoConcluida: () -> Unit
 ) {
-    val perguntas = RepositorioDados.obterPerguntas()
+    val perguntas = remember { repositorio.obterPerguntas() }
     var perguntaAtual by remember { mutableStateOf(0) }
     val respostas = remember { mutableStateMapOf<String, Int>() }
     
@@ -98,8 +99,9 @@ fun TelaAvaliacao(
         } else {
             // Todas as perguntas foram respondidas
             ResultadoAvaliacao(
+                repositorio = repositorio,
                 respostas = respostas,
-                onConcluir = { onAvaliacaoConcluida(respostas) }
+                onConcluir = onAvaliacaoConcluida
             )
         }
     }
@@ -152,11 +154,14 @@ fun PerguntaAvaliacao(
  */
 @Composable
 fun ResultadoAvaliacao(
+    repositorio: RepositorioDadosRoom,
     respostas: Map<String, Int>,
     onConcluir: () -> Unit
 ) {
-    val nivelRisco = RepositorioDados.calcularNivelRisco(respostas)
-    val recomendacoes = RepositorioDados.gerarRecomendacoes(nivelRisco)
+    // Salva a avaliação no banco de dados e obtém o resultado
+    val avaliacao = remember { repositorio.salvarAvaliacao(respostas) }
+    val nivelRisco = avaliacao.nivelRisco
+    val recomendacoes = avaliacao.recomendacoes
     
     Column(
         modifier = Modifier.fillMaxWidth(),

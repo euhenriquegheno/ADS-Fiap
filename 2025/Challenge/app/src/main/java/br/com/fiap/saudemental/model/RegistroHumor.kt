@@ -1,9 +1,17 @@
 package br.com.fiap.saudemental.model
 
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+import androidx.room.TypeConverters
+import br.com.fiap.saudemental.database.converter.Converters
+
 /**
  * Modelo que representa um registro de humor diário.
  */
+@Entity(tableName = "tbl_registro_humor")
+@TypeConverters(Converters::class)
 data class RegistroHumor(
+    @PrimaryKey
     val id: String,
     val dataHora: Long,
     val humor: TipoHumor,
