@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+z99MT8USas=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\FiapWebAlunos\\Fiap.Web.Alunos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\euhen\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1-preview.1\\microsoft.visualstudio.azure.containers.tools.targets.1.22.1-preview.1.nupkg.sha512"
+  ],
+  "logs": []
+}
