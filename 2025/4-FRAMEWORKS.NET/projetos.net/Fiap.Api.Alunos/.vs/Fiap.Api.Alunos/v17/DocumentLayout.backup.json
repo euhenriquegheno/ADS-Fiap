@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Api.Alunos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{92F1FAEC-49EA-41A7-AED4-0745EC62BF53}|Fiap.Api.Alunos.csproj|c:\\users\\euhen\\documents\\github\\ads-fiap\\2025\\4-frameworks.net\\projetos.net\\fiap.api.alunos\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92F1FAEC-49EA-41A7-AED4-0745EC62BF53}|Fiap.Api.Alunos.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F1FAEC-49EA-41A7-AED4-0745EC62BF53}|Fiap.Api.Alunos.csproj|c:\\users\\euhen\\documents\\github\\ads-fiap\\2025\\4-frameworks.net\\projetos.net\\fiap.api.alunos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92F1FAEC-49EA-41A7-AED4-0745EC62BF53}|Fiap.Api.Alunos.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Api.Alunos\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Api.Alunos\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T22:48:30.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Api.Alunos\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Api.Alunos\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T22:48:20.827Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

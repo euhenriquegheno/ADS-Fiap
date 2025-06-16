@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Web.Alunos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7D9B43A7-2F14-4561-9095-BD90374FAD43}|Fiap.Web.Alunos.csproj|c:\\users\\euhen\\documents\\github\\ads-fiap\\2025\\4-frameworks.net\\projetos.net\\fiap.web.alunos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7D9B43A7-2F14-4561-9095-BD90374FAD43}|Fiap.Web.Alunos.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D9B43A7-2F14-4561-9095-BD90374FAD43}|Fiap.Web.Alunos.csproj|c:\\users\\euhen\\documents\\github\\ads-fiap\\2025\\4-frameworks.net\\projetos.net\\fiap.web.alunos\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D9B43A7-2F14-4561-9095-BD90374FAD43}|Fiap.Web.Alunos.csproj|solutionrelative:data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D9B43A7-2F14-4561-9095-BD90374FAD43}|Fiap.Web.Alunos.csproj|c:\\users\\euhen\\documents\\github\\ads-fiap\\2025\\4-frameworks.net\\projetos.net\\fiap.web.alunos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D9B43A7-2F14-4561-9095-BD90374FAD43}|Fiap.Web.Alunos.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D9B43A7-2F14-4561-9095-BD90374FAD43}|Fiap.Web.Alunos.csproj|c:\\users\\euhen\\documents\\github\\ads-fiap\\2025\\4-frameworks.net\\projetos.net\\fiap.web.alunos\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D9B43A7-2F14-4561-9095-BD90374FAD43}|Fiap.Web.Alunos.csproj|solutionrelative:controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7D9B43A7-2F14-4561-9095-BD90374FAD43}|Fiap.Web.Alunos.csproj|c:\\users\\euhen\\documents\\github\\ads-fiap\\2025\\4-frameworks.net\\projetos.net\\fiap.web.alunos\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7D9B43A7-2F14-4561-9095-BD90374FAD43}|Fiap.Web.Alunos.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D9B43A7-2F14-4561-9095-BD90374FAD43}|Fiap.Web.Alunos.csproj|c:\\users\\euhen\\documents\\github\\ads-fiap\\2025\\4-frameworks.net\\projetos.net\\fiap.web.alunos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7D9B43A7-2F14-4561-9095-BD90374FAD43}|Fiap.Web.Alunos.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D9B43A7-2F14-4561-9095-BD90374FAD43}|Fiap.Web.Alunos.csproj|c:\\users\\euhen\\documents\\github\\ads-fiap\\2025\\4-frameworks.net\\projetos.net\\fiap.web.alunos\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D9B43A7-2F14-4561-9095-BD90374FAD43}|Fiap.Web.Alunos.csproj|solutionrelative:controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D9B43A7-2F14-4561-9095-BD90374FAD43}|Fiap.Web.Alunos.csproj|c:\\users\\euhen\\documents\\github\\ads-fiap\\2025\\4-frameworks.net\\projetos.net\\fiap.web.alunos\\views\\cliente\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -38,37 +50,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Web.Alunos\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Web.Alunos\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T22:09:17.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Web.Alunos\\Data\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "Data\\DatabaseContext.cs",
+              "ToolTip": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Web.Alunos\\Data\\DatabaseContext.cs",
+              "RelativeToolTip": "Data\\DatabaseContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T22:07:53.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Web.Alunos\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Web.Alunos\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-11T22:02:49.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Web.Alunos\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
               "ToolTip": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Web.Alunos\\Views\\_ViewStart.cshtml",
               "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-29T16:35:16.95Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Web.Alunos\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Web.Alunos\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-29T16:33:26.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Web.Alunos\\Views\\Cliente\\Detail.cshtml",
               "RelativeDocumentMoniker": "Views\\Cliente\\Detail.cshtml",
@@ -81,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Web.Alunos\\Views\\Cliente\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Cliente\\Edit.cshtml",
@@ -94,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Web.Alunos\\Views\\Cliente\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Cliente\\Index.cshtml",
@@ -107,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Web.Alunos\\Views\\Cliente\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Cliente\\Create.cshtml",
@@ -120,15 +158,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ClienteController.cs",
               "DocumentMoniker": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Web.Alunos\\Controllers\\ClienteController.cs",
               "RelativeDocumentMoniker": "Controllers\\ClienteController.cs",
               "ToolTip": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Web.Alunos\\Controllers\\ClienteController.cs",
               "RelativeToolTip": "Controllers\\ClienteController.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAiwGgAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAADwv20AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T13:13:00.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Web.Alunos\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Web.Alunos\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T16:33:26.137Z",
               "EditorCaption": ""
             }
           ]
