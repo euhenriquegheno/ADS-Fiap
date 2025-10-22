@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Api.Alunos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{92F1FAEC-49EA-41A7-AED4-0745EC62BF53}|Fiap.Api.Alunos.csproj|c:\\users\\euhen\\documents\\github\\ads-fiap\\2025\\4-frameworks.net\\projetos.net\\fiap.api.alunos\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92F1FAEC-49EA-41A7-AED4-0745EC62BF53}|Fiap.Api.Alunos.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C20587F-436F-4FF6-8AB7-2BB671886CFA}|Fiap.Api.Alunos\\Fiap.Api.Alunos.csproj|c:\\users\\euhen\\documents\\github\\ads-fiap\\2025\\4-frameworks.net\\projetos.net\\fiap.api.alunos\\fiap.api.alunos\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9C20587F-436F-4FF6-8AB7-2BB671886CFA}|Fiap.Api.Alunos\\Fiap.Api.Alunos.csproj|solutionrelative:fiap.api.alunos\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92F1FAEC-49EA-41A7-AED4-0745EC62BF53}|Fiap.Api.Alunos.csproj|c:\\users\\euhen\\documents\\github\\ads-fiap\\2025\\4-frameworks.net\\projetos.net\\fiap.api.alunos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92F1FAEC-49EA-41A7-AED4-0745EC62BF53}|Fiap.Api.Alunos.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C20587F-436F-4FF6-8AB7-2BB671886CFA}|Fiap.Api.Alunos\\Fiap.Api.Alunos.csproj|c:\\users\\euhen\\documents\\github\\ads-fiap\\2025\\4-frameworks.net\\projetos.net\\fiap.api.alunos\\fiap.api.alunos\\fiap.api.alunos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9C20587F-436F-4FF6-8AB7-2BB671886CFA}|Fiap.Api.Alunos\\Fiap.Api.Alunos.csproj|solutionrelative:fiap.api.alunos\\fiap.api.alunos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C20587F-436F-4FF6-8AB7-2BB671886CFA}|Fiap.Api.Alunos\\Fiap.Api.Alunos.csproj|c:\\users\\euhen\\documents\\github\\ads-fiap\\2025\\4-frameworks.net\\projetos.net\\fiap.api.alunos\\fiap.api.alunos\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C20587F-436F-4FF6-8AB7-2BB671886CFA}|Fiap.Api.Alunos\\Fiap.Api.Alunos.csproj|solutionrelative:fiap.api.alunos\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Api.Alunos\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Api.Alunos\\Program.cs",
-              "RelativeToolTip": "Program.cs",
+              "Title": "Fiap.Api.Alunos",
+              "DocumentMoniker": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Api.Alunos\\Fiap.Api.Alunos\\Fiap.Api.Alunos.csproj",
+              "RelativeDocumentMoniker": "Fiap.Api.Alunos\\Fiap.Api.Alunos.csproj",
+              "ToolTip": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Api.Alunos\\Fiap.Api.Alunos\\Fiap.Api.Alunos.csproj",
+              "RelativeToolTip": "Fiap.Api.Alunos\\Fiap.Api.Alunos.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T22:48:30.145Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-22T18:59:06.632Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Api.Alunos\\Fiap.Api.Alunos\\Dockerfile",
+              "RelativeDocumentMoniker": "Fiap.Api.Alunos\\Dockerfile",
+              "ToolTip": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Api.Alunos\\Fiap.Api.Alunos\\Dockerfile",
+              "RelativeToolTip": "Fiap.Api.Alunos\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-22T18:57:39.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Api.Alunos\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Api.Alunos\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Api.Alunos\\Fiap.Api.Alunos\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Fiap.Api.Alunos\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\Fiap.Api.Alunos\\Fiap.Api.Alunos\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Fiap.Api.Alunos\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T22:48:20.827Z",
+              "WhenOpened": "2025-09-22T18:46:57.736Z",
               "EditorCaption": ""
             }
           ]

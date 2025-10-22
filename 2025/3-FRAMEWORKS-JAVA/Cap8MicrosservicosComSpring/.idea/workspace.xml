@@ -4,7 +4,582 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79804573-75c6-4cd6-a770-44d64974c4aa" name="Changes" comment="" />
+    <list default="true" id="79804573-75c6-4cd6-a770-44d64974c4aa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/.vs/Fiap.Api.Alunos/CopilotIndices/17.14.698.11175/CodeChunks.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/.vs/Fiap.Api.Alunos/CopilotIndices/17.14.698.11175/CodeChunks.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/.vs/Fiap.Api.Alunos/CopilotIndices/17.14.698.11175/SemanticSymbols.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/.vs/Fiap.Api.Alunos/CopilotIndices/17.14.698.11175/SemanticSymbols.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/.vs/Fiap.Api.Alunos/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/.vs/Fiap.Api.Alunos/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/.vs/Fiap.Api.Alunos/FileContentIndex/0a22efc0-f143-44e1-9b56-749bc469a3e0.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/.vs/Fiap.Api.Alunos/FileContentIndex/8a7e8719-71c7-419e-8272-a3fd6d723671.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/.vs/Fiap.Api.Alunos/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/.vs/Fiap.Api.Alunos/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/.vs/Fiap.Api.Alunos/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/.vs/Fiap.Api.Alunos/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/.vs/Fiap.Api.Alunos/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/.vs/Fiap.Api.Alunos/v17/DocumentLayout.backup.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/.vs/Fiap.Api.Alunos/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/.vs/Fiap.Api.Alunos/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/.vs/ProjectEvaluation/fiap.api.alunos.metadata.v9.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/.vs/ProjectEvaluation/fiap.api.alunos.metadata.v9.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/.vs/ProjectEvaluation/fiap.api.alunos.projects.v9.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/.vs/ProjectEvaluation/fiap.api.alunos.projects.v9.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/.vs/ProjectEvaluation/fiap.api.alunos.strings.v9.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/.vs/ProjectEvaluation/fiap.api.alunos.strings.v9.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/Fiap.Api.Alunos.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/Fiap.Api.Alunos.csproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/Fiap.Api.Alunos.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/Fiap.Api.Alunos.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/Fiap.Api.Alunos.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/bin/Debug/net8.0/Fiap.Api.Alunos.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/bin/Debug/net8.0/Fiap.Api.Alunos.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/bin/Debug/net8.0/Fiap.Api.Alunos.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/bin/Debug/net8.0/Fiap.Api.Alunos.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/bin/Debug/net8.0/Fiap.Api.Alunos.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/bin/Debug/net8.0/Fiap.Api.Alunos.staticwebassets.endpoints.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/bin/Debug/net8.0/Microsoft.OpenApi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/bin/Debug/net8.0/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/bin/Debug/net8.0/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Container/AbsoluteOutputAssemblyPath.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Container/AdditionalProbingPaths.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Container/ContainerCreationResult.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Container/ContainerDevelopmentMode.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Container/ContainerId.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Container/ContainerName.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Container/ContainerOperatingSystemFlavor.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Container/ContainerRunContext.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Container/ContainerRuntimeID.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Container/DebuggeeArguments.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Container/DebuggeeKillProcessCommand.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Container/DebuggeeProgram.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Container/DebuggeeWorkingDirectory.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Container/DistrolessHelperSupported.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Container/FastModeProjectMountDirectory.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Container/ImageBuildContext.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Container/ImageId.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Container/LaunchedImageId.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Container/OperatingSystemName.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Container/TargetFramework.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Container/VolumeMappings.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Container/VolumeMappings2.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Container/VsDbgScript.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Debug/net8.0/Fiap.Api.22CEFA6D.Up2Date" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Debug/net8.0/Fiap.Api.Alunos.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Debug/net8.0/Fiap.Api.Alunos.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Debug/net8.0/Fiap.Api.Alunos.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Debug/net8.0/Fiap.Api.Alunos.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Debug/net8.0/Fiap.Api.Alunos.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Debug/net8.0/Fiap.Api.Alunos.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Debug/net8.0/Fiap.Api.Alunos.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Debug/net8.0/Fiap.Api.Alunos.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Debug/net8.0/Fiap.Api.Alunos.csproj.BuildWithSkipAnalyzers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Debug/net8.0/Fiap.Api.Alunos.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Debug/net8.0/Fiap.Api.Alunos.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Debug/net8.0/Fiap.Api.Alunos.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Debug/net8.0/Fiap.Api.Alunos.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Debug/net8.0/Fiap.Api.Alunos.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Debug/net8.0/Fiap.Api.Alunos.sourcelink.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Debug/net8.0/apphost.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Debug/net8.0/rbcswa.dswa.cache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Debug/net8.0/ref/Fiap.Api.Alunos.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Debug/net8.0/refint/Fiap.Api.Alunos.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Debug/net8.0/rjsmcshtml.dswa.cache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Debug/net8.0/rjsmrazor.dswa.cache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Debug/net8.0/rpswa.dswa.cache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Debug/net8.0/staticwebassets.build.endpoints.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Debug/net8.0/staticwebassets.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Debug/net8.0/staticwebassets.build.json.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Debug/net8.0/staticwebassets.references.upToDateCheck.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Debug/net8.0/staticwebassets.removed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Fiap.Api.Alunos.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Fiap.Api.Alunos.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/Fiap.Api.Alunos.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Api.Alunos/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/.vs/Fiap.Web.Alunos/CopilotIndices/17.14.698.11175/CodeChunks.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/.vs/Fiap.Web.Alunos/CopilotIndices/17.14.698.11175/SemanticSymbols.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/.vs/Fiap.Web.Alunos/DesignTimeBuild/.dtbcache.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/.vs/Fiap.Web.Alunos/FileContentIndex/0da25393-da4a-4e0f-9981-005970235c81.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/.vs/Fiap.Web.Alunos/FileContentIndex/66a77df8-3cb1-4d9e-b500-1b8e0efeb747.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/.vs/Fiap.Web.Alunos/FileContentIndex/670c26aa-cd07-47ce-b805-f79b0486c987.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/.vs/Fiap.Web.Alunos/FileContentIndex/a5ba776f-946e-40ff-92d6-292c88169c92.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/.vs/Fiap.Web.Alunos/FileContentIndex/b28a2302-0142-40a5-9716-68975d412123.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/.vs/Fiap.Web.Alunos/v17/.futdcache.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/.vs/Fiap.Web.Alunos/v17/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/.vs/Fiap.Web.Alunos/v17/DocumentLayout.backup.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/.vs/Fiap.Web.Alunos/v17/DocumentLayout.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/.vs/ProjectEvaluation/fiap.web.alunos.metadata.v9.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/.vs/ProjectEvaluation/fiap.web.alunos.projects.v9.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/.vs/ProjectEvaluation/fiap.web.alunos.strings.v9.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/Controllers/ClienteController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/Controllers/HomeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/Data/DatabaseContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/Fiap.Web.Alunos.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/Fiap.Web.Alunos.csproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/Fiap.Web.Alunos.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/Models/ClienteModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/Models/ErrorViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/Models/RepresentanteModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/Views/Cliente/Create.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/Views/Cliente/Detail.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/Views/Cliente/Edit.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/Views/Cliente/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/Views/Home/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/Views/Home/Privacy.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/Views/Shared/Error.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/Views/Shared/_Layout.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/Views/Shared/_Layout.cshtml.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/Views/_ViewImports.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/Views/_ViewStart.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Fiap.Web.Alunos.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Fiap.Web.Alunos.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Fiap.Web.Alunos.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Fiap.Web.Alunos.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Fiap.Web.Alunos.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Fiap.Web.Alunos.staticwebassets.endpoints.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Fiap.Web.Alunos.staticwebassets.runtime.CT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Fiap.Web.Alunos.staticwebassets.runtime.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Humanizer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Microsoft.Build.Locator.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Microsoft.Extensions.Options.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Mono.TextTemplating.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Oracle.EntityFrameworkCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/Oracle.ManagedDataAccess.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/System.CodeDom.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/System.Composition.AttributedModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/System.Composition.Convention.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/System.Composition.Hosting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/System.Composition.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/System.Composition.TypedParts.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/System.Diagnostics.PerformanceCounter.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/System.DirectoryServices.Protocols.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/System.IO.Pipelines.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/System.Security.Cryptography.Pkcs.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/System.Text.Encodings.Web.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/System.Text.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/runtimes/linux/lib/net8.0/System.DirectoryServices.Protocols.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/runtimes/osx/lib/net8.0/System.DirectoryServices.Protocols.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Diagnostics.PerformanceCounter.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.DirectoryServices.Protocols.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Container/AbsoluteOutputAssemblyPath.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Container/AdditionalProbingPaths.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Container/ContainerCreationResult.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Container/ContainerDevelopmentMode.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Container/ContainerId.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Container/ContainerName.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Container/ContainerOperatingSystemFlavor.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Container/ContainerRunContext.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Container/DebuggeeArguments.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Container/DebuggeeKillProcessCommand.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Container/DebuggeeProgram.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Container/DebuggeeWorkingDirectory.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Container/DistrolessHelperSupported.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Container/FastModeProjectMountDirectory.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Container/ImageBuildContext.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Container/ImageId.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Container/LaunchedImageId.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Container/OperatingSystemName.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Container/TargetFramework.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Container/VolumeMappings.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Container/VolumeMappings2.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Container/VsDbgScript.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/Fiap.Web.66DEC217.Up2Date" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/Fiap.Web.Alunos.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/Fiap.Web.Alunos.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/Fiap.Web.Alunos.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/Fiap.Web.Alunos.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/Fiap.Web.Alunos.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/Fiap.Web.Alunos.RazorAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/Fiap.Web.Alunos.RazorAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/Fiap.Web.Alunos.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/Fiap.Web.Alunos.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/Fiap.Web.Alunos.csproj.BuildWithSkipAnalyzers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/Fiap.Web.Alunos.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/Fiap.Web.Alunos.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/Fiap.Web.Alunos.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/Fiap.Web.Alunos.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/Fiap.Web.Alunos.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/Fiap.Web.Alunos.sourcelink.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/apphost.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/rbcswa.dswa.cache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/ref/Fiap.Web.Alunos.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/refint/Fiap.Web.Alunos.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/rjimswa.dswa.cache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/rjsmcshtml.dswa.cache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/rjsmrazor.dswa.cache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/rpswa.dswa.cache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/scopedcss/bundle/Fiap.Web.Alunos.styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/scopedcss/projectbundle/Fiap.Web.Alunos.bundle.scp.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/staticwebassets.build.endpoints.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/staticwebassets.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/staticwebassets.build.json.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/staticwebassets.development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/staticwebassets.references.upToDateCheck.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/staticwebassets.removed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Debug/net8.0/staticwebassets.upToDateCheck.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Fiap.Web.Alunos.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Fiap.Web.Alunos.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/Fiap.Web.Alunos.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/css/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/js/site.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/Fiap.Web.Alunos/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/.vs/FiapWebAlunos/CopilotIndices/17.14.698.11175/CodeChunks.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/.vs/FiapWebAlunos/CopilotIndices/17.14.698.11175/SemanticSymbols.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/.vs/FiapWebAlunos/DesignTimeBuild/.dtbcache.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/.vs/FiapWebAlunos/FileContentIndex/aa05ef72-747c-47d0-bec8-08c0c88f9b8d.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/.vs/FiapWebAlunos/v17/.futdcache.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/.vs/FiapWebAlunos/v17/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/.vs/FiapWebAlunos/v17/DocumentLayout.backup.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/.vs/FiapWebAlunos/v17/DocumentLayout.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/.vs/ProjectEvaluation/fiapwebalunos.metadata.v9.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/.vs/ProjectEvaluation/fiapwebalunos.projects.v9.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/.vs/ProjectEvaluation/fiapwebalunos.strings.v9.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/Controllers/HomeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/Fiap.Web.Alunos.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/Fiap.Web.Alunos.csproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/FiapWebAlunos.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/Models/ErrorViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/Views/Home/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/Views/Home/Privacy.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/Views/Shared/Error.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/Views/Shared/_Layout.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/Views/Shared/_Layout.cshtml.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/Views/_ViewImports.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/Views/_ViewStart.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/bin/Debug/net8.0/Fiap.Web.Alunos.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/bin/Debug/net8.0/Fiap.Web.Alunos.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/bin/Debug/net8.0/Fiap.Web.Alunos.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/bin/Debug/net8.0/Fiap.Web.Alunos.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/bin/Debug/net8.0/Fiap.Web.Alunos.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/bin/Debug/net8.0/Fiap.Web.Alunos.staticwebassets.endpoints.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/bin/Debug/net8.0/Fiap.Web.Alunos.staticwebassets.runtime.CT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/bin/Debug/net8.0/Fiap.Web.Alunos.staticwebassets.runtime.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/bin/Debug/net8.0/FiapWebAlunos.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/bin/Debug/net8.0/FiapWebAlunos.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/bin/Debug/net8.0/FiapWebAlunos.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/bin/Debug/net8.0/FiapWebAlunos.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/bin/Debug/net8.0/FiapWebAlunos.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/bin/Debug/net8.0/FiapWebAlunos.staticwebassets.endpoints.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/bin/Debug/net8.0/FiapWebAlunos.staticwebassets.runtime.CT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/bin/Debug/net8.0/FiapWebAlunos.staticwebassets.runtime.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/bin/Debug/net8.0/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/bin/Debug/net8.0/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Container/AbsoluteOutputAssemblyPath.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Container/AdditionalProbingPaths.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Container/ContainerCreationResult.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Container/ContainerDevelopmentMode.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Container/ContainerId.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Container/ContainerName.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Container/ContainerOperatingSystemFlavor.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Container/ContainerRunContext.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Container/ContainerRuntimeID.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Container/DebuggeeArguments.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Container/DebuggeeKillProcessCommand.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Container/DebuggeeProgram.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Container/DebuggeeWorkingDirectory.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Container/DistrolessHelperSupported.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Container/FastModeProjectMountDirectory.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Container/ImageBuildContext.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Container/ImageId.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Container/LaunchedImageId.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Container/OperatingSystemName.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Container/TargetFramework.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Container/VolumeMappings.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Container/VolumeMappings2.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Container/VsDbgScript.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/Fiap.Web.Alunos.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/Fiap.Web.Alunos.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/Fiap.Web.Alunos.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/Fiap.Web.Alunos.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/Fiap.Web.Alunos.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/Fiap.Web.Alunos.RazorAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/Fiap.Web.Alunos.RazorAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/Fiap.Web.Alunos.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/Fiap.Web.Alunos.csproj.BuildWithSkipAnalyzers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/Fiap.Web.Alunos.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/Fiap.Web.Alunos.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/Fiap.Web.Alunos.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/Fiap.Web.Alunos.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/Fiap.Web.Alunos.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/Fiap.Web.Alunos.sourcelink.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/FiapWebAlunos.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/FiapWebAlunos.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/FiapWebAlunos.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/FiapWebAlunos.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/FiapWebAlunos.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/FiapWebAlunos.RazorAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/FiapWebAlunos.RazorAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/FiapWebAlunos.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/FiapWebAlunos.csproj.BuildWithSkipAnalyzers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/FiapWebAlunos.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/FiapWebAlunos.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/FiapWebAlunos.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/FiapWebAlunos.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/FiapWebAlunos.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/FiapWebAlunos.sourcelink.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/apphost.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/rbcswa.dswa.cache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/ref/Fiap.Web.Alunos.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/ref/FiapWebAlunos.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/refint/Fiap.Web.Alunos.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/refint/FiapWebAlunos.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/rjimswa.dswa.cache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/rjsmcshtml.dswa.cache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/rjsmrazor.dswa.cache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/rpswa.dswa.cache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/scopedcss/bundle/Fiap.Web.Alunos.styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/scopedcss/bundle/FiapWebAlunos.styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/scopedcss/projectbundle/Fiap.Web.Alunos.bundle.scp.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/scopedcss/projectbundle/FiapWebAlunos.bundle.scp.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/staticwebassets.build.endpoints.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/staticwebassets.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/staticwebassets.build.json.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/staticwebassets.development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/staticwebassets.references.upToDateCheck.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/staticwebassets.removed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Debug/net8.0/staticwebassets.upToDateCheck.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Fiap.Web.Alunos.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Fiap.Web.Alunos.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/Fiap.Web.Alunos.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/FiapWebAlunos.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/FiapWebAlunos.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/FiapWebAlunos.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/css/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/js/site.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/FiapWebAlunos/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/eficiencia-energetica.net/.vs/eficiencia-energetica.net/FileContentIndex/4311d908-ebd0-48cd-a78b-c3d1bc76affc.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/eficiencia-energetica.net/.vs/eficiencia-energetica.net/FileContentIndex/b4493600-7629-4d5b-a789-36cea8cabdef.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-FRAMEWORKS.NET/projetos.net/eficiencia-energetica.net/.vs/eficiencia-energetica.net/FileContentIndex/fe54f6d2-7373-446d-b526-3a61ebd16f9e.vsidx" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,27 +596,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/euhen/Documents/Github/ADS-Fiap/2025/3-FRAMEWORKS-JAVA/eficiencia-energetica-api&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/euhen/Downloads/cadastro-usuarios-main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -60,6 +635,7 @@
       <updated>1747095945157</updated>
       <workItem from="1747095946282" duration="1392000" />
       <workItem from="1747098313777" duration="11000" />
+      <workItem from="1758569018669" duration="47000" />
     </task>
     <servers />
   </component>

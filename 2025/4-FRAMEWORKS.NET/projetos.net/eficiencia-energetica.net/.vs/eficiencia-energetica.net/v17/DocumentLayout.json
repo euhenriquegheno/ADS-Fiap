@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\eficiencia-energetica.net\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E697B0-3796-4A19-8EED-5B3F6D7C118F}|eficiencia-energetica.net.csproj|c:\\users\\euhen\\documents\\github\\ads-fiap\\2025\\4-frameworks.net\\projetos.net\\eficiencia-energetica.net\\data\\repository\\dispositivorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E697B0-3796-4A19-8EED-5B3F6D7C118F}|eficiencia-energetica.net.csproj|solutionrelative:data\\repository\\dispositivorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E697B0-3796-4A19-8EED-5B3F6D7C118F}|eficiencia-energetica.net.csproj|c:\\users\\euhen\\documents\\github\\ads-fiap\\2025\\4-frameworks.net\\projetos.net\\eficiencia-energetica.net\\data\\repository\\idispositivorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E697B0-3796-4A19-8EED-5B3F6D7C118F}|eficiencia-energetica.net.csproj|solutionrelative:data\\repository\\idispositivorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E697B0-3796-4A19-8EED-5B3F6D7C118F}|eficiencia-energetica.net.csproj|c:\\users\\euhen\\documents\\github\\ads-fiap\\2025\\4-frameworks.net\\projetos.net\\eficiencia-energetica.net\\services\\idispositivoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E697B0-3796-4A19-8EED-5B3F6D7C118F}|eficiencia-energetica.net.csproj|solutionrelative:services\\idispositivoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E697B0-3796-4A19-8EED-5B3F6D7C118F}|eficiencia-energetica.net.csproj|c:\\users\\euhen\\documents\\github\\ads-fiap\\2025\\4-frameworks.net\\projetos.net\\eficiencia-energetica.net\\data\\contexts\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E697B0-3796-4A19-8EED-5B3F6D7C118F}|eficiencia-energetica.net.csproj|solutionrelative:data\\contexts\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E697B0-3796-4A19-8EED-5B3F6D7C118F}|eficiencia-energetica.net.csproj|c:\\users\\euhen\\documents\\github\\ads-fiap\\2025\\4-frameworks.net\\projetos.net\\eficiencia-energetica.net\\models\\dispositivomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E697B0-3796-4A19-8EED-5B3F6D7C118F}|eficiencia-energetica.net.csproj|solutionrelative:models\\dispositivomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E697B0-3796-4A19-8EED-5B3F6D7C118F}|eficiencia-energetica.net.csproj|c:\\users\\euhen\\documents\\github\\ads-fiap\\2025\\4-frameworks.net\\projetos.net\\eficiencia-energetica.net\\viewmodel\\dispositivoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E697B0-3796-4A19-8EED-5B3F6D7C118F}|eficiencia-energetica.net.csproj|solutionrelative:viewmodel\\dispositivoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E697B0-3796-4A19-8EED-5B3F6D7C118F}|eficiencia-energetica.net.csproj|c:\\users\\euhen\\documents\\github\\ads-fiap\\2025\\4-frameworks.net\\projetos.net\\eficiencia-energetica.net\\controllers\\dispositivocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E697B0-3796-4A19-8EED-5B3F6D7C118F}|eficiencia-energetica.net.csproj|solutionrelative:controllers\\dispositivocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E697B0-3796-4A19-8EED-5B3F6D7C118F}|eficiencia-energetica.net.csproj|c:\\users\\euhen\\documents\\github\\ads-fiap\\2025\\4-frameworks.net\\projetos.net\\eficiencia-energetica.net\\services\\dispositivoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E697B0-3796-4A19-8EED-5B3F6D7C118F}|eficiencia-energetica.net.csproj|solutionrelative:services\\dispositivoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E697B0-3796-4A19-8EED-5B3F6D7C118F}|eficiencia-energetica.net.csproj|c:\\users\\euhen\\documents\\github\\ads-fiap\\2025\\4-frameworks.net\\projetos.net\\eficiencia-energetica.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E697B0-3796-4A19-8EED-5B3F6D7C118F}|eficiencia-energetica.net.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E697B0-3796-4A19-8EED-5B3F6D7C118F}|eficiencia-energetica.net.csproj|c:\\users\\euhen\\documents\\github\\ads-fiap\\2025\\4-frameworks.net\\projetos.net\\eficiencia-energetica.net\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F8E697B0-3796-4A19-8EED-5B3F6D7C118F}|eficiencia-energetica.net.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DispositivoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\eficiencia-energetica.net\\Data\\Repository\\DispositivoRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repository\\DispositivoRepository.cs",
+              "ToolTip": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\eficiencia-energetica.net\\Data\\Repository\\DispositivoRepository.cs",
+              "RelativeToolTip": "Data\\Repository\\DispositivoRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T00:50:10.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\eficiencia-energetica.net\\Data\\Contexts\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "Data\\Contexts\\DatabaseContext.cs",
+              "ToolTip": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\eficiencia-energetica.net\\Data\\Contexts\\DatabaseContext.cs",
+              "RelativeToolTip": "Data\\Contexts\\DatabaseContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T23:37:18.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DispositivoModel.cs",
+              "DocumentMoniker": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\eficiencia-energetica.net\\Models\\DispositivoModel.cs",
+              "RelativeDocumentMoniker": "Models\\DispositivoModel.cs",
+              "ToolTip": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\eficiencia-energetica.net\\Models\\DispositivoModel.cs",
+              "RelativeToolTip": "Models\\DispositivoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T23:25:17.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DispositivoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\eficiencia-energetica.net\\ViewModel\\DispositivoViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\DispositivoViewModel.cs",
+              "ToolTip": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\eficiencia-energetica.net\\ViewModel\\DispositivoViewModel.cs",
+              "RelativeToolTip": "ViewModel\\DispositivoViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T00:33:06.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IDispositivoService.cs",
+              "DocumentMoniker": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\eficiencia-energetica.net\\Services\\IDispositivoService.cs",
+              "RelativeDocumentMoniker": "Services\\IDispositivoService.cs",
+              "ToolTip": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\eficiencia-energetica.net\\Services\\IDispositivoService.cs",
+              "RelativeToolTip": "Services\\IDispositivoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T00:33:04.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DispositivoController.cs",
+              "DocumentMoniker": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\eficiencia-energetica.net\\Controllers\\DispositivoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DispositivoController.cs",
+              "ToolTip": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\eficiencia-energetica.net\\Controllers\\DispositivoController.cs",
+              "RelativeToolTip": "Controllers\\DispositivoController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAywCEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T00:06:08.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IDispositivoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\eficiencia-energetica.net\\Data\\Repository\\IDispositivoRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repository\\IDispositivoRepository.cs",
+              "ToolTip": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\eficiencia-energetica.net\\Data\\Repository\\IDispositivoRepository.cs",
+              "RelativeToolTip": "Data\\Repository\\IDispositivoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T23:29:24.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DispositivoService.cs",
+              "DocumentMoniker": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\eficiencia-energetica.net\\Services\\DispositivoService.cs",
+              "RelativeDocumentMoniker": "Services\\DispositivoService.cs",
+              "ToolTip": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\eficiencia-energetica.net\\Services\\DispositivoService.cs",
+              "RelativeToolTip": "Services\\DispositivoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T23:28:08.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\eficiencia-energetica.net\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\eficiencia-energetica.net\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAADwvzEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T23:22:06.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\eficiencia-energetica.net\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\euhen\\Documents\\Github\\ADS-Fiap\\2025\\4-FRAMEWORKS.NET\\projetos.net\\eficiencia-energetica.net\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAADTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-16T23:21:19.118Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
